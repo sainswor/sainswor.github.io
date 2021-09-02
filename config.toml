@@ -1,4 +1,4 @@
-baseURL = "https://fromdraenor.ca/"
+baseURL = "https://sainswor.github.io/"
 languageCode = "en-us"
 title = "From Draenor With Love"
 theme = "cloning-vat"
@@ -8,91 +8,4 @@ relativeURLs = true
     unsafe= true
 
 [params]
-#------------- Config -------------------
-    scholarLink = false
-    scopusLink = false
-    dimensionsLink = false
-    dimensionCitations = false
     backgroundPath = "/images/fdwl-background.jpg"
-    googleScholar = 'XXXX' # These are needed only if set to true above
-    scopusID = 'XXXX'
-    dimensionsID = 'XXXX'
-    footerOffset = -60
-
-#-------------- Defined ------------
-    css= ["css/sourgough.css"]
-
-[menu]
-#----- Navbar links ------
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-
-  [[menu.main]]
-    identifier = "characters"
-    name = "Characters"
-    url = "/characters/"
-
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact Us"
-    url = "/contact/"
-
-  [[menu.main]]
-    identifier = "what"
-    name = "What is this?"
-    url = "/what/"
-
-#----- NavBottom Links ------
-#  [[menu.bot]]
-#    identifier = "homepage"
-#    name = "From Draenor With Love"
-#    url = "https://fromdraenor.ca"
-
-#  [[menu.bot]]
-#    identifier = "github"
-#    name = "Sourgough Starter"
-#    url = "https://github.com/jack-alope/"
-#    pre = "fab fa-github"
-
-  
-
-#-------- About section links ----- 
-  [[menu.about]]
-    identifier = "ordcidid"
-    name = "OrcidID"
-    url = ""
-    pre = "fab fa-orcid"
-
-  [[menu.about]]
-    identifier = "researchgate"
-    name = "ResearchGate"
-    url = ""
-    pre = "fab fa-researchgate"
-
-  [[menu.about]]
-    identifier = "medium"
-    name = "Medium"
-    url = ""
-    pre = "fab fa-medium-m"
-
-  [[menu.about]]
-    identifier = "googlescholar"
-    name = "Google Scholar"
-    url = ""
-    pre = "fas fa-graduation-cap"
-
-#----------- Text Links -------
-  [[menu.link]]
-    identifier = "hugo"
-    name = "Powered by Hugo"
-    url = "https://gohugo.io"
-
-  [[menu.link]]
-    identifier = "theme"
-    name = "Uses the Sourgough Theme"
-    url = "https://themes.gohugo.io/themes/sourgough-starter/"
-
-[taxonomies]
-  authors = "authors"
