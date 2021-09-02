@@ -1,0 +1,14 @@
+---
+title: "Urgency"
+date: 2016-01-27T11:14:00-07:00
+draft: false
+author: "Rades"
+comic: "fd099a.jpg"
+chapter: CHAPTERTEMPLATE
+chapter_link: CHAPTERLINKTEMPLATE
+tags: TAGSLISTTEMPLATE
+related_comics: RELATEDCOMICTEMPLATE
+---
+
+As we all learned in *Warlords*, operating without flight is a real drag. Too bad they don’t have [Avianna’s Feather!](http://www.wowhead.com/item=119093/avianas-feather)
+

@@ -1,6 +1,6 @@
 ---
 title: TITLETEMPLATE
-date: TIMETEMPLATE
+date: "2014-03-12T04:05"
 draft: false
 author: AUTHORTEMPLATE
 comic: COMICIMAGETEMPLATE

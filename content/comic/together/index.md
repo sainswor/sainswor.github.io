@@ -1,0 +1,17 @@
+---
+title: "Together"
+date: 2016-03-16T10:22:00-07:00
+draft: false
+author: "Rades"
+comic: "fd105.jpg"
+chapter: CHAPTERTEMPLATE
+chapter_link: CHAPTERLINKTEMPLATE
+tags: TAGSLISTTEMPLATE
+related_comics: RELATEDCOMICTEMPLATE
+---
+
+COOL AS A CUCUMBER
+
+
+![](/images/post-images/WoWScrnShot_111514_khadgar.jpg)
+
