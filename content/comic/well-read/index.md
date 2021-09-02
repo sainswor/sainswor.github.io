@@ -10,7 +10,7 @@ tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---
 
-When we did the “<a href="https://web.archive.org/web/20171203063634/http://fromdraenor.com/?p=522">Ring of Lost</a>” strip, a few different people were intrigued at the idea of Velen’s Book Club. So consider today’s comic a bit of a follow-up!
+When we did the “<a href="/comic/ring-of-lost">Ring of Lost</a>” strip, a few different people were intrigued at the idea of Velen’s Book Club. So consider today’s comic a bit of a follow-up!
 
 
 Actually, there’s almost enough readable books in WoW that you COULD have a book club! You’ve got the [Crawgol’s Silithid Field Guide (The Authoritotal Handbook)](http://www.wowhead.com/item=50162/crawgols-silithid-field-guide)…the list goes on and on.

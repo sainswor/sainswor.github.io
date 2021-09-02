@@ -13,7 +13,7 @@ related_comics: RELATEDCOMICTEMPLATE
 Last week, Rades explained the process of how he scripts and sometimes storyboards a FDWL script! This week I’m going to be telling you about how I do the sketching and art.
 
 
-*For a larger version of today’s strip, <a href="https://web.archive.org/web/20171203063017/http://fromdraenor.com/wp-content/uploads/2013/08/art_med.jpg">click here!</a>*
+*For a larger version of today’s strip, <a href="/images/post-images/art_med.jpg">click here!</a>*
 
 
 The following is a transcript of text from the above image. 

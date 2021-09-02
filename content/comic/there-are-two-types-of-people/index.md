@@ -22,5 +22,5 @@ Some of us very carefully organize our towns. We keep our flowers watered and tr
 In the case of Rades…not so much. Hey, I’m not saying he’s WRONG, there’s no wrong way to play any game… I just think there are better uses for a floor than bulk storage! I’m not the only one who noticed, too, because one day I saw a tweet from [@thingwhatwows](https://twitter.com/thingwhatwows). She said, “Rades! Pick up your room!”
 
 
-I actually have it on good authority that his guild **banks** in Warcraft look much the same. Because you never know when you’re going to need 400 stacks of Thorium Ore! Or a mountain of [turnips](http://fromdraenor.com/?p=1087), for that matter.
+I actually have it on good authority that his guild **banks** in Warcraft look much the same. Because you never know when you’re going to need 400 stacks of Thorium Ore! Or a mountain of [turnips](/comics/an-unfortunate-turnip-of-events), for that matter.
 
