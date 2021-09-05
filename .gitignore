@@ -1,2 +1,4 @@
 *.txt
 *.sh
+data/comments/*.html
+.gitloglist

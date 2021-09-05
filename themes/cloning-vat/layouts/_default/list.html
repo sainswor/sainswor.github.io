@@ -2,7 +2,7 @@
 <html>
     <head>
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"/>
-    <title>{{ .Title }} &#8211; From Draenor With Love</title>
+    <title>{{- .Title }} &#8211; From Draenor With Love</title>
     <link rel="stylesheet" id="comiceasel-style-css" href="/css/comiceasel.css?ver=4.6.12" type="text/css" media="all"/>
     <!--Customizer CSS--> 
     <style type="text/css">
@@ -37,18 +37,18 @@
 								<div class="menu"><ul><li class="page_item page-item-22"><a href="/about-us/">About</a></li><li class="page_item page-item-72"><a href="/characters/">Characters</a></li><li class="page_item page-item-119"><a href="/contact-us/">Contact Us</a></li><li class="page_item page-item-2105"><a href="/patreon/">Patreon</a></li></ul></div>
 <div class="mininav-wrapper">
 <span class="mininav-prev">
-	{{ if not (eq .PrevInSection nil) }}
-	{{ with .PrevInSection }}
-        <a href="{{ .Permalink }}">&lsaquo;</a>
-    {{ end }}
-	{{ end }}
+	{{- if not (eq .PrevInSection nil) }}
+	{{- with .PrevInSection }}
+        <a href="{{- .Permalink }}">&lsaquo;</a>
+    {{- end }}
+	{{- end }}
 </span>
 <span class="mininav-next">
-		{{ if not (eq .NextInSection nil) }}
-		{{ with .NextInSection }}
-			<a href="{{ .Permalink }}">&rsaquo;</a>
-		{{ end }}
-		{{ end }}
+		{{- if not (eq .NextInSection nil) }}
+		{{- with .NextInSection }}
+			<a href="{{- .Permalink }}">&rsaquo;</a>
+		{{- end }}
+		{{- end }}
 </span>
 
 </div>
@@ -60,37 +60,37 @@
 			<div class="clear"></div>
 		</div>
 	<div id="content-wrapper">
-{{ if not ( eq .Params.comic nil ) }}
+{{- if not ( eq .Params.comic nil ) }}
 	<div id="comic-wrap" class="comic-id-2606">
 			<div id="comic-head">
 							</div>
 						<div class="comic-table">	
 								<div id="comic">
-					<img src="/images/comics/{{ .Params.comic }}" alt="{{ .Title }}" title="{{ .Title }}"/>				</div>
+					<img src="/images/comics/{{- .Params.comic }}" alt="{{- .Title }}" title="{{- .Title }}"/>				</div>
 							</div>				
 						<div id="comic-foot">
 					<table id="comic-nav-wrapper">
 		<tr class="comic-nav-container">
-      {{ if eq .PrevInSection nil}}
+      {{- if eq .PrevInSection nil}}
         <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">&lsaquo;&lsaquo; First</span></td>
         <td class="comic-nav"><span class="comic-nav-base comic-nav-last comic-nav-void ">&lsaquo; Prev</span></td>
-      {{ else }}
+      {{- else }}
         <td class="comic-nav"><a href="/comic/rare-spawn-3/" class="comic-nav-base comic-nav-first">&lsaquo;&lsaquo; First</a></td>
-        {{ with .PrevInSection }}
-          <td class="comic-nav"><a href="{{ .Permalink }}" class="comic-nav-base comic-nav-previous">&lsaquo; Prev</a></td>
-        {{ end }}
-      {{ end }}
-			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{ .Title }}"><span class="comic-nav-comment-count">Comments( # )</span></a></td>
+        {{- with .PrevInSection }}
+          <td class="comic-nav"><a href="{{- .Permalink }}" class="comic-nav-base comic-nav-previous">&lsaquo; Prev</a></td>
+        {{- end }}
+      {{- end }}
+			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments( # )</span></a></td>
 			<td class="comic-nav"><a href="https://fromdraenor.ca/?random&amp;nocache=1" class="comic-nav-random" title="Random Comic">Random</a></td>
-    {{ if eq .NextInSection nil}}
+    {{- if eq .NextInSection nil}}
       <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">Next &rsaquo;</span></td>
       <td class="comic-nav"><span class="comic-nav-base comic-nav-last comic-nav-void ">Last &rsaquo;&rsaquo;</span></td>
-    {{ else }}
-      {{ with .NextInSection }}
-        <td class="comic-nav"><a href="{{ .Permalink }}" class="comic-nav-base comic-nav-next">Next &rsaquo;</a></td>
-      {{ end }}
+    {{- else }}
+      {{- with .NextInSection }}
+        <td class="comic-nav"><a href="{{- .Permalink }}" class="comic-nav-base comic-nav-next">Next &rsaquo;</a></td>
+      {{- end }}
       <td class="comic-nav"><a href="/comic/reflections-part-four/" class="comic-nav-base comic-nav-last">Last &rsaquo;&rsaquo;</a></td>
-    {{ end }}
+    {{- end }}
 
 
 
@@ -101,7 +101,7 @@
 				</div>
 			<div class="clear"></div>
 		</div>
-{{ end }}		
+{{- end }}		
 	<div id="subcontent-wrapper">
 <div id="sidebar-left">
     <div class="sidebar">
@@ -129,26 +129,26 @@
 </div>
 		<div id="content-column">
 						<div id="content" class="narrowcolumn">
-				<div id="post-2606" class="post-2606 comic type-comic status-publish has-post-thumbnail hentry chapters-chapter-8-epilogue uentry postonpage-1 odd post-author-{{ lower .Params.author }}">
+				<div id="post-2606" class="post-2606 comic type-comic status-publish has-post-thumbnail hentry chapters-chapter-8-epilogue uentry postonpage-1 odd post-author-{{- lower .Params.author }}">
 	<div class="post-content">
-		{{ if not ( eq .Params.author "Sean" ) }}
-		<div class="post-author-gravatar"><img alt="" src="/images/{{ .Params.author }}.jpg" srcset="/images/{{ .Params.author }}.jpg 2x" class="avatar avatar-82 photo instant nocorner itxtalt" height="82" width="82"/></div>
-		{{ end }}
+		{{- if not ( eq .Params.author "Sean" ) }}
+		<div class="post-author-gravatar"><img alt="" src="/images/{{- .Params.author }}.jpg" srcset="/images/{{- .Params.author }}.jpg 2x" class="avatar avatar-82 photo instant nocorner itxtalt" height="82" width="82"/></div>
+		{{- end }}
 		<div class="post-info">
-			<h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+			<h2 class="post-title"><a href="{{- .Permalink }}">{{- .Title }}</a></h2>
 			<div class="post-text">
-				<span class="post-author">by <a href="/author/{{ lower .Params.author }}/" rel="author">{{ .Params.author }}</a></span>
-<span class="posted-on">on&nbsp;</span><span class="post-date">{{ .Date | time.Format ":date_long" }}</span>
-<span class="posted-at">at&nbsp;</span><span class="post-time">{{ .Date | time.Format ":time_short" }}</span>
-{{ if not ( eq .Params.chapter_link nil ) }}
-<div class="comic-post-info"><div class="comic-chapter">Chapter: <a href="{{ .Params.chapter_link }}" rel="tag">{{ .Params.chapter }}</a></div></div>
-{{ end }}
+				<span class="post-author">by <a href="/author/{{- lower .Params.author }}/" rel="author">{{- .Params.author }}</a></span>
+<span class="posted-on">on&nbsp;</span><span class="post-date">{{- .Date | time.Format ":date_long" }}</span>
+<span class="posted-at">at&nbsp;</span><span class="post-time">{{- .Date | time.Format ":time_short" }}</span>
+{{- if not ( eq .Params.chapter_link nil ) }}
+<div class="comic-post-info"><div class="comic-chapter">Chapter: <a href="{{- .Params.chapter_link }}" rel="tag">{{- .Params.chapter }}</a></div></div>
+{{- end }}
 </div>
 			<div class="clear"></div>
 		</div>
 		<div class="clear"></div>
 		<div class="entry">
-			{{ .Content }}
+			{{- .Content }}
 			<div class="clear"></div>
 		</div>
 		<div class="post-extras">

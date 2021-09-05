@@ -2,7 +2,6 @@
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/A Little Patience – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/A Quick AFK – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/A Warm Welcome – From Draenor With Love.html
-/mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/About – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Ahn’Qiraj Awkwardness – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/All Downhill From Here – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/All Roads Lead to Orgrimmar – From Draenor With Love.html
@@ -32,13 +31,11 @@
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Chapter Six_ Anger – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Chapter Three_ Violence – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Chapter Two_ Doubt – From Draenor With Love.html
-/mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Characters – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Choices – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Choose Wisely – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/City of Trite – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Colouring Page – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Command – From Draenor With Love.html
-/mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Contact Us – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Damn You, Murglesnout – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Darkmoon Foul – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Darkness, My Old Friend, Part 1 – From Draenor With Love.html
@@ -126,7 +123,6 @@
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Outmatched – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Overconfident – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Patch Notes! – From Draenor With Love.html
-/mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Patreon – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Peons Are People Too – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Pieces – From Draenor With Love.html
 /mnt/c/Users/Anivia/Pictures/FDwL/raw HTML/Player Versus Panda – From Draenor With Love.html

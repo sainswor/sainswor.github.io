@@ -1,0 +1,9 @@
+{{- $.Scratch.Set "hasComments" 0 }}
+{{- $comments := readDir "data/comments" }}
+{{- $postSlug := .File.ContentBaseName }}
+{{- range $comments }}
+    {{- if eq .Name $postSlug }}
+        {{- $.Scratch.Add "hasComments" 1 }}
+    {{- end }}
+{{- end }}
+

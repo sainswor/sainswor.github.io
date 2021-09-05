@@ -1,23 +1,51 @@
-{{ range $index, $comments := (index $.SiteDataComments_parent $.entryId_parent ) }}
-  {{ if eq .reply_to $.parentId }}
-    <div id="commentid-{{ ._id }}" class="post-comment reply">
-        <div class="arrow-up"></div>
-        <div class="post-comment-header">
-            <img class="post-comment-avatar" src="https://www.gravatar.com/avatar/{{ .email }}?s=70&r=pg&d=identicon">
-            <p class="post-comment-info">
-                <span class="post-comment-name">{{ .name }}<br><i><small>In reply to {{ $.parentName }}</i></small></span>
-                <br>
-                <a href="#commentid-{{ ._id }}" title="Permalink to this comment">
-                    <time class="post-time">{{ dateFormat "Monday, Jan 2, 2006 at 15:04 MST" .date }}</time>
-                </a>
-            </p>
-        </div>
-        <div class="comment-message">
-            {{ .comment | markdownify }}
-        </div>
-        <div class="comment__reply">
-            <button id="{{ ._id }}" class="btn-info" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ $.parentId }}')">Reply to thread</button>
-        </div>
-    </div>
-  {{ end }}
-{{ end }}
+{{- range $index, $comments := (index $.SiteDataComments_parent $.postId ) }}
+  {{- if eq .reply_to $.parentId }}
+    {{- $.Scratch.Add "commentDepth" 1 }}
+    {{- $commentDepth := .Scratch.Get "commentDepth" }}
+                            <li id="commentid-{{- ._id }}" class="comment">
+                                <div class="comment-avatar">
+                                    <img title="{{- .name }}" alt="" src="https://www.gravatar.com/avatar/{{-     .email }}?s=128&r=pg&d=mp" class="avatar avatar-64 photo instant nocorner itxtalt" height="64" width="64"></div>
+                                    <div class="comment-content">
+                                        <div class="comment-author vcard">
+                                            {{- if eq .website "" }}
+                                            <cite>{{- .name }}</cite>
+                                            {{- else }}
+                                            <cite title="{{- .website }}"><a href="{{- .website }}" title="{{- .name }}" class="external nofollow">{{- .name }}</a></cite>
+                                            {{- end }}
+                                        </div>
+                                        <div class="comment-meta-data">
+                                            <span class="comment-time">
+                                                {{- dateFormat "Monday, Jan 2, 2006 at     15:04 MST" .date }}				</span>
+                                                <span class="comment-permalink">
+                                                    <span class="separator">|</span> <a href="#commentid-{{- ._id }}" title="Permalink to comment">#</a>
+                                                </span>
+                                
+                                                <span class="comment-reply-link">
+                                                    <span class="separator">|</span>
+                                                    <a rel="nofollow" class="comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{- $._id }}')">Reply</a></span>	
+                                                </div>
+                                                <div class="comment-text">
+                                        <p>{{- .comment | markdownify }}</p>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+    {{- $remaining_replies := $.activeReplies | symdiff (slice (string ._id)) }}
+    {{- $neo_id := (string ._id) }}
+    {{- $active_replies := (slice "000") }}
+    {{- $comparator := ._id }}
+    {{- range $index, $comments := (index $.SiteDataComments_parent $.postId ) }}
+        {{- if eq .reply_to $comparator }}
+            {{- $active_replies = $active_replies | append ._id }}
+        {{- end}}
+    {{- end }}
+    {{- $active_replies = $active_replies | symdiff (slice "000") }}
+
+    {{- if not (eq (len $active_replies) 0) }}
+        <ul class="children">
+        {{- partial "comment-replies" (dict "postId" $.postId "SiteDataComments_parent" $.SiteDataComments_parent "parentId" $neo_id "activeReplies" $active_replies "context" .) }}
+        </li></ul><!--- .children -->
+    {{- end }}
+
+
+  {{- end }}
+{{- end }}

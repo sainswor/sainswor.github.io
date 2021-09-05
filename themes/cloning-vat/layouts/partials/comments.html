@@ -1,65 +1,130 @@
-{{ if and .Site.Params.staticman (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
+{{- if and .Site.Params.staticman (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
     <section id="comments">
-        {{ if .Site.Params.staticman }}
-        <h3 class="title"><a href="#comments">&#9997; Comments</a></h3>
+        {{- if .Site.Params.staticman }}
+        {{- $comments := readDir "data/comments" }}
+        {{- $postSlug := .File.ContentBaseName }}
+        <div id="comment-wrapper">
+         <h4 id="comments">Discussion ({{- .Scratch.Get "hasComments" }}) ¬</h4>
         <section class="staticman-comments post-comments">
-            {{ $comments := readDir "data/comments" }}
-            {{ $.Scratch.Add "hasComments" 0 }}
-            {{ $postSlug := .File.BaseFileName }}
-    
-            {{ range $comments }}
-            {{ if eq .Name $postSlug }}
-                {{ $.Scratch.Add "hasComments" 1 }}
-                {{ range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
-                    {{ if not .reply_to }}
-    
-                    <div id="commentid-{{ ._id }}" class="post-comment">
-                        <div class="post-comment-header">
-                        <img class="post-comment-avatar" src="https://www.gravatar.com/avatar/{{     .email }}?s=70&r=pg&d=identicon">
-                            <p class="post-comment-info">
-                                <span class="post-comment-name">{{ .name }}</span>
-                                <br>
-                                <a href="#commentid-{{ ._id }}" title="Permalink to this comment">
-                                <time class="post-time">{{ dateFormat "Monday, Jan 2, 2006 at     15:04 MST" .date }}</time>
-                                </a>
-                            </p>
+            <ol class="commentlist">
+        {{- range $comments }}
+            {{- if eq .Name $postSlug }}                
+                {{- range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
+                    {{- if not .reply_to }}
+                    <li id="comment-{{- ._id }}" class="comment even thread-even depth-1">
+                        <div class="comment-avatar">
+                        <img title="{{- .name }}" alt="" src="https://www.gravatar.com/avatar/{{-     .email }}?s=128&r=pg&d=mp" class="avatar avatar-64 photo instant nocorner itxtalt" height="64" width="64"></div>
+                        <div class="comment-content">
+                            <div class="comment-author vcard">
+                            {{- if not (eq .website "") }}
+                            <cite title="{{- .website }}"><a href="{{- .website }}" title="{{- .name }}" class="external nofollow">{{- .name }}</a></cite>
+                            {{- else }}
+                            <cite>{{- .name }}</cite>			
+                            {{- end }}
+                            </div>
+                            <div class="comment-meta-data">
+                                <span class="comment-time">
+                                    {{- dateFormat "Monday, Jan 2, 2006 at     15:04 MST" .date }}				</span>
+                    
+                                    <span class="comment-permalink">
+                                        <span class="separator">|</span> <a href="#commentid-{{- ._id }}" title="Permalink to comment">#</a>
+                                    </span>
+                    
+                                    <span class="comment-reply-link">
+                                        <span class="separator">|</span>
+                                        <a rel="nofollow" class="comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{- ._id }}')">Reply</a></span>	
+                    
+                                    </div>
+                    
+                                    <div class="comment-text">
+                            <p>{{- .comment | markdownify }}</p>
                         </div>
-                        <div class="comment-message">
-                            {{ .comment | markdownify }}
-                        </div>
-                        <div class="comment__reply">
-                        <button id="{{ ._id }}" class="btn-info" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ ._id }}')">Reply to {{ .name     }}</button>
-                        </div>
+                                            
                     </div>
-                {{ partial "comment-replies" (dict "entryId_parent" $postSlug "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name     "context" .) }}
-    
-                    {{ end }}
-            {{ end }}
-        {{ end }}
-    {{ end }}
+                    
+                    <div class="clear"></div>
 
-        <form id="comment-form" class="post-new-comment" method="post" action="{{ .Site.Params.staticman.endpoint }}/{{ .Site.Params.staticman.username }}/{{ .Site.Params.staticman.repository }}/{{ .Site.Params.staticman.branch }}/comments">
-            {{ if eq ($.Scratch.Get "hasComments") 0 }}
-                <p>Be the first to leave a comment! 🎉</p>
-            {{ end }}
-            <h3 class="prompt">Say something</h3>
-            <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
-            <input type="hidden" name="options[slug]" value="{{ .File.BaseFileName }}">
-            <input type="text" name="fields[name]" class="post-comment-field" placeholder="Name *" required/>
-            <input type="email" name="fields[email]" class="post-comment-field" placeholder="Email address (will not be public) *" required/>
-            <input type="hidden" id="comment-parent" name="fields[reply_to]" value="">
-            <textarea name="fields[comment]" class="post-comment-field" placeholder="Comment (markdown is accepted) *" required rows="10"></textarea>
-            <input type="submit" class="post-comment-field btn btn-primary comment-buttons" value="Submit">
-        </form>
+                    {{- $active_replies := (slice "000") }}
+                    {{- $comparator := ._id }}
+                    {{- range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
+                        {{- if eq .reply_to $comparator }}
+                            {{- $active_replies = $active_replies | append ._id }}
+                        {{- end}}
+                    {{- end }}
+                    {{- $active_replies = $active_replies | symdiff (slice "000") }}
+                    {{- .Scratch.Set "commentDepth" 1 }}
+                    {{- if not (eq (len $active_replies) 0) }}
+                        <ul class="children">
+                        {{- partial "comment-replies" (dict "postId" $postSlug "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "activeReplies" $active_replies "context" .) }}
+                        </ul>
+                    {{- end }}
+                    </li>
+                {{- end }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
+</ol>
+        <div class="comment-wrapper-respond">
+            <div id="respond" class="comment-respond">
+                <h3 id="reply-title" class="comment-reply-title">Comment ¬</h3>				
+                <form id="comment-form" onsubmit="disableButton()" class="post-new-comment" method="post" action="{{- .Site.Params.staticman.endpoint }}/{{- .Site.Params.staticman.username }}/{{- .Site.Params.staticman.repository }}/{{- .Site.Params.staticman.branch }}/comments" >
+                        <p class="comment-notes">
+                            <span id="email-notes">Your email address will not be published.</span>
+                             Required fields are marked <span class="required">*</span>
+                        </p>
+                        <p class="comment-form-comment">
+                            <textarea id="comment" name="fields[comment]" class="comment-textarea"></textarea>
+                        </p>
+                        <p class="comment-form-author">
+                            <input id="fields[name]" name="fields[name]" type="text" value="" size="30" required/> 
+                            <label for="fields[name]"><small>*NAME</small></label>
+                        </p>
+                        <p class="comment-form-email">
+                            <input id="fields[email]" name="fields[email]" type="text" value="" size="30" required/>
+                            <label for="fields[email]">*EMAIL<small> — <a href="https://gravatar.com/">Get a Gravatar</a></small></label>
+                        </p>
+    
+                        <p class="comment-form-url">
+                            <input id="fields[website]" name="fields[website]" type="text" value="" size="30"> 
+                            <label for="fields[website]">Website URL</label>
+                        </p>
+                        <div class="g-recaptcha" data-sitekey="6LdXD0AcAAAAADoSoDQZNTvDEuHvMlARgS_lPXxH"></div>
+                        <p class="form-submit">
+                            <!-- post-comment-field btn btn-primary comment-buttons -->
+                            <button name="submit" type="submit" id="submit" class="submit">Post Comment</button>
+                            
+                            <input type="hidden" id="fields[reply_to]" name="fields[reply_to]" value="">
+                            <input type="hidden" name="options[redirect]" value="{{- .Permalink }}#comment-submitted">
+                            <input type="hidden" name="options[slug]" value="{{- .File.ContentBaseName }}">
+                        </p>
+                </form>
+            </div><!-- #respond -->
+        </div>
+
+
+
+
+
+
     </section>
 
-    <div id="comment-submitted" class="dialog">
+    <div id="comment-submitted" class="dialog" style="visibility: hidden; display: none;">
         <h3>Thank you!</h3>
-        <p>Your comment has been submitted and will be published once it has been approved. &#128522;</p>
+        <p>Your comment has been submitted and will be published once it has been approved.</p>
 
         <p><a href="#" class="btn btn-primary comment-buttons ok">OK</a></p>
     </div>
 
-    {{ end }}
+    {{- end }}
 </section>
-{{ end }}
+<script>
+function changeValue(elementID, commentID ){
+        document.getElementById(elementID).value = commentID;
+}
+function disableButton() {
+        var btn = document.getElementById('submit');
+        btn.disabled = true;
+        btn.innerText = 'Posting...'
+}
+</script>
+{{- end }}
