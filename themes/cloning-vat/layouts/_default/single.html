@@ -31,7 +31,7 @@
 
 </div>
 				<div class="menunav">
-																					<a href="/feed/" title="RSS Feed" class="menunav-rss">RSS</a>
+																					<a href="/what-is-this/" title="What is this?" class="menunav-rss">What is this?</a>
 														</div>
 				<div class="clear"></div>
 			</div>
@@ -129,15 +129,19 @@
 						<div id="content" class="narrowcolumn">
 				<div id="post-2606" class="post-2606 comic type-comic status-publish has-post-thumbnail hentry chapters-chapter-8-epilogue uentry postonpage-1 odd post-author-{{- lower .Params.author }}">
 	<div class="post-content">
-		{{- if not ( eq .Params.author "Sean" ) }}
+		{{- if and (not ( eq .Params.author "Sean" )) (.Params.author) }}
 		<div class="post-author-gravatar"><img alt="" src="/images/{{- .Params.author }}.jpg" srcset="/images/{{- .Params.author }}.jpg 2x" class="avatar avatar-82 photo instant nocorner itxtalt" height="82" width="82"/></div>
 		{{- end }}
 		<div class="post-info">
 			<h2 class="post-title"><a href="{{- .Permalink }}">{{- .Title }}</a></h2>
 			<div class="post-text">
+			{{- if .Params.author }}
 				<span class="post-author">by <a href="/author/{{- lower .Params.author }}/" rel="author">{{- .Params.author }}</a></span>
+			{{- end }}
+{{- if .Params.date }}
 <span class="posted-on">on&nbsp;</span><span class="post-date">{{- .Date | time.Format ":date_long" }}</span>
 <span class="posted-at">at&nbsp;</span><span class="post-time">{{- .Date | time.Format ":time_short" }}</span>
+{{- end }}
 {{- if not ( eq .Params.chapter_link nil ) }}
 <div class="comic-post-info"><div class="comic-chapter">Chapter: <a href="{{- .Params.chapter_link }}" rel="tag">{{- .Params.chapter }}</a></div></div>
 {{- end }}
