@@ -10,7 +10,7 @@
         {{- range $comments }}
             {{- if eq .Name $postSlug }}                
                 {{- range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
-                    {{- if not .reply_to }}
+                    {{- if and (not .reply_to) (.comment)  }}
                     <li id="comment-{{- ._id }}" class="comment even thread-even depth-1">
                         <div class="comment-avatar">
                         <img title="{{- .name }}" alt="" src="https://www.gravatar.com/avatar/{{-     .email }}?s=128&r=pg&d=mp" class="avatar avatar-64 photo instant nocorner itxtalt" height="64" width="64"></div>
@@ -19,12 +19,12 @@
                             {{- if not (eq .website "") }}
                             <cite title="{{- .website }}"><a href="{{- .website }}" title="{{- .name }}" class="external nofollow">{{- .name }}</a></cite>
                             {{- else }}
-                            <cite>{{- .name }}</cite>			
+                            <cite>{{- .name }}</cite>		
                             {{- end }}
                             </div>
                             <div class="comment-meta-data">
                                 <span class="comment-time">
-                                    {{- dateFormat "Monday, Jan 2, 2006 at     15:04 MST" .date }}				</span>
+                                    {{- .date | time.Format ":date_long"}}, {{- .date | time.Format ":time_short" }}				</span>
                     
                                     <span class="comment-permalink">
                                         <span class="separator">|</span> <a href="#commentid-{{- ._id }}" title="Permalink to comment">#</a>
