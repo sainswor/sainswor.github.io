@@ -25,5 +25,5 @@ Can’t you picture him cackling and giggling to himself like the Duck Hunt dog,
 You’re such a brat, Garrosh.
 
 
-!(/images/post-images/1271203_o.gif" alt=")
+!["The dog from Duck Hunt"](/images/post-images/1271203_o.gif)
 
