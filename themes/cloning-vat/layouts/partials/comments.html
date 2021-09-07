@@ -65,47 +65,6 @@
         {{- end }}
     {{- end }}
 </ol>
-        <div class="comment-wrapper-respond">
-            <div id="respond" class="comment-respond">
-                <h3 id="reply-title" class="comment-reply-title">Comment ¬</h3>				
-                <form id="comment-form" onsubmit="disableButton()" class="post-new-comment" method="post" action="{{- .Site.Params.staticman.endpoint }}/{{- .Site.Params.staticman.username }}/{{- .Site.Params.staticman.repository }}/{{- .Site.Params.staticman.branch }}/comments" >
-                        <p class="comment-notes">
-                            <span id="email-notes">Your email address will not be published.</span>
-                             Required fields are marked <span class="required">*</span>
-                        </p>
-                        <p class="comment-form-comment">
-                            <textarea id="comment" name="fields[comment]" class="comment-textarea"></textarea>
-                        </p>
-                        <p class="comment-form-author">
-                            <input id="fields[name]" name="fields[name]" type="text" value="" size="30" required/> 
-                            <label for="fields[name]"><small>*NAME</small></label>
-                        </p>
-                        <p class="comment-form-email">
-                            <input id="fields[email]" name="fields[email]" type="text" value="" size="30" required/>
-                            <label for="fields[email]">*EMAIL<small> — <a href="https://gravatar.com/">Get a Gravatar</a></small></label>
-                        </p>
-    
-                        <p class="comment-form-url">
-                            <input id="fields[website]" name="fields[website]" type="text" value="" size="30"> 
-                            <label for="fields[website]">Website URL</label>
-                        </p>
-                        <div class="g-recaptcha" data-sitekey="6LdXD0AcAAAAADoSoDQZNTvDEuHvMlARgS_lPXxH"></div>
-                        <p class="form-submit">
-                            <!-- post-comment-field btn btn-primary comment-buttons -->
-                            <button name="submit" type="submit" id="submit" class="submit">Post Comment</button>
-                            
-                            <input type="hidden" id="fields[reply_to]" name="fields[reply_to]" value="">
-                            <input type="hidden" name="options[redirect]" value="{{- .Permalink }}#comment-submitted">
-                            <input type="hidden" name="options[slug]" value="{{- .File.ContentBaseName }}">
-                        </p>
-                </form>
-            </div><!-- #respond -->
-        </div>
-
-
-
-
-
 
     </section>
 
