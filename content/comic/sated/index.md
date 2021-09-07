@@ -4,7 +4,7 @@ date: 2013-01-02T10:01:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-01-02-newyear_small.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

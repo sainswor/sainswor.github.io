@@ -4,7 +4,7 @@ date: 2012-10-10T10:21:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-10-10-forthehorde.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

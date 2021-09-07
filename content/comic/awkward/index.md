@@ -4,7 +4,7 @@ date: 2013-10-30T02:39:00-07:00
 draft: false
 author: "Rades"
 comic: "131030_fd008.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 1: Despair'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

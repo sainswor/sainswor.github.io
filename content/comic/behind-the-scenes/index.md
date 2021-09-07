@@ -4,7 +4,7 @@ date: 2014-03-12T04:05:00-07:00
 draft: false
 author: "Vidyala"
 comic: "fd_extra04.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Extras
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

@@ -4,7 +4,7 @@ date: 2016-05-04T09:58:00-07:00
 draft: false
 author: "Rades"
 comic: "The-FDWL-Awakens-950x1425.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Extras
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

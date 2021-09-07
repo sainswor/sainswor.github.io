@@ -4,7 +4,7 @@ date: 2014-03-26T02:59:00-07:00
 draft: false
 author: "Rades"
 comic: "fd024.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 2: Doubt'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

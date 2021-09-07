@@ -4,7 +4,7 @@ date: 2015-04-01T09:56:00-07:00
 draft: false
 author: "Rades"
 comic: "fdwl_filler.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Extras
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

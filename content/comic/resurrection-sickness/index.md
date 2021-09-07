@@ -4,7 +4,7 @@ date: 2012-03-14T11:11:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-03-14-back-in-the-game.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

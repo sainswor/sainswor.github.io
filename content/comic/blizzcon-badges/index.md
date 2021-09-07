@@ -4,7 +4,7 @@ date: 2013-05-22T09:00:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2013-05-22-badges.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

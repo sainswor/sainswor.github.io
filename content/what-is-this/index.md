@@ -1,23 +1,26 @@
 ---
-title: "Progress is Progressing"
-date: 2021-09-08T08:18:17-04:00
+title: "Weekly Update I"
+date: 2021-09-07T08:18:17-04:00
 draft: false
 author: Sean
 ---
 
-***New in this update***: Fixed the [extra at the last page of Chapter One so it's actually the intended image](/comic/bonus-happy-winter-veil) (Happy Winter Veil vs a second copy of the Color Profiles); added a note about [the colouring page](/comic/colouring-page) in the creator note.
+***New in this update***: 
+
+**Fixes:** Fixed the [extra at the last page of Chapter One so it's actually the intended image](/comic/bonus-happy-winter-veil) (Happy Winter Veil vs a second copy of the Color Profiles); added a note about [the colouring page](/comic/colouring-page) in the creator note.
+
+**Old Comments:** These are now restored to their original functionality, down to the last typo. The only change I made was in changing every instance of "http" to "https", as effectively no sites support plaintext http any more.
+
+**Pingbacks:** The protocol is inherently insecure- also I can't figure out, frankly, how to trivially get it working on Hugo, which is powering this site. I still have all the archived pingbacks, they're just not being displayed because they are considered comments with an empty status. For the moment, at least, I'm going to just disable them and not release these.
+
+**Chapter Links**: These are repaired! The gag strips prior to the debut of the story arc are in chapter "Comic", any post-debut non-numbered pages are in Extras, and the remainder are in their correct chapters (including Strip #100, "Ding", which has a number and is therefore canonically in Chapter 7.)
+
 
 **Next Up**
 
-Replacing the front page of the site with a copy of And We Walked Once More Beneath The Stars, II. I still need to ask Vid if she wants a copy of her blog post as the "Creator update" for that page, or if she'd prefer to write a brief explanation, or if she'd prefer to have me write one.
+Replacing the front page of the site with a copy of And We Walked Once More Beneath The Stars, II. There's going to be a custom creator update for it.
 
-**Old Comments:** There's some manual work involved in getting the comments section back up and running. I've got the comments restored for the first half of the comic's run (that is, all of the gag strips) and the first ten pages of the story arc. At the rate I'm doing these, that will probably be finished by the end of the week.
-
-**Pingbacks:** The protocol is inherently insecure- also I can't figure out, frankly, how to trivially get it working on Hugo, which is powering this site. I still have all the archived pingbacks, they're just not being displayed because they are considered comments with an empty status.
-
-**New Comments**: This will be a thing! I have the code working and tested (thanks to Staticman) and just need to make sure the I'm-not-a-robot checkbox works properly. Once that's done, I'll be able to turn comments back on - which is good, because the archived comments are plugged into the comment system, so until new comments can be posted, old ones can't be seen.
-
-**Chapter Links**: Right now three comics claim to be in chapter "Comics" and all the rest are in chapter "CHAPTERTEMPLATE" so, you know, some work to do there.
+**New Comments**: This will be a thing! I have the code working and tested (thanks to Staticman) and just need to make sure the I'm-not-a-robot checkbox works properly. For the moment, however, the site generation code doesn't generate the leave-a-comment code.
 
 **The Calendar widget:** Still statically displays August 2018. 
 
@@ -31,7 +34,10 @@ Replacing the front page of the site with a copy of And We Walked Once More Bene
 
 **Search bar:** Vid had mentioned wanting a search bar for the comic and that sounds like a great idea. I think this involves retrofitting the comics that don't have tags, with tags. I'm OK with that.
  
-**Rewrite this page:** Once the other tasks are finished, this page will be re-written so that instead of a progress report, it's an explanation of why it's fromdraenor.ca, why it was created, and a few brief words on the technology running it for the curious.
+**Rewrite this page:** Once the other tasks are finished, this page will be re-written so that instead of a progress report, it's an explanation of why it's fromdraenor.ca, why it was created, and a few brief words on the technology running it for the curious. Initial work on that is below.
+
+
+## What is this?
 
 **This comic is great! How come there's only been one update in the last five years?**
 The comic came to its planned end in September of 2016! The banner never got changed because the banner never got changed. Unfortunately the site was hacked in 2018, and didn't exist properly until 2021, when it was restored as a tribute to Mike "Rades" Eng, the original author, who passed away that year. The final page was drawn by the strip's artist as a farewell to her friend.
@@ -40,10 +46,12 @@ The comic came to its planned end in September of 2016! The banner never got cha
 You can still leave comments on it. 
 
 **How does this work, like, in a technical way?**
-The original site ran on Wordpress with the ComicEasel plugin and Comicpress theme. The restored site is powered by [Hugo](https://gohugo.io); the theme is a custom one using a modified version of the CSS from Comicpress, with comments by [Staticman](https://staticman.net) (using the same multi-level threading the original site had) and Akismet anti-spam. Heroku is being used to power the comments.
+The original site ran on Wordpress with the ComicEasel plugin and Comicpress theme. The restored site is powered by [Hugo](https://gohugo.io); the theme is a custom one using a modified version of the CSS from Comicpress, with comments by [Staticman](https://staticman.net) (using the same multi-level threading the original site had) and reCaptcha anti-spam. Heroku is being used to power the comments (this is a static site, so adding any amount of content- including as little as one comment!- involves literally rebuilding the entire site, a process that takes about two seconds with about a minute of warm-up time).
 
 **Wait, multi-level threaded commentary? Is that on any other Staticman-powered blog? Doesn't Staticman store comments in individual files? In order to have that sort of multi-level hierarchy, wouldn't you have to make those links by hand?**
-Yes, because that's what the original site had. No, I couldn't find one and had to come up with it myself. Yes, it does. Yes, I did. This paragraph comprises the only bragging I will publicly do about this project: Building the multi-level threaded comments took the better part of two days, and reconstructing the comments themselves was a quasi-manual process that took many hours. I am very proud of this.
+Yes, because that's what the original site had. No, I couldn't find an example of one and had to come up with it myself. Yes, it does. Yes, I did. This paragraph comprises the only bragging I will publicly do about this project: Building the code for multi-level threaded comments took the better part of two days, and reconstructing the comments themselves was a quasi-manual process that took many hours over almost a week. I am *very* proud of this.
 
 **Hey, did you know it's impossible to read any text except the links at the bottom of the page?**
 Yeah, that's true! The thing is, this is an archival project and that text was just as impossible to read in the original form, so while it makes me grit my teeth a little too, it's going to stay that way. Sorry, eh?
+
+**What's every single visible change you made from the way the site used to work?** No ads (because different hosting); reCaptcha instead of Akismet for anti-spam; the RSS feed link now points at this page; there are tiny, minor differences in the layout of the CSS; extra-large strips can't break out of the frame the way they used to; added a note about [the colouring page](/comic/colouring-page) in the creator note; capitalized the word "Comic" in the chapter of the same name; several pages that were originally in chapters are now considered part of the chapter "Extras" because, unlike Comicpress, chapters don't need to be sequential on the new site (anything in the plot-arc years that doesn't have a page number in sequence- some pages don't have a visible page number but have one under the hood); 'http' has become 'https' site-wide; no pingbacks on entries; no comment RSS feeds.

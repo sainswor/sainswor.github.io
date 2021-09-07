@@ -4,7 +4,7 @@ date: 2012-08-29T08:00:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2012-08-29-war.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

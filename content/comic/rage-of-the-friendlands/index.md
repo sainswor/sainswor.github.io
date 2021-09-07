@@ -4,7 +4,7 @@ date: 2012-06-13T07:05:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2012-06-13-friendlands.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

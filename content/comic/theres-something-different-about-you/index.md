@@ -4,7 +4,7 @@ date: 2012-05-30T08:31:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-05-30-elfs_small.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

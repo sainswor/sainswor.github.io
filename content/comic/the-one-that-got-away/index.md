@@ -4,7 +4,7 @@ date: 2014-11-12T09:45:00-07:00
 draft: false
 author: "Rades"
 comic: "fd049.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 4: Hatred'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

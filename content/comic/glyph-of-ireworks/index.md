@@ -4,7 +4,7 @@ date: 2012-06-20T09:06:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-06-20-ireworks.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

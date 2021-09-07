@@ -4,7 +4,7 @@ date: 2016-07-06T10:25:00-07:00
 draft: false
 author: "Vidyala"
 comic: "160706_vacation_filler.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Extras
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

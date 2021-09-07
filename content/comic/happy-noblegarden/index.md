@@ -4,7 +4,7 @@ date: 2016-03-30T09:53:00-07:00
 draft: false
 author: "Rades"
 comic: "160330.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Extras
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

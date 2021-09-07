@@ -4,7 +4,7 @@ date: 2013-04-03T08:30:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-04-03-blingtron.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

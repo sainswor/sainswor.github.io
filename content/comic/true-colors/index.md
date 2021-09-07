@@ -4,7 +4,7 @@ date: 2015-05-13T09:58:00-07:00
 draft: false
 author: "Rades"
 comic: "fd072.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 5: Fear'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

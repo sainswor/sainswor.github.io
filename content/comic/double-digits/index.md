@@ -4,7 +4,7 @@ date: 2013-05-01T09:14:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-05-01-doubledigits.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

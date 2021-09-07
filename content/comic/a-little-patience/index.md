@@ -4,7 +4,7 @@ date: 2015-06-24T09:36:00-07:00
 draft: false
 author: "Vidyala"
 comic: "fd078.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 6: Anger'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

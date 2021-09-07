@@ -4,7 +4,7 @@ date: 2012-09-19T08:43:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2012-09-19-tarecgosa.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

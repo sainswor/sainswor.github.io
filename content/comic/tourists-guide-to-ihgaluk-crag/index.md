@@ -4,7 +4,7 @@ date: 2013-07-24T10:27:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-07-24-sauroks.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

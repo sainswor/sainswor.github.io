@@ -4,7 +4,7 @@ date: 2014-07-23T09:53:00-07:00
 draft: false
 author: "Rades"
 comic: "fd036.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 3: Violence'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

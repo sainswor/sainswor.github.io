@@ -4,7 +4,7 @@ date: 2012-05-02T05:19:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-05-02-expo.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

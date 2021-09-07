@@ -4,7 +4,7 @@ date: 2013-01-16T12:23:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-01-16-worth2.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

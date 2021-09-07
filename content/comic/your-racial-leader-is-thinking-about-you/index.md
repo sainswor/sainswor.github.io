@@ -4,7 +4,7 @@ date: 2012-02-15T09:24:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-02-15-garrosh-darn-it.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

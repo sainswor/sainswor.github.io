@@ -4,7 +4,7 @@ date: 2016-06-08T09:52:00-07:00
 draft: false
 author: "Rades"
 comic: "fd114.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 7: Pride'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

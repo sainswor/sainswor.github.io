@@ -4,7 +4,7 @@ date: 2011-12-21T02:40:00-07:00
 draft: false
 author: "Rades"
 comic: "2011-12-21-Winter-Fail-Part-Three.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

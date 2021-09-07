@@ -4,7 +4,7 @@ date: 2012-04-18T08:30:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-04-18-warriors-01.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

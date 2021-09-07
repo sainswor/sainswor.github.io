@@ -4,7 +4,7 @@ date: 2012-02-22T10:09:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2012-02-22-when-to-transmog.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

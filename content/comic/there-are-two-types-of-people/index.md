@@ -4,7 +4,7 @@ date: 2013-07-03T08:05:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2013-07-03-twokinds.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

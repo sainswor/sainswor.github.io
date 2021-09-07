@@ -4,7 +4,7 @@ date: 2015-12-02T11:02:00-07:00
 draft: false
 author: "Rades"
 comic: "fd091.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 6: Anger'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

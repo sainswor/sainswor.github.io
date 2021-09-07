@@ -4,7 +4,7 @@ date: 2012-01-18T07:00:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2012-01-18-Magic-Touch.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

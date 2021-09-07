@@ -4,7 +4,7 @@ date: 2013-08-07T09:02:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2013-08-07-doctorwho950px.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

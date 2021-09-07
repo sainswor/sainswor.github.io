@@ -4,7 +4,7 @@ date: 2012-12-25T17:46:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2012-12-25-heknows.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

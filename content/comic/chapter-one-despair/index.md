@@ -4,7 +4,7 @@ date: 2013-09-11T14:06:00-07:00
 draft: false
 author: "Vidyala"
 comic: "130911_fd001.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 1: Despair'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

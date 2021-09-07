@@ -4,7 +4,7 @@ date: 2012-12-19T11:08:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-12-19-klaxxmas_small.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

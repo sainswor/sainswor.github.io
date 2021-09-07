@@ -4,7 +4,7 @@ date: 2013-06-26T12:34:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-06-26-magatha.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

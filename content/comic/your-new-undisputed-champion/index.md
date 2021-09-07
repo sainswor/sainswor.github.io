@@ -4,7 +4,7 @@ date: 2013-04-17T08:36:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-04-17-durumu.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

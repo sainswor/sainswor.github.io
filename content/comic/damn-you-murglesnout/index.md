@@ -4,7 +4,7 @@ date: 2012-01-04T09:21:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-01-04-Damn-You-Murglesnout.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

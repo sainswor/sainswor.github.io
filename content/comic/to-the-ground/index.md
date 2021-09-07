@@ -4,7 +4,7 @@ date: 2012-02-29T09:11:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-02-29-to-the-ground.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

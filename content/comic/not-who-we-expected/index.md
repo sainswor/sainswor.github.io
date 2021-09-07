@@ -4,7 +4,7 @@ date: 2012-03-28T12:18:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-03-28-sylvanas-garrosh.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

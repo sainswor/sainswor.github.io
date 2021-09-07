@@ -4,7 +4,7 @@ date: 2013-06-12T09:39:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-06-12-nomi.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

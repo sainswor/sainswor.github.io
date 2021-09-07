@@ -4,7 +4,7 @@ date: 2014-12-10T09:59:00-07:00
 draft: false
 author: "Vidyala"
 comic: "fd053.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 4: Hatred'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

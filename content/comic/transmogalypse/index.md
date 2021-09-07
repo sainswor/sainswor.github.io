@@ -4,7 +4,7 @@ date: 2011-11-30T07:00:00-07:00
 draft: false
 author: "Rades"
 comic: "2011-11-30-Transmogalypse.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

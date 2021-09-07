@@ -4,7 +4,7 @@ date: 2013-06-05T18:24:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2013-06-05-vidradespainting02-1024x685.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

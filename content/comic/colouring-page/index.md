@@ -4,7 +4,7 @@ date: 2016-02-24T10:01:00-07:00
 draft: false
 author: "Vidyala"
 comic: "Colouring_Page_100_FDWL.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Extras
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

@@ -4,7 +4,7 @@ date: 2016-11-09T09:57:00-07:00
 draft: false
 author: "Vidyala"
 comic: "fd132.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 8: Epilogue'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

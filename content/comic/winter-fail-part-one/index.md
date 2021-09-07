@@ -4,7 +4,7 @@ date: 2011-12-07T07:33:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2011-12-07-Winter-Fail-Part-One.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

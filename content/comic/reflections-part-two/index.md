@@ -4,7 +4,7 @@ date: 2016-10-26T09:47:00-07:00
 draft: false
 author: "Rades"
 comic: "fd130a.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: 'Chapter 8: Epilogue'
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

@@ -4,7 +4,7 @@ date: 2012-08-08T09:05:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-08-08-blood.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

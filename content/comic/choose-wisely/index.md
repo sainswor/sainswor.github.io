@@ -4,7 +4,7 @@ date: 2012-01-25T09:43:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-01-25-Choose-Wisely.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

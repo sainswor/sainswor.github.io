@@ -4,7 +4,7 @@ date: 2012-09-05T09:05:00-07:00
 draft: false
 author: "Rades"
 comic: "2012-09-05-patch.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Comic
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE

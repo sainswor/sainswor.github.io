@@ -4,7 +4,7 @@ date: 2013-12-11T18:51:00-07:00
 draft: false
 author: "Rades"
 comic: "fd_extra01.jpg"
-chapter: CHAPTERTEMPLATE
+chapter: Extras
 chapter_link: CHAPTERLINKTEMPLATE
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
