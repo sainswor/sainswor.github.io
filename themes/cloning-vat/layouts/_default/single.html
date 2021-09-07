@@ -69,7 +69,7 @@
 	  {{- partial "comment-count.html" . }}
 			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments({{- .Scratch.Get "hasComments" }})</span></a></td>
 	  {{- end }}
-			<td class="comic-nav"><a href="https://fromdraenor.ca/?random&amp;nocache=1" class="comic-nav-random" title="Random Comic">Random</a></td>
+			<td class="comic-nav"><a href="" class="comic-nav-random" title="Random Comic">Random</a></td>
     {{- if eq .NextInSection nil}}
       <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">Next &rsaquo;</span></td>
       <td class="comic-nav"><span class="comic-nav-base comic-nav-last comic-nav-void ">Last &rsaquo;&rsaquo;</span></td>
