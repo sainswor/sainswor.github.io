@@ -1,14 +1,11 @@
 ---
 title: "Progress is Progressing"
-date: 2021-09-06T08:18:17-04:00
+date: 2021-09-08T08:18:17-04:00
 draft: false
 author: Sean
 ---
-So here we are. Progress report:
 
-We're live on fromdraenor.ca! That's very exciting. Below is what I'm working on, in the approximate order I'm working on it in.
-
-***New in this update***: Front page has been themed; this page has been added; About (changing some verb tenses); Characters; Contact Us (adding a link to my own Twitter for site issues); Patreon. This page replaces the RSS feed links- I'm going with a philosophy of making the fewest possible changes and making them as unobtrusive as possible.
+***New in this update***: Fixed the [extra at the last page of Chapter One so it's actually the intended image](/comic/bonus-happy-winter-veil) (Happy Winter Veil vs a second copy of the Color Profiles); added a note about [the colouring page](/comic/colouring-page) in the creator note.
 
 **Next Up**
 
@@ -28,5 +25,25 @@ Replacing the front page of the site with a copy of And We Walked Once More Bene
 
 **Tags and Related Comics:** These were only a thing during the gag comic years, but they were there and I'd like to rebuild that function.
 
+**Lost embedded content:** The higher-rez downloadable files for the Behind the Scenes strips were lost (I have just one of them). One of the music files on a comic page is missing. There was one video embedded which no longer exists / I don't know what it was.
+
+**Random button:** In one of my few divergences from the site exactly as it was, I think the Random button should probably just pick a random strip from the gag comics era of the site.
+
+**Search bar:** Vid had mentioned wanting a search bar for the comic and that sounds like a great idea. I think this involves retrofitting the comics that don't have tags, with tags. I'm OK with that.
+ 
 **Rewrite this page:** Once the other tasks are finished, this page will be re-written so that instead of a progress report, it's an explanation of why it's fromdraenor.ca, why it was created, and a few brief words on the technology running it for the curious.
 
+**This comic is great! How come there's only been one update in the last five years?**
+The comic came to its planned end in September of 2016! The banner never got changed because the banner never got changed. Unfortunately the site was hacked in 2018, and didn't exist properly until 2021, when it was restored as a tribute to Mike "Rades" Eng, the original author, who passed away that year. The final page was drawn by the strip's artist as a farewell to her friend.
+
+**But we can still leave comments on it?**
+You can still leave comments on it. 
+
+**How does this work, like, in a technical way?**
+The original site ran on Wordpress with the ComicEasel plugin and Comicpress theme. The restored site is powered by [Hugo](https://gohugo.io); the theme is a custom one using a modified version of the CSS from Comicpress, with comments by [Staticman](https://staticman.net) (using the same multi-level threading the original site had) and Akismet anti-spam. Heroku is being used to power the comments.
+
+**Wait, multi-level threaded commentary? Is that on any other Staticman-powered blog? Doesn't Staticman store comments in individual files? In order to have that sort of multi-level hierarchy, wouldn't you have to make those links by hand?**
+Yes, because that's what the original site had. No, I couldn't find one and had to come up with it myself. Yes, it does. Yes, I did. This paragraph comprises the only bragging I will publicly do about this project: Building the multi-level threaded comments took the better part of two days, and reconstructing the comments themselves was a quasi-manual process that took many hours. I am very proud of this.
+
+**Hey, did you know it's impossible to read any text except the links at the bottom of the page?**
+Yeah, that's true! The thing is, this is an archival project and that text was just as impossible to read in the original form, so while it makes me grit my teeth a little too, it's going to stay that way. Sorry, eh?

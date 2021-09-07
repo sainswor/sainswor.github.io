@@ -19,8 +19,8 @@ Wrathion has, since he was introduced, always been the one full of confidence, f
 Patreon supporters, in case you missed it, February’s wallpaper is ready for download! Log into Patreon.com and enjoy!
 
 
-Also, big thanks to [Letters to Volrane!](http://coi-love.webcomic.ws/comics/)) for our first piece of FDWL fanart! We love it! 😀
+Also, big thanks to [Letters to Volrane!](https://coi-love.webcomic.ws/comics/)) for our first piece of FDWL fanart! We love it! 😀
 
 
-!(/images/post-images/caladom_vidyala.jpg" alt=")
+![](/images/post-images/caladom_vidyala.jpg)
 

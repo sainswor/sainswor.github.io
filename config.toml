@@ -10,9 +10,9 @@ relativeURLs = true
 [params]
     backgroundPath = "/images/fdwl-background.jpg"
 
-#[params.staticman]
-#    endpoint = "https://fdwl-comments.herokuapp.com/v2/entry"
-#    username = "sainswor"
-#    repository = "sainswor.github.io"
-#    branch = "master"
+[params.staticman]
+    endpoint = "https://fdwl-comments.herokuapp.com/v2/entry"
+    username = "sainswor"
+    repository = "sainswor.github.io"
+    branch = "master"
     
