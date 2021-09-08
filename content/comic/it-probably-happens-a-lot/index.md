@@ -5,7 +5,9 @@ draft: false
 author: "Rades"
 comic: "131009_fd005.jpg"
 chapter: 'Chapter 1: Despair'
-chapter_link: CHAPTERLINKTEMPLATE
+chapters:
+- chapter-1-despair
+chapter_link: /chapters/chapter-1-despair/
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---

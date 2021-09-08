@@ -5,8 +5,10 @@ draft: false
 author: "Rades"
 comic: "2012-07-11-cthun.jpg"
 chapter: Comic
-chapter_link: CHAPTERLINKTEMPLATE
-tags: TAGSLISTTEMPLATE
+chapters:
+- comic
+tags:  TAGSLISTTEMPLATE
+chapter_link: /chapters/comic/
 related_comics: RELATEDCOMICTEMPLATE
 ---
 

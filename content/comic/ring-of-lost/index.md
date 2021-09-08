@@ -5,8 +5,10 @@ draft: false
 author: "Rades"
 comic: "2012-05-23-ring_of_lost.jpg"
 chapter: Comic
-chapter_link: CHAPTERLINKTEMPLATE
-tags: TAGSLISTTEMPLATE
+chapters:
+- comic
+tags:  TAGSLISTTEMPLATE
+chapter_link: /chapters/comic/
 related_comics: RELATEDCOMICTEMPLATE
 ---
 

@@ -5,7 +5,9 @@ draft: false
 author: "Rades"
 comic: "fd024.jpg"
 chapter: 'Chapter 2: Doubt'
-chapter_link: CHAPTERLINKTEMPLATE
+chapters:
+- chapter-2-doubt
+chapter_link: /chapters/chapter-2-doubt/
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---

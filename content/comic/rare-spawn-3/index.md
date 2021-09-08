@@ -5,7 +5,9 @@ draft: false
 author: "Vidyala"
 comic: "2011-11-01-Rare-Spawn.jpg"
 chapter: "Comic"
-chapter_link: "/comic"
+chapters:
+- comic
+chapter_link: "/chapters/comic"
 tags: ["Rades", "Vid"]
 related_comics: [sated, winter-fail-part-three, masks-of-pandaria, glyph-of-ireworks, grudge-match]
 ---

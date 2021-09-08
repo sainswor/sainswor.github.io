@@ -5,8 +5,10 @@ draft: false
 author: "Rades"
 comic: "2011-11-23-For-Science-You-Monster.jpg"
 chapter: Comic
-chapter_link: CHAPTERLINKTEMPLATE
-tags: TAGSLISTTEMPLATE
+chapters:
+- comic
+tags:  TAGSLISTTEMPLATE
+chapter_link: /chapters/comic/
 related_comics: RELATEDCOMICTEMPLATE
 ---
 Hey guys, Vid’s been crit by real life this week, so send her warm thoughts because until she’s back, you’re stuck with my terrible WoW Model Viewer comics!

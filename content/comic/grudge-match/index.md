@@ -5,7 +5,9 @@ draft: false
 author: Rades
 comic: "2011-11-09-Grudge-Match1.jpg"
 chapter: "Comic"
-chapter_link: "/comic"
+chapters:
+- comic
+chapter_link: "/chapters/comic"
 tags: ["pet battles", "Rades", "Vid"]
 related_comics: [what, winter-fail-part-one, our-new-favorite-boss, the-lord-of-terror, winter-fail-part-two]
 ---

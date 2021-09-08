@@ -179,8 +179,11 @@
 		</div>
 		<div class="post-extras">
 			<div class="post-tags"></div>
+			{{- if not .Params.disable_comments }}
 			<div class="comment-link">
-				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" }} </span> Comments</a>			</div>
+				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" }} </span> Comments</a>			
+			</div>
+				{{- end }}
 						<div class="clear"></div>
 		</div>
 			</div>

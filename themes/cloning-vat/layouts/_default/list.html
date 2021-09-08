@@ -19,7 +19,7 @@
     body.custom-background { background-image: url('/images/bground052.jpg'); background-repeat: no-repeat; background-position: top center; background-attachment: fixed; }
     </style>
     </head>
-    <body class="single single-comic custom-background layout-3c scheme-none">
+    <body class="archive tax-chapters custom-background layout-3c scheme-none">
         <div id="content">
         
 <div id="page-wrap">
@@ -53,7 +53,7 @@
 
 </div>
 				<div class="menunav">
-																					<a href="/feed/" title="RSS Feed" class="menunav-rss">RSS</a>
+					<a href="/what-is-this/" title="What is this?" class="menunav-rss">What is this?</a>
 														</div>
 				<div class="clear"></div>
 			</div>
@@ -131,30 +131,27 @@
 						<div id="content" class="narrowcolumn">
 				<div id="post-2606" class="post-2606 comic type-comic status-publish has-post-thumbnail hentry chapters-chapter-8-epilogue uentry postonpage-1 odd post-author-{{- lower .Params.author }}">
 	<div class="post-content">
-		{{- if not ( eq .Params.author "Sean" ) }}
-		<div class="post-author-gravatar"><img alt="" src="/images/{{- .Params.author }}.jpg" srcset="/images/{{- .Params.author }}.jpg 2x" class="avatar avatar-82 photo instant nocorner itxtalt" height="82" width="82"/></div>
-		{{- end }}
+		
 		<div class="post-info">
-			<h2 class="post-title"><a href="{{- .Permalink }}">{{- .Title }}</a></h2>
+			<h2 class="post-title"><a href="{{- .Permalink }}">Archive of {{ .Title }}</a></h2>
 			<div class="post-text">
-				<span class="post-author">by <a href="/author/{{- lower .Params.author }}/" rel="author">{{- .Params.author }}</a></span>
-<span class="posted-on">on&nbsp;</span><span class="post-date">{{- .Date | time.Format ":date_long" }}</span>
-<span class="posted-at">at&nbsp;</span><span class="post-time">{{- .Date | time.Format ":time_short" }}</span>
-{{- if not ( eq .Params.chapter_link nil ) }}
-<div class="comic-post-info"><div class="comic-chapter">Chapter: <a href="{{- .Params.chapter_link }}" rel="tag">{{- .Params.chapter }}</a></div></div>
-{{- end }}
+			
+
 </div>
 			<div class="clear"></div>
 		</div>
 		<div class="clear"></div>
 		<div class="entry">
-			{{- .Content }}
+
 			<div class="clear"></div>
 		</div>
 		<div class="post-extras">
 			<div class="post-tags"></div>
 			<div class="comment-link">
-				<a href="#comments"><span class="comment-balloon"> #numComment </span> Comments</a>			</div>
+				{{- if not .Params.disable_comments }}
+				<a href="#comments"><span class="comment-balloon"> #numComment </span> Comments</a>
+				{{- end }}
+			</div>
 						<div class="clear"></div>
 		</div>
 			</div>
@@ -164,55 +161,7 @@
 		</div>
 <div id="sidebar-right">
     <div class="sidebar">
-        <div id="ceo_calendar_widget-2" class="widget ceo_calendar_widget">
-<div class="widget-content">
-			<div id="wp-calendar-head"></div>
-			<div id="wp-calendar-wrap">
-							<table id="wp-calendar" summary="Calendar">
-	<caption>August 2018</caption>
-	<thead>
-	<tr>
-		<th scope="col" title="Monday">M</th>
-		<th scope="col" title="Tuesday">T</th>
-		<th scope="col" title="Wednesday">W</th>
-		<th scope="col" title="Thursday">T</th>
-		<th scope="col" title="Friday">F</th>
-		<th scope="col" title="Saturday">S</th>
-		<th scope="col" title="Sunday">S</th>
-	</tr>
-	</thead>
-
-	<tfoot>
-	<tr>
-		<td colspan="3" id="prev"><a href="/comic" title="View posts for November 2016">&laquo; Nov</a></td>
-		<td class="pad">&nbsp;</td>
-		<td colspan="3" id="next" class="pad">&nbsp;</td>
-	</tr>
-	</tfoot>
-
-	<tbody>
-	<tr>
-		<td colspan="2" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
-	</tr>
-	<tr>
-		<td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
-	</tr>
-	<tr>
-		<td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
-	</tr>
-	<tr>
-		<td>20</td><td>21</td><td>22</td><td id="today">23</td><td>24</td><td>25</td><td>26</td>
-	</tr>
-	<tr>
-		<td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
-		<td class="pad" colspan="2">&nbsp;</td>
-	</tr>
-	</tbody>
-	</table>			</div>
-			<div id="wp-calendar-foot"></div>
-		</div>
-<div class="clear"></div>
-</div>
+{{- partial "calendar.html" .}}
 <div id="ceo_comic_archive_dropdown_widget-2" class="widget ceo_comic_archive_dropdown_widget">
 <div class="widget-content">
 <h2 class="widget-title">Comic Chapters</h2>

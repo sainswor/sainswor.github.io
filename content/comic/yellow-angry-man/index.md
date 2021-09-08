@@ -5,7 +5,9 @@ draft: false
 author: "Vidyala"
 comic: "2011-11-16-Yellow-Angry-Man.jpg"
 chapter: "Comic"
-chapter_link: "/comic"
+chapters:
+- comic
+chapter_link: "/chapters/comic"
 tags: ["paladins", "Shannox", "Vid"]
 related_comics: [the-real-twelve, the-lord-of-terror, winter-fail-part-two, there-are-two-types-of-people, our-new-favorite-boss]
 ---

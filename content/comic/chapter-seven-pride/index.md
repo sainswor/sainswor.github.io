@@ -5,7 +5,9 @@ draft: false
 author: "Rades"
 comic: "fd096.jpg"
 chapter: 'Chapter 7: Pride'
-chapter_link: CHAPTERLINKTEMPLATE
+chapters:
+- chapter-7-pride
+chapter_link: /chapters/chapter-7-pride/
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---

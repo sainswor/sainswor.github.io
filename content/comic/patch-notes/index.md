@@ -5,8 +5,10 @@ draft: false
 author: "Rades"
 comic: "fdwl_filler.jpg"
 chapter: Extras
-chapter_link: CHAPTERLINKTEMPLATE
-tags: TAGSLISTTEMPLATE
+chapters:
+- extras
+tags:  TAGSLISTTEMPLATE
+chapter_link: /chapters/extras/
 related_comics: RELATEDCOMICTEMPLATE
 ---
 

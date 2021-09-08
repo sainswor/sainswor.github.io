@@ -5,7 +5,9 @@ draft: false
 author: "Rades"
 comic: "fd038.jpg"
 chapter: 'Chapter 3: Violence'
-chapter_link: CHAPTERLINKTEMPLATE
+chapters:
+- chapter-3-violence
+chapter_link: /chapters/chapter-3-violence/
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---

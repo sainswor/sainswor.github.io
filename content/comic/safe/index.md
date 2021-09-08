@@ -5,7 +5,9 @@ draft: false
 author: "Rades"
 comic: "fd073a.jpg"
 chapter: 'Chapter 5: Fear'
-chapter_link: CHAPTERLINKTEMPLATE
+chapters:
+- chapter-5-fear
+chapter_link: /chapters/chapter-5-fear/
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---

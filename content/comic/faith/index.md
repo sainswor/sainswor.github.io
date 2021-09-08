@@ -5,7 +5,9 @@ draft: false
 author: "Rades"
 comic: "fd087.jpg"
 chapter: 'Chapter 6: Anger'
-chapter_link: CHAPTERLINKTEMPLATE
+chapters:
+- chapter-6-anger
+chapter_link: /chapters/chapter-6-anger/
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---

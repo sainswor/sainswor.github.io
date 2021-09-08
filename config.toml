@@ -16,3 +16,5 @@ relativeURLs = true
     repository = "sainswor.github.io"
     branch = "master"
     
+[taxonomies]
+    chapter = 'chapters'

@@ -79,12 +79,7 @@
       {{- end }}
       <td class="comic-nav"><a href="/comic/reflections-part-four/" class="comic-nav-base comic-nav-last">Last &rsaquo;&rsaquo;</a></td>
     {{- end }}
-
-
-
-
-		</tr>
- 
+	</tr>
 	</table>
 				</div>
 			<div class="clear"></div>
@@ -155,66 +150,23 @@
 		</div>
 		<div class="post-extras">
 			<div class="post-tags"></div>
+			{{- if not .Params.disable_comments }}
 			<div class="comment-link">
 				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" }} </span> Comments</a>			</div>
+			{{- end }}
 						<div class="clear"></div>
 		</div>
 			</div>
-</div>{{- partial "comments.html" .}}
+</div>
+{{- if not .Params.disable_comments}}
+{{- partial "comments.html" .}}
+{{- end }}
 <div id="blogheader"></div>										
 							</div>
 		</div>
 <div id="sidebar-right">
     <div class="sidebar">
-        <div id="ceo_calendar_widget-2" class="widget ceo_calendar_widget">
-<div class="widget-content">
-			<div id="wp-calendar-head"></div>
-			<div id="wp-calendar-wrap">
-							<table id="wp-calendar" summary="Calendar">
-	<caption>August 2018</caption>
-	<thead>
-	<tr>
-		<th scope="col" title="Monday">M</th>
-		<th scope="col" title="Tuesday">T</th>
-		<th scope="col" title="Wednesday">W</th>
-		<th scope="col" title="Thursday">T</th>
-		<th scope="col" title="Friday">F</th>
-		<th scope="col" title="Saturday">S</th>
-		<th scope="col" title="Sunday">S</th>
-	</tr>
-	</thead>
-
-	<tfoot>
-	<tr>
-		<td colspan="3" id="prev"><a href="/comic" title="View posts for November 2016">&laquo; Nov</a></td>
-		<td class="pad">&nbsp;</td>
-		<td colspan="3" id="next" class="pad">&nbsp;</td>
-	</tr>
-	</tfoot>
-
-	<tbody>
-	<tr>
-		<td colspan="2" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
-	</tr>
-	<tr>
-		<td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
-	</tr>
-	<tr>
-		<td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
-	</tr>
-	<tr>
-		<td>20</td><td>21</td><td>22</td><td id="today">23</td><td>24</td><td>25</td><td>26</td>
-	</tr>
-	<tr>
-		<td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
-		<td class="pad" colspan="2">&nbsp;</td>
-	</tr>
-	</tbody>
-	</table>			</div>
-			<div id="wp-calendar-foot"></div>
-		</div>
-<div class="clear"></div>
-</div>
+{{- partial "calendar.html" .}}
 <div id="ceo_comic_archive_dropdown_widget-2" class="widget ceo_comic_archive_dropdown_widget">
 <div class="widget-content">
 <h2 class="widget-title">Comic Chapters</h2>

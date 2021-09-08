@@ -1,9 +1,10 @@
 ---
-title: "Update for Labor Day"
+title: "Like the Banner Says..."
 date: 2021-09-06T08:48:17-04:00
 draft: false
 author: Sean
+disable_comments: true
 ---
-A progress report is up [here](/what-is-this), which can be reached via the "WHAT IS THIS?" link that is in the top-right of the comics where the RSS feed link used to be.
+You can check the progress report [here](/what-is-this)!
 
-As of now, though, you're probably best off just going to [the start of the comic](/comic/rare-spawn-3).
+ Perhaps you're interested in the [comics](/chapters/comic/), or perhaps you'd prefer the [story arc](/chapters/chapter-1-despair).

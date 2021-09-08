@@ -5,7 +5,9 @@ draft: false
 author: "Rades"
 comic: "fd045.jpg"
 chapter: 'Chapter 4: Hatred'
-chapter_link: CHAPTERLINKTEMPLATE
+chapters:
+- chapter-4-hatred
+chapter_link: /chapters/chapter-4-hatred/
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---

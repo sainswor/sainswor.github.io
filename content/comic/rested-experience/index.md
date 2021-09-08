@@ -5,8 +5,10 @@ draft: false
 author: "Rades"
 comic: "2013-01-23-millyadraw.gif"
 chapter: Comic
-chapter_link: CHAPTERLINKTEMPLATE
-tags: TAGSLISTTEMPLATE
+chapters:
+- comic
+tags:  TAGSLISTTEMPLATE
+chapter_link: /chapters/comic/
 related_comics: RELATEDCOMICTEMPLATE
 ---
 Well, it finally happened: Vid’s drawing arm fell off. Like, literally, just sketching away and plop! it’s a scene right out of the Undercity. It’s all good though, she’s out talking to Mekkatorque right now about a steam-powered mechanical replacement. She says it’s no big deal, but as a veteran engineer, I remain skeptical.

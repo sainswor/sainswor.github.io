@@ -4,9 +4,11 @@ date: 2013-08-21T08:03:00-07:00
 draft: false
 author: "Vidyala"
 comic: "2013-08-21-art.jpg"
-chapter: Comic
-chapter_link: CHAPTERLINKTEMPLATE
-tags: TAGSLISTTEMPLATE
+chapter: Extras
+chapters:
+- extras
+tags:  TAGSLISTTEMPLATE
+chapter_link: /chapters/extras/
 related_comics: RELATEDCOMICTEMPLATE
 ---
 

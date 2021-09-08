@@ -5,7 +5,9 @@ draft: false
 author: "Rades"
 comic: "fd131.jpg"
 chapter: 'Chapter 8: Epilogue'
-chapter_link: CHAPTERLINKTEMPLATE
+chapters:
+- chapter-8-epilogue
+chapter_link: /chapters/chapter-8-epilogue/
 tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---

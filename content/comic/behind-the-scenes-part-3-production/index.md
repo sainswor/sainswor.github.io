@@ -4,9 +4,11 @@ date: 2013-08-28T08:33:00-07:00
 draft: false
 author: "Rades"
 comic: "2013-08-28-production.jpg"
-chapter: Comic
-chapter_link: CHAPTERLINKTEMPLATE
-tags: TAGSLISTTEMPLATE
+chapter: Extras
+chapters:
+- extras
+tags:  TAGSLISTTEMPLATE
+chapter_link: /chapters/extras/
 related_comics: RELATEDCOMICTEMPLATE
 ---
 
