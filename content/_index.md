@@ -1,6 +1,6 @@
 ---
 title: "Like the Banner Says..."
-date: 2021-09-06T08:48:17-04:00
+date: 2021-09-08T18:56:17-04:00
 draft: false
 author: Sean
 disable_comments: true
