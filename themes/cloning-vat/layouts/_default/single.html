@@ -66,8 +66,8 @@
         {{- end }}
       {{- end }}
 	  {{- if .Site.Params.staticman }}
-	  {{- partial "comment-count.html" . }}
-			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments({{- .Scratch.Get "hasComments" }})</span></a></td>
+	  		{{- partial "comment-count.html" . }}
+			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments({{- .Scratch.Get "hasComments" -}})</span></a></td>
 	  {{- end }}
 			<td class="comic-nav"><a href="" class="comic-nav-random" title="Random Comic">Random</a></td>
     {{- if eq .NextInSection nil}}
@@ -152,7 +152,7 @@
 			<div class="post-tags"></div>
 			{{- if not .Params.disable_comments }}
 			<div class="comment-link">
-				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" }} </span> Comments</a>			</div>
+				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" -}}</span> Comments</a>			</div>
 			{{- end }}
 						<div class="clear"></div>
 		</div>

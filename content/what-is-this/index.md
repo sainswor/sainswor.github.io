@@ -7,7 +7,7 @@ author: Sean
 
 ## New in this update 
 
-- **Fixes:** Fixed the [extra at the last page of Chapter One so it's actually the intended image](/comic/bonus-happy-winter-veil) (Happy Winter Veil vs a second copy of the Color Profiles); added a note about [the colouring page](/comic/colouring-page) in the creator note.
+- **Fixes:** Fixed the [extra at the last page of Chapter One so it's actually the intended image](/comic/bonus-happy-winter-veil) (Happy Winter Veil vs a second copy of the Color Profiles); added a note about [the colouring page](/comic/colouring-page) in the creator note. ***LAST SECOND FIX: Comment counts work!***
 - **Old Comments:** These are now restored to their original functionality, down to the last typo. The only change I made was in changing every instance of "http" to "https", as effectively no sites support plaintext http any more.
 - **Pingbacks:** The protocol is inherently insecure- also I can't figure out, frankly, how to trivially get it working on Hugo, which is powering this site. I still have all the archived pingbacks, they're just not being displayed because they are considered comments with an empty status. For the moment, at least, I'm going to just disable them and not release these.
 - **Chapter Links**: These are repaired! The gag strips prior to the debut of the story arc are in chapter "Comic", any post-debut non-numbered pages are in Extras, and the remainder are in their correct chapters (including Strip #100, "Ding", which has a number and is therefore canonically in Chapter 7.) Clicking on the chapter below any comic will take you to a (text-only, for the moment) index of all comments in that chapter.

@@ -52,6 +52,7 @@
 </span>
 
 </div>
+{{- partial "comment-count.html" . }} 
 				<div class="menunav">
 					<a href="/what-is-this/" title="What is this?" class="menunav-rss">What is this?</a>
 														</div>
@@ -80,7 +81,7 @@
           <td class="comic-nav"><a href="{{- .Permalink }}" class="comic-nav-base comic-nav-previous">&lsaquo; Prev</a></td>
         {{- end }}
       {{- end }}
-			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments( # )</span></a></td>
+			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments({{- .Scratch.Get "hasComments" -}})</span></a></td>
 			<td class="comic-nav"><a href="https://fromdraenor.ca/?random&amp;nocache=1" class="comic-nav-random" title="Random Comic">Random</a></td>
     {{- if eq .NextInSection nil}}
       <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">Next &rsaquo;</span></td>
@@ -149,7 +150,7 @@
 			<div class="post-tags"></div>
 			<div class="comment-link">
 				{{- if not .Params.disable_comments }}
-				<a href="#comments"><span class="comment-balloon"> #numComment </span> Comments</a>
+				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" -}}</span> Comments</a>
 				{{- end }}
 			</div>
 						<div class="clear"></div>

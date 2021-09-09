@@ -80,7 +80,8 @@
           <td class="comic-nav"><a href="{{- .Permalink }}" class="comic-nav-base comic-nav-previous">&lsaquo; Prev</a></td>
         {{- end }}
       {{- end }}
-			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments( # )</span></a></td>
+	  {{- partial "comment-count.html" . }} 
+			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments({{- .Scratch.Get "hasComments" }})</span></a></td>
 			<td class="comic-nav"><a href="https://fromdraenor.ca/?random&amp;nocache=1" class="comic-nav-random" title="Random Comic">Random</a></td>
     {{- if eq .NextInSection nil}}
       <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">Next &rsaquo;</span></td>
