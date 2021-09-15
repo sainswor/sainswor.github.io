@@ -14,7 +14,7 @@
 <div id=page>
 <div id=header>
 <div class=header-info>
-<h1><a href=http://fromdraenor.ca/>From Draenor With Love</a></h1>
+<h1><a href=../../>From Draenor With Love</a></h1>
 <div class=description></div>
 </div>
 <div class=clear></div>
@@ -92,14 +92,51 @@
 <section class="staticman-comments post-comments">
 <ol class=commentlist>
 </ol>
+</section> <div class=comment-wrapper-respond>
+<aside aria-label=note class=note>
+<section id=comment-submitted style=display:none;margin-left:5px>
+<p>Thank you for your comment! It's been added to the moderation queue and will appear on the website as soon as it's approved.</p>
+<p><a href=https://fromdraenor.ca/author/rades/ class="btn btn-primary comment-buttons ok">OK (Reload Page)</a></p>
 </section>
-<div id=comment-submitted class=dialog style=visibility:hidden;display:none>
-<h3>Thank you!</h3>
-<p>Your comment has been submitted and will be published once it has been approved.</p>
-<p><a href=# class="btn btn-primary comment-buttons ok">OK</a></p>
+</aside>
+<script src=https://www.google.com/recaptcha/api.js></script>
+<div id=respond class=comment-respond>
+<h3 id=reply-title class=comment-reply-title>Comment ¬ </h3><a id=reply-cancel href=#commentid- onclick=cancelReply() style=display:none>(cancel)</a>
+<form id=comment-form onsubmit=disableButton() class=post-new-comment method=post action=https://fdwl-comments.herokuapp.com/v2/entry/sainswor/sainswor.github.io/master/comments>
+<p class=comment-notes>
+<span id=email-notes>Your email address will not be published.</span> Required fields are marked <span class=required>*</span><br>
+*<input type=checkbox name=read_privacy id=read_privacy required><label for=read_privacy>I have read and accepted <a href=../../privacy target=_blank>the Terms & Privacy Policy</a>.</label>
+</p>
+<p class=comment-form-comment>
+<textarea id=comment name=fields[comment] class=comment-textarea></textarea>
+</p>
+<p class=comment-form-author>
+<input id=fields[name] name=fields[name] type=text size=30 required>
+<label for=fields[name]><small>*NAME</small></label>
+</p>
+<p class=comment-form-email>
+<input id=fields[email] name=fields[email] type=text size=30 required>
+<label for=fields[email]>*EMAIL<small> — <a href=https://gravatar.com/>Get a Gravatar</a></small></label>
+</p>
+<p class=comment-form-url>
+<input id=fields[website] name=fields[website] type=text size=30>
+<label for=fields[website]>Website URL</label>
+</p>
+<div class=g-recaptcha data-sitekey=6LdXD0AcAAAAADoSoDQZNTvDEuHvMlARgS_lPXxH></div>
+<p class=form-submit>
+<button name=submit type=submit id=submit class=submit>Post Comment</button>
+<input type=hidden name=options[reCaptcha][siteKey] value=6LdXD0AcAAAAADoSoDQZNTvDEuHvMlARgS_lPXxH>
+<input type=hidden name=options[reCaptcha][secret] value="vorWfb05elMim8E920NKUCGBRY2bhHmP8X+e+tmaGBImc9znzmkw8+9T9leH5q3rvyWO3qxEk4pDlXrjLBeFfc4iNxD4Y8TlbYDp4wmSito8OA0VCSr8OtHc7RyQZhZr5lWfashT4K2X72EkrBuiWeezT3RuBppKZS2+plck+w/2ozfwM4HGx5LTK56idZj5VXu6zt92ojInAzHgZ4ygDterOjat81ETvKZGOQX6vG06GTI0E2LRGNsiyXTfyOkvDkX/sdKQloAVIMNFyI8hZHd0rwjcxazgSsAaHiKBWFSPLYW3/hkO9ZFspko+9kiE9OrsbK875jbjNUglO8zF/A==">
+<input type=hidden id=fields[reply_to] name=fields[reply_to]>
+<input type=hidden name=options[redirect] value=https://fromdraenor.ca/author/rades/#comment-submitted>
+<input type=hidden name=options[slug] value=rades>
+</p>
+</form>
 </div>
+</div>
+<script type=application/javascript>/comment-submitted/.test(window.location.href)?(document.getElementById('comment-submitted').style.display='block',document.getElementById('respond').style.display='none'):(document.getElementById('comment-submitted').style.display='none',document.getElementById('respond').style.display='block')</script>
+<script>function changeValue(a,b,c){document.getElementById(a).value=b,document.getElementById('reply-cancel').style.display='block',document.getElementById('reply-title').innerText='Reply to '+c}function disableButton(){var a=document.getElementById('submit');a.disabled=!0,a.innerText='Posting...'}function cancelReply(){document.getElementById('reply-cancel').style.display='none',document.getElementById('reply-cancel').href='#commentid-'+document.getElementById('fields[reply_to]').value,document.getElementById('fields[reply_to]').value="",document.getElementById('reply-title').innerText='Comment ¬ '}var form=document.getElementById('comment-form');form.addEventListener("submit",function(a){grecaptcha.getResponse()===''&&(a.preventDefault(),alert('You cannot comment without checking the reCAPTCHA.'))},!1)</script>
 </section>
-<script>function changeValue(a,b){document.getElementById(a).value=b}function disableButton(){var a=document.getElementById('submit');a.disabled=!0,a.innerText='Posting...'}</script>
 <div id=blogheader></div>
 </div>
 </div>
@@ -178,10 +215,7 @@
 <span class=footer-uptotop><span class=footer-pipe>|</span> <a href=#outside onclick="return scrollup(),!1">Back to Top &uarr;</a></span>
 </p>
 </div>
-<script type=text/javascript src=../../scripts/keynav.js></script>
-<script type=text/javascript src=../../scripts/jscripts-ftr-min.js></script>
-<script type=text/javascript src=../../scripts/scroll.js></script>
-<script type=text/javascript src="../../scripts/wp-embed.min.js?ver=4.6.12"></script>
+<script type=text/javascript src=../../scripts/randomizer.js></script>
 </div>
 </body>
 </html>
