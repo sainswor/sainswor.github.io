@@ -4,7 +4,9 @@
 {{- range $comments }}
     {{- if eq .Name $postSlug }}
         {{- range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
-            {{- $.Scratch.Add "hasComments" 1 }}
+            {{- if not (eq $comments.comment "") }}
+                {{- $.Scratch.Add "hasComments" 1 }}
+            {{- end }}
         {{- end }}
     {{- end }}
 {{- end }}

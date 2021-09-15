@@ -4,7 +4,7 @@
 	<div id="page">
 		<div id="header">
 			<div class="header-info">
-				<h1><a href="http://fromdraenor.ca/">From Draenor With Love</a></h1>
+				<h1><a href="/">From Draenor With Love</a></h1>
 				<div class="description"></div>
 			</div>
 						<div class="clear"></div>
@@ -69,7 +69,7 @@
 	  		{{- partial "comment-count.html" . }}
 			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments({{- .Scratch.Get "hasComments" -}})</span></a></td>
 	  {{- end }}
-			<td class="comic-nav"><a href="" class="comic-nav-random" title="Random Comic">Random</a></td>
+			<td class="comic-nav"><a href="#" onclick="randomlinks();" class="comic-nav-random" title="Random Comic">Random</a></td>
     {{- if eq .NextInSection nil}}
       <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">Next &rsaquo;</span></td>
       <td class="comic-nav"><span class="comic-nav-base comic-nav-last comic-nav-void ">Last &rsaquo;&rsaquo;</span></td>
@@ -158,8 +158,8 @@
 		</div>
 			</div>
 </div>
-{{- if not .Params.disable_comments}}
-{{- partial "comments.html" .}}
+{{- if not .Params.disable_comments }}
+{{- partial "comments.html" . }}
 {{- end }}
 <div id="blogheader"></div>										
 							</div>
@@ -197,9 +197,5 @@
 </p>
 		
 </div> <!-- / #page-wrap -->
-
-<script type="text/javascript" src="/scripts/keynav.js"></script>
-<script type="text/javascript" src="/scripts/jscripts-ftr-min.js"></script>
-<script type="text/javascript" src="/scripts/scroll.js"></script>
-<script type="text/javascript" src="/scripts/wp-embed.min.js?ver=4.6.12"></script>
+<script type="text/javascript" src="/scripts/randomizer.js"></script>
 {{- end }}

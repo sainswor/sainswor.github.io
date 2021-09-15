@@ -15,14 +15,14 @@
                                         </div>
                                         <div class="comment-meta-data">
                                             <span class="comment-time">
-                                                {{- dateFormat "Monday, Jan 2, 2006 at     15:04 MST" .date }}				</span>
+                                                {{- .date | time.Format ":date_long"}}, {{ .date | time.Format ":time_short" }}				</span>
                                                 <span class="comment-permalink">
                                                     <span class="separator">|</span> <a href="#commentid-{{- ._id }}" title="Permalink to comment">#</a>
                                                 </span>
                                 
                                                 <span class="comment-reply-link">
                                                     <span class="separator">|</span>
-                                                    <a rel="nofollow" class="comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{- $._id }}')">Reply</a></span>	
+                                                    <a rel="nofollow" class="comment-reply-link" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{- $._id }}', '{{- .name }}')">Reply</a></span>	
                                                 </div>
                                                 <div class="comment-text">
                                         <p>{{- .comment | markdownify }}</p>
