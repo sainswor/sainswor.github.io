@@ -1,6 +1,6 @@
 ---
 title: "And We Walked Out Once More Beneath the Stars, II"
-date: 2021-09-21T04:30:00-06:00
+date: 2021-09-21T09:54:00-06:00
 draft: false
 author: "Vidyala"
 comic: "fd133.jpg"

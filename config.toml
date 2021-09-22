@@ -9,6 +9,7 @@ relativeURLs = true
 
 [params]
     backgroundPath = "/images/fdwl-background.jpg"
+    mainSections = ['comic']
 
 [params.staticman]
     endpoint = "https://fdwl-comments.herokuapp.com/v2/entry"

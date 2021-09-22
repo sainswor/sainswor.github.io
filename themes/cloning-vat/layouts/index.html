@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{{- range first 1 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
 <html>
     <head>
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"/>
@@ -36,23 +37,7 @@
 		<div id="menubar-wrapper">
 			<div class="menu-container">
 								<div class="menu"><ul><li class="page_item page-item-22"><a href="/about-us/">About</a></li><li class="page_item page-item-72"><a href="/characters/">Characters</a></li><li class="page_item page-item-119"><a href="/contact-us/">Contact Us</a></li><li class="page_item page-item-2105"><a href="/patreon/">Patreon</a></li></ul></div>
-<div class="mininav-wrapper">
-<span class="mininav-prev">
-	{{- if not (eq .PrevInSection nil) }}
-	{{- with .PrevInSection }}
-        <a href="{{- .Permalink }}">&lsaquo;</a>
-    {{- end }}
-	{{- end }}
-</span>
-<span class="mininav-next">
-		{{- if not (eq .NextInSection nil) }}
-		{{- with .NextInSection }}
-			<a href="{{- .Permalink }}">&rsaquo;</a>
-		{{- end }}
-		{{- end }}
-</span>
 
-</div>
 				<div class="menunav">
 																					<a href="/what-is-this/" title="What is this?" class="menunav-rss">What is this?</a>
 														</div>
@@ -61,6 +46,7 @@
 			<div class="clear"></div>
 		</div>
 	<div id="content-wrapper">
+
 {{- if not ( eq .Params.comic nil ) }}
 	<div id="comic-wrap" class="comic-id-2606">
 			<div id="comic-head">
@@ -242,10 +228,8 @@
 <div class="clear"></div>
 </div>
 <div id="ceo_comic_archive_dropdown_widget-2" class="widget ceo_comic_archive_dropdown_widget">
-<div class="widget-content">
-<h2 class="widget-title">Comic Chapters</h2>
-<form method="get" class="comic-archive-dropdown-form"><select onchange="document.location.href=this.options[this.selectedIndex].value;"><option class="level-select" value="">Select Chapter</option><option class="level-0" value="/comic/rare-spawn-3/">comic</option><option class="level-0" value="/comic/chapter-one-despair/">Chapter 1: Despair</option><option class="level-0" value="/comic/bonus-character-profile-rades/">Extras</option><option class="level-0" value="/comic/chapter-two-doubt/">Chapter 2: Doubt</option><option class="level-0" value="/comic/chapter-three-violence/">Chapter 3: Violence</option><option class="level-0" value="/comic/chapter-four-hatred/">Chapter 4: Hatred</option><option class="level-0" value="/comic/chapter-five-fear/">Chapter 5: Fear</option><option class="level-0" value="/comic/chapter-six-anger/">Chapter 6: Anger</option><option class="level-0" value="/comic/chapter-seven-pride/">Chapter 7: Pride</option><option class="level-0" value="/comic/reflections-part-one/">Chapter 8: Epilogue</option></select><noscript><div><input type="submit" value="View"/></div></noscript></form></div>
-<div class="clear"></div>
+{{ partial "chapters.html" . }}
+	<div class="clear"></div>
 </div>
     </div>
 	
@@ -254,24 +238,11 @@
 </div>
 </div>
 
-		<div id="footer">
-						<div id="footer-sidebar-wrapper">
-						</div>
-			<div class="clear"></div>
-		</div>	
-	</div> <!-- // #page -->
-	<div id="footer-menubar-wrapper">
-				<div class="clear"></div>
-	</div>
-	<p class="copyright-info">
-&copy;2011-2016 <a href="/">From Draenor With Love</a> <span class="footer-pipe">|</span> Powered by <a href="https://gohugo.io/">Hugo</a> with <a href="http://frumph.net/">ComicPress (kind of)</a>
-<span class="footer-subscribe"><span class="footer-pipe">|</span> Subscribe: <a href="/feed/">RSS</a>
-</span>
-<span class="footer-uptotop"><span class="footer-pipe">|</span> <a href="#outside" onclick="scrollup(); return false;">Back to Top &uarr;</a></span>
-</p>
+
+{{- partial "footer.html" . }}
 		
 </div> <!-- / #page-wrap -->
         </div>
     </body>
 </html>
-
+{{- end }}
