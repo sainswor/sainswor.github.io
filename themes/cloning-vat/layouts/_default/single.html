@@ -167,9 +167,7 @@
     <div class="sidebar">
 {{- partial "calendar.html" .}}
 <div id="ceo_comic_archive_dropdown_widget-2" class="widget ceo_comic_archive_dropdown_widget">
-<div class="widget-content">
-<h2 class="widget-title">Comic Chapters</h2>
-<form method="get" class="comic-archive-dropdown-form"><select onchange="document.location.href=this.options[this.selectedIndex].value;"><option class="level-select" value="">Select Chapter</option><option class="level-0" value="/comic/rare-spawn-3/">comic</option><option class="level-0" value="/comic/chapter-one-despair/">Chapter 1: Despair</option><option class="level-0" value="/comic/bonus-character-profile-rades/">Extras</option><option class="level-0" value="/comic/chapter-two-doubt/">Chapter 2: Doubt</option><option class="level-0" value="/comic/chapter-three-violence/">Chapter 3: Violence</option><option class="level-0" value="/comic/chapter-four-hatred/">Chapter 4: Hatred</option><option class="level-0" value="/comic/chapter-five-fear/">Chapter 5: Fear</option><option class="level-0" value="/comic/chapter-six-anger/">Chapter 6: Anger</option><option class="level-0" value="/comic/chapter-seven-pride/">Chapter 7: Pride</option><option class="level-0" value="/comic/reflections-part-one/">Chapter 8: Epilogue</option></select><noscript><div><input type="submit" value="View"/></div></noscript></form></div>
+{{- partial "chapters.html" . }}
 <div class="clear"></div>
 </div>
     </div>

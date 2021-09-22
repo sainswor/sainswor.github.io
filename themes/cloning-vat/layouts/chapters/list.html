@@ -60,49 +60,7 @@
 			<div class="clear"></div>
 		</div>
 	<div id="content-wrapper">
-{{- if not ( eq .Params.comic nil ) }}
-	<div id="comic-wrap" class="comic-id-2606">
-			<div id="comic-head">
-							</div>
-						<div class="comic-table">	
-								<div id="comic">
-					<img src="/images/comics/{{- .Params.comic }}" alt="{{- .Title }}" title="{{- .Title }}"/>				</div>
-							</div>				
-						<div id="comic-foot">
-					<table id="comic-nav-wrapper">
-		<tr class="comic-nav-container">
-      {{- if eq .PrevInSection nil}}
-        <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">&lsaquo;&lsaquo; First</span></td>
-        <td class="comic-nav"><span class="comic-nav-base comic-nav-last comic-nav-void ">&lsaquo; Prev</span></td>
-      {{- else }}
-        <td class="comic-nav"><a href="/comic/rare-spawn-3/" class="comic-nav-base comic-nav-first">&lsaquo;&lsaquo; First</a></td>
-        {{- with .PrevInSection }}
-          <td class="comic-nav"><a href="{{- .Permalink }}" class="comic-nav-base comic-nav-previous">&lsaquo; Prev</a></td>
-        {{- end }}
-      {{- end }}
-	  {{- partial "comment-count.html" . }} 
-			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments({{- .Scratch.Get "hasComments" }})</span></a></td>
-			<td class="comic-nav"><a href="https://fromdraenor.ca/?random&amp;nocache=1" class="comic-nav-random" title="Random Comic">Random</a></td>
-    {{- if eq .NextInSection nil}}
-      <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">Next &rsaquo;</span></td>
-      <td class="comic-nav"><span class="comic-nav-base comic-nav-last comic-nav-void ">Last &rsaquo;&rsaquo;</span></td>
-    {{- else }}
-      {{- with .NextInSection }}
-        <td class="comic-nav"><a href="{{- .Permalink }}" class="comic-nav-base comic-nav-next">Next &rsaquo;</a></td>
-      {{- end }}
-      <td class="comic-nav"><a href="/comic/reflections-part-four/" class="comic-nav-base comic-nav-last">Last &rsaquo;&rsaquo;</a></td>
-    {{- end }}
 
-
-
-
-		</tr>
- 
-	</table>
-				</div>
-			<div class="clear"></div>
-		</div>
-{{- end }}		
 	<div id="subcontent-wrapper">
 <div id="sidebar-left">
     <div class="sidebar">
@@ -143,11 +101,32 @@
 		</div>
 		<div class="clear"></div>
 		<div class="entry">
-				<ul>
-					{{- range .Pages.Reverse }}
-						<li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}">{{ .LinkTitle }}</a></li>
+		{{- if not (eq .Title "Chapters") }}
+			<table>
+					{{- $pageData := .Pages }}
+					{{- $scratch := newScratch }}
+					{{- $scratch.Set "counter" 0 }}
+					{{- range $pageData.Reverse }}
+					{{- $scratch.Add "counter" 1 }}
+					{{- if eq ($scratch.Get "counter") 1 }}
+						<tr>
 					{{- end }}
+							<td><a href="{{ .Permalink}}"><img src="/images/thumbnails/{{ .Params.comic }}" /></a><br />{{- .Date | time.Format ":date_long" }}<br />{{ .LinkTitle }}<br /><br /></td>
+					{{- if eq ($scratch.Get "counter") 3 }}
+						</tr>
+					{{- $scratch.Set "counter" 0 }}
+					{{- end }}
+					{{- end }}
+				</table>
+			{{- else }}
+				{{- $pageData := .Pages }}
+				<ul>
+				{{- range $pageData.Reverse }}
+					<li><a href="{{ .Permalink}}">{{ .LinkTitle }}</a></li>
+				{{- end }}
 				</ul>
+			{{- end }}
+
 			<div class="clear"></div>
 		</div>
 		<div class="post-extras">
@@ -167,9 +146,7 @@
     <div class="sidebar">
 {{- partial "calendar.html" .}}
 <div id="ceo_comic_archive_dropdown_widget-2" class="widget ceo_comic_archive_dropdown_widget">
-<div class="widget-content">
-<h2 class="widget-title">Comic Chapters</h2>
-<form method="get" class="comic-archive-dropdown-form"><select onchange="document.location.href=this.options[this.selectedIndex].value;"><option class="level-select" value="">Select Chapter</option><option class="level-0" value="/comic/rare-spawn-3/">comic</option><option class="level-0" value="/comic/chapter-one-despair/">Chapter 1: Despair</option><option class="level-0" value="/comic/bonus-character-profile-rades/">Extras</option><option class="level-0" value="/comic/chapter-two-doubt/">Chapter 2: Doubt</option><option class="level-0" value="/comic/chapter-three-violence/">Chapter 3: Violence</option><option class="level-0" value="/comic/chapter-four-hatred/">Chapter 4: Hatred</option><option class="level-0" value="/comic/chapter-five-fear/">Chapter 5: Fear</option><option class="level-0" value="/comic/chapter-six-anger/">Chapter 6: Anger</option><option class="level-0" value="/comic/chapter-seven-pride/">Chapter 7: Pride</option><option class="level-0" value="/comic/reflections-part-one/">Chapter 8: Epilogue</option></select><noscript><div><input type="submit" value="View"/></div></noscript></form></div>
+{{- partial "chapters.html" . }}
 <div class="clear"></div>
 </div>
     </div>
