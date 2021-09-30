@@ -1,9 +1,26 @@
+{{- $year := .Date.Format "2006" }}
+{{- $isLeapYear := (modBool .Date.Year 4)}}
+{{- $month := .Date.Month }}
+{{- $daysPerMonth := dict "January" (seq 31) "February" (seq 28) "2-leap" (seq 29) "March" (seq 31) "April" (seq 30) "May" (seq 31) "June" (seq 30) "July" (seq 31) "August" (seq 31) "September" (seq 30) "October" (seq 31) "November" (seq 30) "December" (seq 31) }}
+{{- $daysPerWeekMap := dict "Mon" 0 "Tue" 1 "Wed" 2 "Thu" 3 "Fri" 4 "Sat" 5 "Sun" 6 }}
+{{- $daysPerWeek := slice "Mon" "Tue" "Wed" "Thu" "Fri" "Sat" "Sun" }}
+{{- $.Scratch.Set "daysThisMonth" (index $daysPerMonth (string $month)) }}
+{{- if and $isLeapYear (eq $month "February") }}
+    {{- $.Scratch.Set "daysThisMonth" (index $daysPerMonth "2-leap") }}
+{{- end }}
+{{- $daysThisMonth := $.Scratch.Get "daysThisMonth" }}
+{{- $monthTwoLetters := printf "%02d" $month }}
+{{- $firstWeekdayInLetters := dateFormat "Mon" (string (delimit (slice $year "-" $monthTwoLetters "-01") ""))  }}
+{{- $firstWeekdayInNumbers := index $daysPerWeekMap $firstWeekdayInLetters }}
+{{- $firstWeekdayMondayOffset := (sub (add $firstWeekdayInNumbers 6) 6) }}
+
+
 <div id="ceo_calendar_widget-2" class="widget ceo_calendar_widget">
     <div class="widget-content">
                 <div id="wp-calendar-head"></div>
                 <div id="wp-calendar-wrap">
                                 <table id="wp-calendar" summary="Calendar">
-        <caption>August 2018</caption>
+        <caption>{{ .Date.Format "January 2006" }}</caption>
         <thead>
         <tr>
             <th scope="col" title="Monday">M</th>
@@ -15,31 +32,56 @@
             <th scope="col" title="Sunday">S</th>
         </tr>
         </thead>
-    
         <tfoot>
         <tr>
-            <td colspan="3" id="prev"><a href="/comic" title="View posts for November 2016">&laquo; Nov</a></td>
+            <td colspan="3" id="prev">
+                {{- if not (eq .PrevInSection nil) }}
+
+                {{- end }}
+            </td>
             <td class="pad">&nbsp;</td>
-            <td colspan="3" id="next" class="pad">&nbsp;</td>
+            <td colspan="3" id="next" class="pad">
+                {{- if not (eq .NextInSection nil) }}
+                
+                {{- end }}
+            </td>
         </tr>
         </tfoot>
     
         <tbody>
         <tr>
-            <td colspan="2" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
-        </tr>
-        <tr>
-            <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
-        </tr>
-        <tr>
-            <td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
-        </tr>
-        <tr>
-            <td>20</td><td>21</td><td>22</td><td id="today">23</td><td>24</td><td>25</td><td>26</td>
-        </tr>
-        <tr>
-            <td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
-            <td class="pad" colspan="2">&nbsp;</td>
+            {{- if gt $firstWeekdayMondayOffset 0 }}
+                <td colspan="{{ $firstWeekdayMondayOffset }}" class="pad">&nbsp;</td>
+            {{- end }}
+            {{- range $dayofMonth := index $daysPerMonth (string $month) -}}
+            <td>
+                {{- range where site.Pages "Section" "comic" }}
+                    {{- if eq (string .Date.Year) $year }}
+                        {{- if eq .Date.Month $month }}
+                        {{- if eq .Date.Day $dayofMonth }}
+                        <a href="{{ .Permalink }}">     
+                        {{- end }}
+                        {{- end }}
+                    {{- end}}        
+                {{- end}}
+
+                    {{- $dayofMonth -}}
+                    {{- range where site.Pages "Section" "comic" }}
+                    {{- if eq (string .Date.Year) $year }}
+                        {{- if eq .Date.Month $month }}
+                        {{- if eq .Date.Day $dayofMonth }}
+                        </a>        
+                        {{- end }}
+                        {{- end }}
+                    {{- end}}        
+                {{- end}}
+            </td>
+            {{- if eq (mod (add $dayofMonth $firstWeekdayMondayOffset) 7) 0}}
+            </tr>
+            <tr>
+            {{- end }}
+            {{- end }}
+            <td class="pad" colspan="{{ mod (sub (add $firstWeekdayMondayOffset (len $daysThisMonth)) 1) 7 }}">&nbsp;</td>
         </tr>
         </tbody>
         </table>			</div>

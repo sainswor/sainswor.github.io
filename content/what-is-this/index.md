@@ -1,21 +1,15 @@
 ---
-title: "Weekly Update III"
-date: 2021-09-22T06:30:00-04:00
+title: "Weekly Update IV"
+date: 2021-09-29T21:25:27-04:00
 draft: false
 author: Sean
 ---
 
 ## New in this update 
-
-- Added the final page of the comic, "And We Walked Out Once More Beneath The Stars, II". It is now the front page of the site, and likely will be so permanently.
-- **Rewrite this page:** Rewrite for an explanation of why it's fromdraenor.ca, why it was created, and a few brief words on the technology running it for the curious.
-- **The background:** Doesn't cover the whole screen on ultra-high-resolution monitors or when zoomed out - I've changed the background of the page itself to color-match sone of the darker tones on the image.
-- **Chapter Pages:** A gallery view of the thumbnails instead of textual titles for each comic.
-- **Menu:** The dropdown menu now leaves you on the chapter gallery instead of the first page of each chapter.
+- **The Calendar widget:** Will now show you links in the same month! Need to add previous month/next month links. 
 
 ## Next Up
 - **Clean up the Thumbnails:** Some of these could be better!
-- **The Calendar widget:** Still statically displays August 2018. 
 - **Replace RSS feed for comment links:** I think there are probably only a few places this would be useful but hey, who am I to judge? They used to have this feature and it's entirely possible (if unlikely) to see use again. I should at least look into making it (maybe it's possible)
 - **Tags and Related Comics:** These were only a thing during the gag comic years, but they were there and I'd like to rebuild that function.
 - **Lost embedded content:** The higher-rez downloadable files for the Behind the Scenes strips were lost (I have just one of them). One of the music files on a comic page is missing. There was one video embedded which no longer exists / I don't know what it was.
