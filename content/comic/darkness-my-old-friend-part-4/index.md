@@ -12,8 +12,8 @@ tags: TAGSLISTTEMPLATE
 related_comics: RELATEDCOMICTEMPLATE
 ---
 
-<!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-<audio class="wp-audio-shortcode" id="audio-2029-1" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="/media/043.mp3?_=1"><a href="/media/043.mp3">/media/043.mp3</a></audio><br>
+{{< youtube O4irXQhgMqg >}}
+<br>
 <br><br>
 And that’s it for Chapter 3!  &gt;:D  Things are getting real.
 

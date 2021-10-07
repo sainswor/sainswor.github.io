@@ -6,14 +6,14 @@ author: Sean
 ---
 
 ## New in this update 
-- **The Calendar widget:** Will now show you links in the same month! Need to add previous month/next month links. 
+- **Clean up the Thumbnails:** The out-of-scale images have been thumbnailed differently, as has the one animated GIF in the archives.
+- **Darkness, My Old Friend, Part 4** now contains a link to the official music video of the song intended to be at the top of that post. Let's not get sued!
 
 ## Next Up
-- **Clean up the Thumbnails:** Some of these could be better!
-- **Replace RSS feed for comment links:** I think there are probably only a few places this would be useful but hey, who am I to judge? They used to have this feature and it's entirely possible (if unlikely) to see use again. I should at least look into making it (maybe it's possible)
 - **Tags and Related Comics:** These were only a thing during the gag comic years, but they were there and I'd like to rebuild that function.
-- **Lost embedded content:** The higher-rez downloadable files for the Behind the Scenes strips were lost (I have just one of them). One of the music files on a comic page is missing. There was one video embedded which no longer exists / I don't know what it was.
 - **Search bar:** Vid had mentioned wanting a search bar for the comic and that sounds like a great idea. I think this involves retrofitting the comics that don't have tags, with tags. I'm OK with that.
+- **Replace RSS feed for comment links:** I think there are probably only a few places this would be useful but hey, who am I to judge? They used to have this feature and it's entirely possible (if unlikely) to see use again. I should at least look into making it (maybe it's possible)
+- **The Calendar widget:** Need to add previous month/next month links. 
 - **Clean up on the technical side:** This is last on the list because it's invisible to the site's users, but I'd like to tidy up the mechanics of the site a little. There's some WET work where it really should be DRY.
 
 ## What is this?
@@ -34,6 +34,7 @@ Yes, because that's what the original site had. No, I couldn't find an example o
 Yeah, that's true! The thing is, this is an archival project and that text was just as impossible to read in the original form, so it's going to stay that way.
 
 **What's every single visible change you made from the way the site used to work?** 
+- **Lost embedded content:** The higher-rez downloadable files for the Behind the Scenes strips were lost (I have just one of them). One of the music files on a comic page is missing. There was one video embedded which no longer exists / I don't know what it was.
 - No ads (because different hosting)
 - reCaptcha instead of Akismet for anti-spam
 - Moderation on comments is now the default.
@@ -54,5 +55,6 @@ Yeah, that's true! The thing is, this is an archival project and that text was j
 - Page 133 is up.
 - The chapter galleries are titled instead of URL-safe, and have 3-wide thumbnails with everything in one chapter on a single page instead of 4-wide up to 14 per page.
 - The chapter galleries use the same gray content area as the rest of the pages.
+- **Darkness, My Old Friend, Part 4** now contains a link to the official music video of the song intended to be at the top of that post. Let's not get sued!
 - The copyright footer now reflects that the last page of the comic was uploaded in 2021.
 
