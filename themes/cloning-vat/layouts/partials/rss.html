@@ -1,0 +1,33 @@
+
+{{- if and .Site.Params.staticman (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
+    {{- $comments := readDir "data/comments" }}
+    {{- $postSlug := .File.ContentBaseName }}
+    {{- range $comments }}
+        {{- if eq .Name $postSlug }}                
+            {{- range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
+                {{- if and (not .reply_to) (.comment)  }}
+    <item>
+    <title>{{ .Name }}{{- if not (eq .website "")}} @ {{ .website }}{{- end }}</title>
+    <link>{{ $.Permalink }}#commentid-{{- ._id }}</link>
+    <description><![CDATA[ <p> {{- .date | time.Format ":date_long"}}, {{ .date | time.Format ":time_short" }}<br />{{- .comment | markdownify }}</p>
+                    {{- $active_replies := (slice "000") }}
+                    {{- $comparator := ._id }}
+                    {{- range $index, $comments := (index $.Site.Data.comments $postSlug ) }}
+                        {{- if eq .reply_to $comparator }}
+                            {{- $active_replies = $active_replies | append ._id }}
+                        {{- end}}
+                    {{- end }}
+                    {{- $active_replies = $active_replies | symdiff (slice "000") }}
+                    {{- if not (eq (len $active_replies) 0) }}
+    Replies:
+                        {{- partial "rss-replies" (dict "postId" $postSlug "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "activeReplies" $active_replies "context" .) }}
+    ]]>
+    </description>
+    </item>
+
+                {{- end }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
+    {{- end }}
+{{- end }}

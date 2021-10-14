@@ -7,9 +7,17 @@ comic: "2013-03-13-bell.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Anduin
+- Garrosh
+- priests
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- surprisingly-often-actually
+- to-the-ground
+- the-siege-of-orgrimmar
+- you-know-he-would-part-two
+- priorities
 ---
 
 Somewhere out there in Pandaria, there’s an armorsmith [with one twisted sense of humor.](https://bnetcmsus-a.akamaihd.net/cms/gallery/3DOU3Y2R8EL31361843411675.jpg)

@@ -7,9 +7,15 @@ comic: "2012-11-28-sick.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- non-wow
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- there-are-two-types-of-people
+- the-lord-of-terror
+- unique-equipped
+- desserter-debuff
+- blizzcon-badges
 ---
 
 Please accept this pseudo-comic along with my apologies for this week. Last Friday we went to a concert! It was great and we had a great time. But the guy sitting next to Voss was coughing the entire time almost nonstop.

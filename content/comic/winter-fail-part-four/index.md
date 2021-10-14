@@ -7,9 +7,18 @@ comic: "2011-12-28-Winter-Fail-Part-Four.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:  
+- engineering
+- "greatfather winter"
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- sated
+- tides-of-war
+- rare-spawn-3
+- from-draenor-with-mischief
+- the-siege-of-orgrimmar
 ---
 
 I wasn’t actually sure how Rades intended to end our little odyssey. Needless to say, my jaw dropped when I got this far in the script. It’s great for him, though, because he gets to show his mad genius! Vid, who has no compunction about blasting a rocket straight into Ironforge or any other environs, is a little uneasy when it comes to FrankenWinter. But ultimately, she decides that it’s better to let a cyborg version of Greatfather Winter do all of the Winter’s Veil stuff – so that she and Rades don’t have to.

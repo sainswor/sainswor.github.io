@@ -7,9 +7,16 @@ comic: "2012-10-31-conjure.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- mages
+- warlocks
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- everything-is-new-again
+- to-the-ground
+- never-trust-a-mage
+- for-science-you-monster
+- dont-even-blink
 ---
 
 If there was ONE THING that could bring these eternal rivals/enemies together…

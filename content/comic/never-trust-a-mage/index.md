@@ -7,9 +7,18 @@ comic: "2012-11-21-toosoon.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Aethas
+- Jaina
+- "Lor'themar"
+- mages
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- the-proudmoore-problem
+- dont-even-blink
+- to-the-ground
+- everything-is-new-again
+- kindred-spirits
 ---
 
 You know, dealing with mages was hard enough before Mists, when they’d just portal-troll you by sending you to inconvenient, middle-of-nowhere locations. 

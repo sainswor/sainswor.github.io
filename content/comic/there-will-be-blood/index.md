@@ -7,9 +7,17 @@ comic: "2012-08-08-blood.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Anduin
+- Varian
+- warriors
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- surprisingly-often-actually
+- resurrection-sickness
+- you-know-he-would-part-two
+- he-knows
+- the-proudmoore-problem
 ---
 
 From a recent Mists beta build: [Glyph of Gushing Wound](http://www.wowdb.com/spells/58099-glyph-of-gushing-wound#15851-15882). 

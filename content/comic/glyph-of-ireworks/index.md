@@ -7,9 +7,17 @@ comic: "2012-06-20-ireworks.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- hunters
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- tourists-guide-to-ihgaluk-crag
+- everything-is-new-again
+- surprisingly-often-actually
+- well-read
+- winter-fail-part-three
 ---
 
 It may come as no surprise to you that I absolutely *adore* a good pun. And, I say with absolute <strike>shame</strike> pride that this is a true story, upon hearing of Mists’ [Glyph of Fireworks](http://mop.wowhead.com/spell=57903). 

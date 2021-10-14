@@ -7,9 +7,16 @@ comic: "2013-01-16-worth2.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Garrosh
+- Varian
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- surprisingly-often-actually
+- there-will-be-blood
+- the-siege-of-orgrimmar
+- priorities
+- the-art-of-war-part-one
 ---
 
 The inevitable result of [last week’s devious scheme.](/comic/you-know-he-would-too)

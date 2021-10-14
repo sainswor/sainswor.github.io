@@ -7,9 +7,17 @@ comic: "2012-12-12-what.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Ghostcrawler
+- LFR
+- Rades
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- winter-fail-part-three
+- the-real-twelve
+- well-read
+- glyph-of-ireworks
+- theres-something-different-about-you
 ---
 
 When Heart of Fear LFR came out, Garalon was…how shall we say…an interesting experience. And by interesting I mean painful, excruciating agony. It really became almost a joke that first week, to see how badly an LFR group would fail. And it’s not even necessarily people’s fault! Tag-team pass a kiting debuff back and forth with a stranger? And transmit it through *touch?* As in, the same mechanic that gave hardcore progression guilds migraines on Heroic Putricide back in ICC? AND have tanks perform an unusual role (not actively tanking, but just soaking damage) AND have multiple targets that would regenerate AND endlessly-spawning pools of acid? And then the icing on the cake, the fact that one player stepping in the wrong place would hurt the entire raid??

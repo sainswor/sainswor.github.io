@@ -7,9 +7,16 @@ comic: "2012-06-13-friendlands.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Millya
+- Voss
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- pretty-much-a-constant-thing-with-us
+- blizzcon-badges
+- the-scarlet-letters
+- every-day-im-transmogging
+- rested-experience
 ---
 
 While folks were [helping me out to get my legendary](http://manalicious.wordpress.com/2012/05/13/there-are-many-like-it-but-this-one-is-yours/), it occurred to me that I wanted to do something to thank them. You know, apart from just – thanking them. Initially I was going to do little character portraits for everyone, but as the list of people who were involved grew, I started to understand that might be a bit unwieldy.

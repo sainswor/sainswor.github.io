@@ -7,9 +7,16 @@ comic: "2013-01-23-millyadraw.gif"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Millya
+- non-wow
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- there-are-two-types-of-people
+- unique-equipped
+- for-science-you-monster
+- the-lord-of-terror
+- our-poor-tired-feet
 ---
 Well, it finally happened: Vid’s drawing arm fell off. Like, literally, just sketching away and plop! it’s a scene right out of the Undercity. It’s all good though, she’s out talking to Mekkatorque right now about a steam-powered mechanical replacement. She says it’s no big deal, but as a veteran engineer, I remain skeptical.
 

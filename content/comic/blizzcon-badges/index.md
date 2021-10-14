@@ -7,9 +7,17 @@ comic: "2013-05-22-badges.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Millya
+- non-wow
+- Rades
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- from-draenor-with-mischief
+- fortune-and-glory-kid
+- everything-is-new-again
+- what
+- choose-wisely
 ---
 
 Do you need a little something to set you apart from the crowd at Blizzcon? Would you like a small piece of art to call your own and remember all the good times you had at the convention? I’ve been painting up just the thing!

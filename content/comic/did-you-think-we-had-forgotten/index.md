@@ -7,9 +7,12 @@ comic: "2012-08-01-crate.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- "pet battles"
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- priorities
+- grudge-match
 ---
 
 *Did you think we had forgotten?*

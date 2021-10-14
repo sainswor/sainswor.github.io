@@ -7,9 +7,16 @@ comic: "2011-11-30-Transmogalypse.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+tags: 
+- transmog
+- Vid
+related_comics: 
+- magic-touch
+- maximum-cupacity
+- winter-fail-part-one 
+- yellow-angry-man 
+- theres-something-different-about-you
 ---
 
 Has there ever been a feature more eagerly anticipated than Transmogrification? If there is, I sure haven’t seen it. So many options! So much potential for nostalgia! The future has arrived, and its name is World of Dresscraft.

@@ -7,9 +7,15 @@ comic: "2012-12-05-ring.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- non-wow
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- there-are-two-types-of-people
+- the-lord-of-terror
+- choose-wisely
+- our-poor-tired-feet
+- for-science-you-monster
 ---
 
 It really was [at Velen’s Book Club.](/comic/well-read)

@@ -8,8 +8,16 @@ chapter: "Comic"
 chapters:
 - comic
 chapter_link: "/chapters/comic"
-tags: ["pet battles", "Rades", "Vid"]
-related_comics: [what, winter-fail-part-one, our-new-favorite-boss, the-lord-of-terror, winter-fail-part-two]
+tags: 
+- "pet battles" 
+- "Rades"
+- "Vid"
+related_comics: 
+- transmogalpyse
+- the-siege-of-orgrimmar
+- dig-dug-bug
+- sated
+- there-are-two-types-of-people
 ---
 When the [Pet Battle System](https://us.battle.net/wow/en/game/mists-of-pandaria/feature/pet-battle) was announced at Blizzcon, everyone had a wide range of reactions. Were they serious? Was this an elaborate joke? How much more like Pokemon could this possibly be? But without question, the most important possibility was the potential hilarity of absurd pet matchups, such as Alliance Balloon vs. Horde Balloon, or Enchanted Broom vs. Magic Lamp. Can you say EXCITEMENT??
 

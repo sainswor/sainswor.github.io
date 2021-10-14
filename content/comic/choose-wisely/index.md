@@ -7,9 +7,15 @@ comic: "2012-01-25-Choose-Wisely.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- non-wow
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- the-real-twelve
+- sated
+- unique-equipped
+- the-lord-of-terror
+- there-are-two-types-of-people
 ---
 
 Yes, we know Droids and Hutts are not actually available player races in SWTOR. Too bad – I would totally be a Hutt so I could use awful HUTT YOUR MOUTH and HUTT UP puns and make everyone hate me.

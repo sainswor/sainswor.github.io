@@ -7,9 +7,15 @@ comic: "2013-04-10-cupcakes.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- non-wow
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- ring-of-lost
+- the-real-twelve
+- rested-experience
+- unique-equipped
+- choose-wisely
 ---
 
 At the end of March I was thrilled to be taking a trip to Toronto/Montréal because it meant I’d have the chance to meet lots of great WoW people I’d gotten to know online. When I looked for “Things To Do in Toronto” I found a listing for a cupcake decorating class, and that was just *icing on the cake*. I was thrilled when Serrinne, Kaleri and Jasyla agreed to go with me. We met up that first night and had a blast at [Le Dolci](http://www.ledolci.com/) learning all about how to decorate cupcakes with icing and fondant. Faced with my first blank cupcake, I had the equivalent of artist’s block – what should I do with it?

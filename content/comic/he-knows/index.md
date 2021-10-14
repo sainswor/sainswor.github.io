@@ -7,14 +7,23 @@ comic: "2012-12-25-heknows.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Greymane
+- Jaina
+- Mekkatorque
+- Muradin
+- Tyrande
+- Varian
+- Velen
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- never-trust-a-mage
+- the-art-of-war-part-one
+- the-art-of-war-part-two
+- well-read
+- maximum-cupacity
 ---
-<div>
-<div>
-<div>
-<div>
+
 
 Hey, he IS a Prophet, after all. Also, I just need to point this out while Rades is gone: Orcs are currently on the very naughty list.
 
@@ -27,7 +36,3 @@ This is the first strip I’ve ever done as a water colour painting, which means
 
 -Vid &amp; Rades (From Draenor With LOVE)
 
-</div>
-</div>
-</div>
-</div>

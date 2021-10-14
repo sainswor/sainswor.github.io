@@ -7,9 +7,12 @@ comic: "2012-10-17-till.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Voss
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- rage-of-the-friendlands
+- double-digits
 ---
 
 **<font size="+1">*VEGGIE. BLING.*</font>**

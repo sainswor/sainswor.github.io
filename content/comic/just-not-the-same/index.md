@@ -7,7 +7,8 @@ comic: "2012-07-18-durn.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Durn
 chapter_link: /chapters/comic/
 related_comics: RELATEDCOMICTEMPLATE
 ---

@@ -7,9 +7,17 @@ comic: "2011-12-14-Winter-Fail-Part-Two.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- "greatfather winter"
+- "Rades"
+- "Vid"
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- the-lord-of-terror
+- our-unsung-hero
+- grudge-match
+- glyph-of-ireworks
+- our-new-favorite-boss
 ---
 
 The saga continues! Oh no, poor Greatfather Winter! 

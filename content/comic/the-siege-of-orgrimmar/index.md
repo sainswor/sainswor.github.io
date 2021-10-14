@@ -7,9 +7,17 @@ comic: "2013-09-04-garroshposter.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Garrosh
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- transmogalypse
+- sated
+- pretty-much-a-constant-thing-with-us
+- maximum-cupacity
+- glyph-of-ireworks
 ---
 
 Patch 5.4 is almost here! I’m totally pumped, but I’m also dreading it! I want to see the cool new raid content and bosses, but I don’t WANT to kill Nazgrim! I don’t WANT to kill the Paragons! 

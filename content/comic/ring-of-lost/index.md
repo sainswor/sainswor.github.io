@@ -7,9 +7,15 @@ comic: "2012-05-23-ring_of_lost.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- non-wow
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- rested-experience
+- there-are-two-types-of-people
+- the-lord-of-terror
+- unique-equipped
+- for-science-you-monster
 ---
 
 Ever wonder if WoW characters have the same day-to-day problems that plague us in real life? In this case, Vid had a minor crisis this week regarding a lost wedding ring, which sounds a lot like a quest, only there’s no handy directional guide in real life, and no reward other than a tremendous sense of relief. 

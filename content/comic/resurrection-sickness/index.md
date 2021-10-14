@@ -7,9 +7,21 @@ comic: "2012-03-14-back-in-the-game.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Bolvar
+- Illidan
+- Mekkatorque
+- Muradin
+- Tyrande
+- Varian
+- Velen
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- there-will-be-blood
+- you-know-he-would-part-two
+- he-knows
+- maximum-cupacity
+- the-art-of-war-part-two
 ---
 
 Everyone’s been buzzing about the new &amp; improved [Scroll of Resurrection](http://us.battle.net/wow/en/services/scroll-of-resurrection/), and why not? A free level 80, realm transfer AND faction transfer? Just for coming back to the game? Yeah, it’s no wonder the new Scroll offer has been so popular.

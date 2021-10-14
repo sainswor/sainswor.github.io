@@ -7,9 +7,17 @@ comic: "2012-04-18-warriors-01.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Garrosh
+- Varian
+- warriors
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- the-art-of-war-part-two
+- he-knows
+- priorities 
+- iwrynny
+- you-know-he-would-part-two
 ---
 
 A Glyph that *[causes a lightning strike?](http://mop.wowhead.com/spell=68164)*

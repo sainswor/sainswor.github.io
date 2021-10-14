@@ -52,7 +52,6 @@
 </span>
 
 </div>
-{{- partial "comment-count.html" . }} 
 				<div class="menunav">
 					<a href="/what-is-this/" title="What is this?" class="menunav-rss">What is this?</a>
 														</div>
@@ -61,48 +60,7 @@
 			<div class="clear"></div>
 		</div>
 	<div id="content-wrapper">
-{{- if not ( eq .Params.comic nil ) }}
-	<div id="comic-wrap" class="comic-id-2606">
-			<div id="comic-head">
-							</div>
-						<div class="comic-table">	
-								<div id="comic">
-					<img src="/images/comics/{{- .Params.comic }}" alt="{{- .Title }}" title="{{- .Title }}"/>				</div>
-							</div>				
-						<div id="comic-foot">
-					<table id="comic-nav-wrapper">
-		<tr class="comic-nav-container">
-      {{- if eq .PrevInSection nil}}
-        <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">&lsaquo;&lsaquo; First</span></td>
-        <td class="comic-nav"><span class="comic-nav-base comic-nav-last comic-nav-void ">&lsaquo; Prev</span></td>
-      {{- else }}
-        <td class="comic-nav"><a href="/comic/rare-spawn-3/" class="comic-nav-base comic-nav-first">&lsaquo;&lsaquo; First</a></td>
-        {{- with .PrevInSection }}
-          <td class="comic-nav"><a href="{{- .Permalink }}" class="comic-nav-base comic-nav-previous">&lsaquo; Prev</a></td>
-        {{- end }}
-      {{- end }}
-			<td class="comic-nav"><a href="#comments" class="comic-nav-comments" title="{{- .Title }}"><span class="comic-nav-comment-count">Comments({{- .Scratch.Get "hasComments" -}})</span></a></td>
-			<td class="comic-nav"><a href="https://fromdraenor.ca/?random&amp;nocache=1" class="comic-nav-random" title="Random Comic">Random</a></td>
-    {{- if eq .NextInSection nil}}
-      <td class="comic-nav"><span class="comic-nav-base comic-nav-next comic-nav-void ">Next &rsaquo;</span></td>
-      <td class="comic-nav"><span class="comic-nav-base comic-nav-last comic-nav-void ">Last &rsaquo;&rsaquo;</span></td>
-    {{- else }}
-      {{- with .NextInSection }}
-        <td class="comic-nav"><a href="{{- .Permalink }}" class="comic-nav-base comic-nav-next">Next &rsaquo;</a></td>
-      {{- end }}
-      <td class="comic-nav"><a href="/comic/reflections-part-four/" class="comic-nav-base comic-nav-last">Last &rsaquo;&rsaquo;</a></td>
-    {{- end }}
 
-
-
-
-		</tr>
- 
-	</table>
-				</div>
-			<div class="clear"></div>
-		</div>
-{{- end }}		
 	<div id="subcontent-wrapper">
 <div id="sidebar-left">
     <div class="sidebar">
@@ -134,23 +92,49 @@
 	<div class="post-content">
 		
 		<div class="post-info">
-			<h2 class="post-title"><a href="{{- .Permalink }}">Archive of {{ .Title }}</a></h2>
+			<h2 class="post-title"><a href="{{- .Permalink }}">Archive of tag {{ .Title }}</a></h2>
 			<div class="post-text">
-			</div>
+			
+
+</div>
 			<div class="clear"></div>
 		</div>
 		<div class="clear"></div>
 		<div class="entry">
+		{{- if not (eq .Title "Chapters") }}
+			<table>
+					{{- $pageData := .Pages }}
+					{{- $scratch := newScratch }}
+					{{- $scratch.Set "counter" 0 }}
+					{{- range $pageData.Reverse }}
+					{{- $scratch.Add "counter" 1 }}
+					{{- if eq ($scratch.Get "counter") 1 }}
+						<tr>
+					{{- end }}
+							<td><a href="{{ .Permalink}}"><img src="/images/thumbnails/{{ .Params.comic }}" /></a><br />{{- .Date | time.Format ":date_long" }}<br />{{ .LinkTitle }}<br /><br /></td>
+					{{- if eq ($scratch.Get "counter") 3 }}
+						</tr>
+					{{- $scratch.Set "counter" 0 }}
+					{{- end }}
+					{{- end }}
+				</table>
+			{{- else }}
+				{{- $pageData := .Pages }}
+				<ul>
+				{{- range $pageData.Reverse }}
+					<li><a href="{{ .Permalink}}">{{ .LinkTitle }}</a></li>
+				{{- end }}
+				</ul>
+			{{- end }}
 
 			<div class="clear"></div>
 		</div>
 		<div class="post-extras">
 			<div class="post-tags"></div>
+			{{- if not .Params.disable_comments }}
 			<div class="comment-link">
-				{{- if not .Params.disable_comments }}
-				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" -}}</span> Comments</a>
-				{{- end }}
-			</div>
+				<a href="#comments"><span class="comment-balloon"> #numComment </span> Comments</a>			</div>
+			{{- end }}
 						<div class="clear"></div>
 		</div>
 			</div>
@@ -172,7 +156,6 @@
 {{- partial "footer.html" . }}
 		
 </div> <!-- / #page-wrap -->
-
         </div>
     </body>
 </html>

@@ -7,9 +7,16 @@ comic: "2012-02-22-when-to-transmog.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Millya
+- transmog
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- tarecohshutup
+- dont-even-blink
+- pretty-much-a-constant-thing-with-us
+- the-scarlet-letters
+- double-digits
 ---
 
 This may be my favourite FDWL in the history of ever. (I know, we’ve only done less than 20 strips but even so!)

@@ -7,9 +7,16 @@ comic: "2012-06-27-well-read.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Rades
+- Velen
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- the-real-twelve
+- our-unsung-hero
+- winter-fail-part-one
+- winter-fail-part-three
+- rare-spawn-3
 ---
 
 When we did the “<a href="/comic/ring-of-lost">Ring of Lost</a>” strip, a few different people were intrigued at the idea of Velen’s Book Club. So consider today’s comic a bit of a follow-up!

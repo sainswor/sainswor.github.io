@@ -7,9 +7,15 @@ comic: "2013-04-24-scarletletter.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Millya
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- talent-specialization
+- double-digits
+- blizzcon-badges
+- blingtrolled
+- tarecohshutup
 ---
 
 ***<font size="+1">WE REGRET NOTHING</font>***

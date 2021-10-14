@@ -7,9 +7,17 @@ comic: "2011-12-07-Winter-Fail-Part-One.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- engineering
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- sated
+- blizzcon-badges
+- tourists-guide-to-ihgaluk-crag
+- suprisingly-often-actually
+- maximum-cupacity
 ---
 
 It’s a cliche often used that “the journey of a thousand miles begins with a single step.” In this case, a journey of approximately 17,500 miles per hour begins with a single rocket and a large explosion.

@@ -7,9 +7,16 @@ comic: "2013-06-05-vidradespainting02-1024x685.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- rare-spawn-3
+- dig-dug-bug
+- winter-fail-part-four
+- our-unsung-hero
+- what
 ---
 
 This week in lieu of a comic we have instead a quick painting I did. I’ve had family stuff come up that I had to deal with, it’s sad but sometimes life wins out. The average comic takes me around five+ hours to draw and unfortunately this week I didn’t have those hours. Back when we started FDWL they used to take me eight! I haven’t gotten that much faster, I have simplified the art significantly though.

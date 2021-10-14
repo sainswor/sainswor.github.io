@@ -7,9 +7,14 @@ comic: "2012-08-15-thrallbaby.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Aggra
+- Thrall
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- the-proudmoore-problem
+- seriously-just-buy-one-already
+- thrall-aspect-of-derp
 ---
 
 Seriously dude, [***we all know why this is a bad idea.***](/comic/thrall-aspect-of-derp/)

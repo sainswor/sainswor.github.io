@@ -7,9 +7,12 @@ comic: "2012-10-03-dreadwastes.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- "guest strips"
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- theres-something-different-about-you
+- limit-break
 ---
 
 Today’s comic is a very special guest strip from our amazingly talented friend [Walks](https://twitter.com/walkstweets)! The Dread Wastes are so horrifically mutated and ugly (I personally think they feel like the Ghostlands, except on acid) and Walks totally nailed the vintage travel poster look. Thanks Walks! 😀

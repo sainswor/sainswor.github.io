@@ -7,9 +7,15 @@ comic: "2012-02-15-garrosh-darn-it.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Garrosh
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- priorities
+- surprisingly-often-actually
+- the-siege-of-orgrimmar
+- the-art-of-war-part-two
+- you-know-he-would-part-two
 ---
 
 It occurred to Vid and I yesterday that perhaps we should have saved the comic with the NAKED ORC for our Valentine’s Day update. Apparently we are unable to read calendars. 

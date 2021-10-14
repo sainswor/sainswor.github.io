@@ -7,9 +7,16 @@ comic: "2013-03-06-bugged.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Millya
+- Rades
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- the-real-twelve
+- fortune-and-glory-kid
+- our-unsung-history
+- there-are-two-types-of-people
+- damn-you-murglesnout
 ---
 
 <a href="/comic/glyph-of-ireworks">Hey, this feels familiar, doesn’t it?</a>

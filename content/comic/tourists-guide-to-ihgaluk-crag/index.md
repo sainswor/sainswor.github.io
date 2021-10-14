@@ -7,9 +7,15 @@ comic: "2013-07-24-sauroks.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Rades
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- tides-of-war
+- the-siege-of-orgrimmar
+- everything-is-new-again
+- fortune-and-glory-kid
+- the-lord-of-terror
 ---
 
 **Yet More Things To Do and See While in The Crag:**<br>

@@ -7,9 +7,16 @@ comic: "2013-06-26-magatha.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Garrosh
+- Magatha
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- you-know-he-would-part-two
+- the-siege-of-orgrimmar
+- your-racial-leader-is-thinking-about-you
+- you-know-he-would-too
+- the-proudmoore-problem
 ---
 
 I’m not sure I know of a character in any book, movie or game who has had their personality and history thrown to the wayside and trampled into the dust as much as Garrosh has this expansion. I mean, in Cataclysm he certainly wasn’t perfect, but he had distinct good points to accompany his flaws, was a good character foil for his mirror image, Varian, and was showing definite signs of growth from his hotheaded, annoying days of being a mad dog yipping at Thrall during Wrath. He wasn’t perfect, but hey, who is? He was a believable character, given his history.

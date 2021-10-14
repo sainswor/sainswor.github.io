@@ -7,9 +7,11 @@ comic: "2012-04-04-kip-diskin.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- druids
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- stagway-to-heaven
 ---
 
 The new glyphs on the Mists of Pandaria beta sound *[amazing](http://mop.wowhead.com/search?q=date%3A2012-03-21#glyphs)*. Trust me, this is not the only glyph feature you’ll be seeing on From Draenor. 

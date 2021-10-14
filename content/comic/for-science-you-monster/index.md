@@ -7,9 +7,16 @@ comic: "2011-11-23-For-Science-You-Monster.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+tags: 
+- "non-wow" 
+- "warlocks"
+related_comics: 
+- desserter-debuff
+- the-real-twelve
+- there-are-two-types-of-people
+- sated
+- the-lord-of-terror
 ---
 Hey guys, Vid’s been crit by real life this week, so send her warm thoughts because until she’s back, you’re stuck with my terrible WoW Model Viewer comics!
 

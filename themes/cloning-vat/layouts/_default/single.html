@@ -148,7 +148,28 @@
 			<div class="clear"></div>
 		</div>
 		<div class="post-extras">
-			<div class="post-tags"></div>
+			{{- if not ( eq .Params.tags "TAGSLISTTEMPLATE")}}
+			<div class="post-tags">&#9492; Tags: 
+				{{ $tagList := .Params.tags }}
+				{{ range $index, $element := $tagList }}
+  					<a href="/tags/{{ $element | urlize }}" rel="tag">{{ $element }}</a>{{- if lt (add $index 1) (len $tagList) }},{{- end }}
+				{{ end }}<br />
+			</div>
+			{{- end }}
+			{{- if not ( eq .Params.related_comics "RELATEDCOMICTEMPLATE" ) }}
+				<h4 class="related-title">Related Comics &not;</h4>
+				<ul class="related-ul">
+				{{- range $related_comic := .Params.related_comics }}
+				{{- with $.Site.GetPage "/comic" }}
+				{{- with .GetPage $related_comic }}
+				<li class="related-comic"><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+				{{- end }}
+				{{- end }}
+				{{- end }}
+	
+				</ul>
+			{{- end }}	
+</div>
 			{{- if not .Params.disable_comments }}
 			<div class="comment-link">
 				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" -}}</span> Comments</a>			</div>

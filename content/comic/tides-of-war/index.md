@@ -7,9 +7,16 @@ comic: "2012-08-29-war.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- winter-fail-part-four
+- our-new-favorite-boss
+- winter-fail-part-two
+- dig-dug-bug
+- everything-is-new-again
 ---
 
 Cross-faction friendships may be unorthodox, but they certainly aren’t unheard of. Jaina and Thrall have been friends since before he started calling himself Go’el. [Asric and Jadaar](http://www.wowhead.com/npc=31898) are a pair of lesser-known but still significant “friends,” a blood elf and a draenei who seem to love to hate each other. Game mechanics prevent us from communicating with each other and they do an excellent job of keeping us divided. Ignorance breeds contempt and fear, and it’s easier to attack and kill an enemy that is strange and foreign to you. You can see the effectiveness of this when real people actually get together and squabble over faction allegiance. We all want to belong to something, and that puts us in opposition to something else.

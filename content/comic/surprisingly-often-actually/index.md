@@ -7,9 +7,19 @@ comic: "2012-11-07-winners.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Garrosh
+- Millya
+- Rades
+- Varian
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- blizzcon-badges
+- everything-is-new-again
+- dont-even-blink
+- winter-fail-part-one
+- he-knows
 ---
 
 From Draenor With Love launched November 1, 2011, which means it’s been an *entire year!* 😀 I am pretty pleased that we put out a comic each and every week, even when life kicked us around a bit, or when one of us was traveling. Thanks to everyone who’s read our stuff over the past year! We appreciate your visits, your comments, your retweets, all of it!

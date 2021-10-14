@@ -7,7 +7,8 @@ comic: "2012-03-07-darkmoon-faire.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- "Darkmoon Faire"
 chapter_link: /chapters/comic/
 related_comics: RELATEDCOMICTEMPLATE
 ---

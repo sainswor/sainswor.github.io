@@ -7,9 +7,17 @@ comic: "2013-03-27-bearthrow.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Ghostcrawler
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- pretty-much-a-constant-thing-with-us
+- grudge-match
+- everything-is-new-again
+- yellow-angry-man
+- winter-fail-part-one
 ---
 
 Could this really be that far off, after seeing Tortos?

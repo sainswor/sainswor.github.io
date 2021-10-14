@@ -7,9 +7,15 @@ comic: "2013-07-17-constellations.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Millya
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- the-scarlet-letters
+- dont-even-blink
+- rage-of-the-friendlands
+- surprisingly-often-actually
+- pretty-much-a-constant-thing-with-us
 ---
 
 Suddenly, heroic raiding guilds start prowling the Warcraft fan art forums for recruits.

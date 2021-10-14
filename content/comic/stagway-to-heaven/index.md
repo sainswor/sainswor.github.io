@@ -7,9 +7,11 @@ comic: "2012-09-12-stags.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- druids
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- the-legacy-of-kip-diskin
 ---
 
 Stag stacking was BY FAR one of the coolest and funniest random side effects of patch 5.0.4. Tragically, this bug has since been fixed and you can no longer pile druids to the heavens and walk around as a teetering tower of antlers and fur. Such a shame!

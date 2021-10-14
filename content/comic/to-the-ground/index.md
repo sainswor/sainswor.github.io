@@ -7,9 +7,18 @@ comic: "2012-02-29-to-the-ground.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- mages
+- paladins
+- priests
+- warlocks
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- kindred-spirits
+- yellow-angry-man
+- for-science-you-monster
+- never-trust-a-mage
+- iwrynny
 ---
 
 The idea of class abilities repeating endlessly was actually really hard to make a comic for, because there were so many awesome options! The mental images of Healing Rain, Hurricane or Fan of Knives duplicating over and over again are too funny. 

@@ -7,9 +7,13 @@ comic: "2012-07-25-horse.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Thrall
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- not-a-chance-thrall
+- thrall-aspect-of-derp
+- the-proudmoore-problem
 ---
 
 More like “Hour of Waiting For Thrall To Run The Entire Stupid Way in Ghost Wolf Form”, right?

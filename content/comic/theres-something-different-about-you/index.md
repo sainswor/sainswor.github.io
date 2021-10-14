@@ -7,9 +7,17 @@ comic: "2012-05-30-elfs_small.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- "guest strips"
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- tourists-guide-to-ihgaluk-crag
+- winter-fail-part-one
+- from-draenor-with-mischief
+- fortune-and-glory-kid
+- the-real-twelve
 ---
 
 Today’s comic is a special guest strip by our WONDERFUL and TALENTED friend Dee, who came through AMAZINGLY, considering she had only like half a day’s notice! You can check out her WoW blog at [@mainfloortank](https://twitter.com/#!/mainfloortank)!

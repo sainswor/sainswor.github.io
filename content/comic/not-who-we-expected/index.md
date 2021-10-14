@@ -7,9 +7,16 @@ comic: "2012-03-28-sylvanas-garrosh.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Garrosh
+- Sylvanas
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- priorities
+- whateverstone-is-more-like-it
+- your-racial-leader-is-thinking-about-you
+- the-siege-of-orgrimmar
+- iwrynny
 ---
 
 As everyone knows by now, Garrosh Hellscream will be the boss of Mists of Pandaria’s final content patch, and we take him down in an exciting-sounding “Siege of Orgrimmar.” 

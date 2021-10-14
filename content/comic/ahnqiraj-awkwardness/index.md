@@ -7,7 +7,8 @@ comic: "2012-07-11-cthun.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- "C'Thun"
 chapter_link: /chapters/comic/
 related_comics: RELATEDCOMICTEMPLATE
 ---

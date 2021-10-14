@@ -19,3 +19,4 @@ relativeURLs = true
     
 [taxonomies]
     chapter = 'chapters'
+    tag = 'tags'

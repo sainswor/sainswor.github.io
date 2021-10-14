@@ -7,9 +7,15 @@ comic: "2013-01-09-worth-it-small.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Garrosh
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- not-who-we-expected
+- whateverstone-is-more-like-it
+- your-racial-leader-is-thinking-about-you
+- the-proudmoore-problem
+- you-know-he-would-part-two
 ---
 
 Still the highlight of the expansion so far, in my opinion. 

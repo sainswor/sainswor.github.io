@@ -7,9 +7,17 @@ comic: "2013-07-03-twokinds.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- non-wow
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- blizzcon-badges
+- dig-dug-bug
+- everything-is-new-again
+- desserter-debuff
+- pretty-much-a-constant-thing-with-us
 ---
 
 The most difficult thing about this comic is that I had to stop playing “Animal Crossing: New Leaf” long enough to draw it.

@@ -8,8 +8,16 @@ chapter: "Comic"
 chapters:
 - comic
 chapter_link: "/chapters/comic"
-tags: ["paladins", "Shannox", "Vid"]
-related_comics: [the-real-twelve, the-lord-of-terror, winter-fail-part-two, there-are-two-types-of-people, our-new-favorite-boss]
+tags: 
+- "paladins"
+- "Shannox"
+- "Vid"
+related_comics: 
+- the-real-twelve
+- the-lord-of-terror
+- winter-fail-part-two
+- there-are-two-types-of-people
+- our-new-favorite-boss
 ---
 If you’ve played a paladin at level 85 for any length of time, hopefully this requires no explanation. For those of you who haven’t, well. Perhaps you play a melee DPS. You’re at the boss’ feet, stabbing/slicing/cutting (or whatever else it is that you melee folks do).
 

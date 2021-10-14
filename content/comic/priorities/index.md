@@ -7,9 +7,16 @@ comic: "2012-10-10-forthehorde.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Garrosh
+- "pet battles"
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- did-you-think-we-had-forgotten
+- your-racial-leader-is-thinking-about-you
+- the-proudmoore-problem
+- the-art-of-war-part-two
+- whateverstone-is-more-like-it
 ---
 
 This is actually a true story. On launch night, we were a few hours in and realized that our Legendary-toting Boomkin was sitting in the Barrens somewhere fishing up Tasty Crapfish and Garbage Trout trying to get realm-first fishing,  two of us were hanging out in starter zones furiously battling and taming new pets, and our infamous guild AH tycoon was expanding his financial empire with lucrative Pandaria ore/herb sales. 

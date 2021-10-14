@@ -8,8 +8,15 @@ chapter: "Comic"
 chapters:
 - comic
 chapter_link: "/chapters/comic"
-tags: ["Rades", "Vid"]
-related_comics: [sated, winter-fail-part-three, masks-of-pandaria, glyph-of-ireworks, grudge-match]
+tags: 
+- Rades
+- Vid
+related_comics: 
+- sated 
+- winter-fail-part-three
+- masks-of-pandaria
+- glyph-of-ireworks
+- grudge-match
 ---
 I’m not especially good at keeping secrets. So the fact that you are only seeing this, now, after over a month of loving work is nothing short of a miracle. The idea of doing a webcomic wasn’t a new one for Rades and I – we’d talked about it before, sometime last year – but the time wasn’t right. We were on different pages about what a comic should be (I was thinking epic story, he was thinking gag) and so we just shelved it. I’ve always thought it would be really fun to collaborate on a project like this with a writer I respect and get along with. It’s not that I couldn’t have written a comic “all by myself,” I probably could have. But there’s a creative energy that comes from having someone to bounce ideas off of, to brainstorm, to edit and formulate.
 

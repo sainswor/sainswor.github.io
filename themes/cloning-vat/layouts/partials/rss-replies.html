@@ -1,0 +1,27 @@
+{{- range $index, $comments := (index $.SiteDataComments_parent $.postId ) }}
+    {{- if eq .reply_to $.parentId }}
+ <b>
+    {{- if eq .website "" }}
+        {{- .name }}
+    {{- else }}
+        {{- .name }} @ {{- .website }}
+    {{- end }}</b>;  {{- .date | time.Format ":date_long"}}, {{ .date | time.Format ":time_short" }}<br />
+<p>{{- .comment | markdownify }}</p>
+    {{- $remaining_replies := $.activeReplies | symdiff (slice (string ._id)) }}
+    {{- $neo_id := (string ._id) }}
+    {{- $active_replies := (slice "000") }}
+    {{- $comparator := ._id }}
+    {{- range $index, $comments := (index $.SiteDataComments_parent $.postId ) }}
+        {{- if eq .reply_to $comparator }}
+            {{- $active_replies = $active_replies | append ._id }}
+        {{- end}}
+    {{- end }}
+    {{- $active_replies = $active_replies | symdiff (slice "000") }}
+
+    {{- if not (eq (len $active_replies) 0) }}
+        {{- partial "rss-replies" (dict "postId" $.postId "SiteDataComments_parent" $.SiteDataComments_parent "parentId" $neo_id "activeReplies" $active_replies "context" .) }}
+    {{- end }}
+
+
+  {{- end }}
+{{- end }}

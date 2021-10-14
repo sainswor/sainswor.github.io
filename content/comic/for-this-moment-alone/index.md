@@ -7,9 +7,11 @@ comic: "2012-04-11-ultraxion.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Ultraxion
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- can-i-keep-him
 ---
 
 It’s a good thing hitting the button on LFR Ultraxion isn’t necessary to beat the fight, because if it was, I don’t think a single LFR group would ever kill him. Like, seriously, it’s NOT THAT HARD, PEOPLE. PUSH THE DAMN BUTTON. IT’S RIGHT THERE IN THE MIDDLE OF YOUR SCREEN, FOR CRYING OUT LOUD. 

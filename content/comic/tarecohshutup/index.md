@@ -7,9 +7,15 @@ comic: "2012-09-19-tarecgosa.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Millya
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- the-scarlet-letters
+- pretty-much-a-constant-thing-with-us
+- double-digits
+- every-day-im-transmogging
+- blingtrolled
 ---
 
 I knew from folks spending time in the beta that Dragonwrath had a new feature. Yet after 5.0.4 went live, it still scared the bejeebers out of me the first time she **talked out loud**. I tend to keep my volume up pretty high!

@@ -7,9 +7,16 @@ comic: "2013-05-01-doubledigits.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Millya
+- Voss
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- dont-even-blink
+- blizzcon-badges
+- talent-specialization
+- straight-outta-halfhill
+- the-scarlet-letters
 ---
 
 I imagine tanks everywhere are shaking their heads in grim recognition of this scene. After all, how many times have they turned, scanning for the next pack of mobs to pull, only to hear that dreaded “FWOOSH” sound as an enormous ball of fire hurtles past them? Because EVERYONE KNOWS you can’t just WASTE A HOT STREAK PROC.

@@ -7,9 +7,16 @@ comic: "2011-12-21-Winter-Fail-Part-Three.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- transmogalypse
+- winter-fail-part-one
+- what
+- tourists-guide-to-ihgaluk-crag
+- our-new-favorite-boss
 ---
 
 Part 3 of 4! Rades and Vid do their best to fill the late Greatfather Winter’s shoes – in their own, unique fashion, of course.

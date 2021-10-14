@@ -7,9 +7,11 @@ comic: "2013-04-17-durumu.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- LFR
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- what
 ---
 
 You know, at first I thought Hagara’s ice walls were bad. Saw a lot of people get insta-gibbed by those in LFR back during Cataclysm.

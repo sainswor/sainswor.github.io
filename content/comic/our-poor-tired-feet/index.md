@@ -7,9 +7,15 @@ comic: "2012-05-02-expo.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- non-wow
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- rested-experience
+- sated
+- unique-equipped
+- the-real-twelve
+- choose-wisely
 ---
 
 The Calgary Expo was on the weekend, and, well, it was an…interesting experience.

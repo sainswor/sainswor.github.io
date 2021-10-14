@@ -7,9 +7,13 @@ comic: "2012-01-11-Aspect-of-Derp.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Thrall
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- not-a-chance-thrall
+- the-proudmoore-problem
+- seriously-just-buy-one-already
 ---
 
 In the final fight of Dragon Soul, players have to fight Deathwing while leaping back and forth between a few different islands, carried by Thrall’s winds. 

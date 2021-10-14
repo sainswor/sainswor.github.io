@@ -1,17 +1,16 @@
 ---
-title: "Weekly Update IV"
-date: 2021-09-29T21:25:27-04:00
+title: "Weekly Update VI - Happy birthday, buddy"
+date: 2021-10-13T22:55:27-04:00
 draft: false
 author: Sean
 ---
 
 ## New in this update 
-- **Clean up the Thumbnails:** The out-of-scale images have been thumbnailed differently, as has the one animated GIF in the archives.
-- **Darkness, My Old Friend, Part 4** now contains a link to the official music video of the song intended to be at the top of that post. Let's not get sued!
+- **Tags and Related Comics:** Code to display these, and proper tagging and related comic links starting from the beginning up until the sequential storyline (I.E. everything that had tags and related comics in the first place). 
 
 ## Next Up
-- **Tags and Related Comics:** These were only a thing during the gag comic years, but they were there and I'd like to rebuild that function.
 - **Search bar:** Vid had mentioned wanting a search bar for the comic and that sounds like a great idea. I think this involves retrofitting the comics that don't have tags, with tags. I'm OK with that.
+- **Tags for the plot comics:**
 - **Replace RSS feed for comment links:** I think there are probably only a few places this would be useful but hey, who am I to judge? They used to have this feature and it's entirely possible (if unlikely) to see use again. I should at least look into making it (maybe it's possible)
 - **The Calendar widget:** Need to add previous month/next month links. 
 - **Clean up on the technical side:** This is last on the list because it's invisible to the site's users, but I'd like to tidy up the mechanics of the site a little. There's some WET work where it really should be DRY.

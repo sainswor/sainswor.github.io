@@ -7,9 +7,15 @@ comic: "2012-02-01-Squeaky-Green.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Rades
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- glyph-of-ireworks
+- sated
+- tourists-guide-to-ihgaluk-crag
+- winter-fail-part-one
+- there-are-two-types-of-people
 ---
 
 When we heard that there would be no Blizzcon this year, Vid and I knew we had to cover it somehow. We ran down the list of Blizzcon cliches (true or not), one of which was the inevitable pungent result of cramming hundreds of bodies into a cramped, enclosed convention center.

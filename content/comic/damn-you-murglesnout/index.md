@@ -7,9 +7,15 @@ comic: "2012-01-04-Damn-You-Murglesnout.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:  
+- Rades
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- magic-touch
+- sated
+- grudge-match
+- pretty-much-a-constant-thing-with-us
+- our-unsung-hero
 ---
 
 Oh, [Murglesnout](http://www.wowhead.com/item=53069). Fisher’s bane. So plentiful. So abundant. 

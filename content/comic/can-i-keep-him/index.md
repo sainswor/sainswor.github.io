@@ -7,9 +7,20 @@ comic: "2013-06-19-petshop.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- A'lar
+- Deathwing
+- Kael'thas
+- Lei Shen
+- Magmaw
+- Nefarian
+- Shannox
+- Ultraxion
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- the-proudmoore-problem
+- for-this-moment-alone
+- yellow-angry-man
 ---
 
 The big evil bad guys in WoW sure do like their pets, don’t they? It seems like every tier there’s at least one boss with special pets, or a boss that is itself a giant pet. Sometimes they’re just there, leaving their connection to the boss up to your imagination, but some, like Magmaw or Rageface/Riplimb, are outright stated to be pets. And some of them are really loved! Shannox loves his little doggies!

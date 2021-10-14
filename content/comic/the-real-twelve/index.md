@@ -7,9 +7,17 @@ comic: "2013-08-07-doctorwho950px.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- non-wow
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- desserter-debuff
+- winter-fail-part-three
+- the-lord-of-terror
+- squeaky-green
+- transmogalypse
 ---
 
 Hey, I don’t think it’s too much of a stretch! Rades is an accomplished engineer, he could undoubtedly keep a TARDIS running, and he could accomplish so much with a sonic screwdriver! I think Vid would make a great companion, though she could be the Doctor just as easily.

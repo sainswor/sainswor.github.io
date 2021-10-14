@@ -7,9 +7,19 @@ comic: "2012-02-08-maximum-cupacity.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- Malfurion
+- Neptulon
+- Sindragosa
+- Tyrande
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- our-unsung-hero
+- our-new-favorite-boss
+- from-draenor-with-mischief
+- he-knows
+- the-lord-of-terror
 ---
 
 I really, really wish we had ampm stores in Canada. I would totally buy those cups! The art on them looks great, and they’d be nice collectibles to own.

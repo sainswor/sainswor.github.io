@@ -7,9 +7,12 @@ comic: "2012-06-06-fourthwall.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- "guest strips"
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- wish-you-were-here
+- theres-something-different-about-you
 ---
 
 This week’s strip is a guest strip from Ayms and Mits, who you may know from their great webcomic, Fourth Wall! They’re no longer doing new strips, but they heard we needed some help this week and came out of “retirement” to lend us a hand. Thanks guys! Fourth Wall isn’t online anymore, but you can find Ayms’ artwork at [her sketchblog](http://lateforwork.wordpress.com/) – do go check out her stuff!

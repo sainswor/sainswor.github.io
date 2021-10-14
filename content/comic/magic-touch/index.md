@@ -7,9 +7,17 @@ comic: "2012-01-18-Magic-Touch.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- engineering
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- dig-dug-bug
+- masks-of-pandaria
+- pretty-much-a-constant-thing-with-us
+- damn-you-murglesnout
+- winter-fail-part-one
 ---
 
 …Then I finally found a suitable mold for the chassis or I thought it was a suitable chassis mold but actually they meant it for a gyrocopter and it wasn’t quite right so I tried to convince a friend to model for it but he wouldn’t because he said, and I quote, “Your inventions have a way of proving fatal to people who agree to test them,” I ask you, is that fair? I mean there was that incident the one time – okay maybe two times – actually, you know what, never mind, it’s just not fair for people to make assumptions! There’s no logical connection between the behaviour of one invention and the next. This bears no relation to the Stealth Revealing Sparkle Powder, or the Super Hydro Powered Leviathan Mark III… This is a completely new idea, this is ground breaking!

@@ -7,9 +7,17 @@ comic: "2012-12-19-klaxxmas_small.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- "greatfather winter"
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- masks-of-pandaria
+- what
+- the-lord-of-terror
+- surprisingly-often-actually
+- grudge-match
 ---
 
 It’s that time of year again! Perhaps you recognize the new and improved Greatfather Winter from [last year’s escapades](/comic/winter-fail-part-one)?

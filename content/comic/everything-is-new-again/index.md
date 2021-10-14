@@ -7,9 +7,17 @@ comic: "2012-09-05-patch.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags: 
+- hunters
+- mages
+- Rades
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- well-read
+- magic-touch
+- squeaky-green
+- fortune-and-glory-kid
+- what
 ---
 
 Patch 5.0.4 is here and there’s so many exciting things to check out! Account-wide mounts! New talent systems! AoE looting! Revamped Scarlet Monastery, Scholomance and Ragefire Chasm! And there’s even apparently a new ferocious Darkmoon Rabbit world boss owning fools out at the Darkmoon Faire? I haven’t seen this fellow myself yet, but I’ve heard the hilarious horror stories.

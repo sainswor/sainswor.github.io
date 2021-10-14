@@ -7,9 +7,16 @@ comic: "2012-09-26-pandaria.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- theres-something-different-about-you
+- surprisingly-often-actually
+- winter-fail-part-one
+- glyph-of-ireworks
+- pretty-much-a-constant-thing-with-us
 ---
 
 ***AHHHH IT’S HERE AT LAST***

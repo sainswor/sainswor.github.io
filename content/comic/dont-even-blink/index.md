@@ -7,9 +7,16 @@ comic: "2012-11-14-dontevenblink.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- mages
+- Millya
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- everything-is-new-again
+- talent-specialization
+- every-day-im-transmogging
+- double-digits
+- kindred-spirits
 ---
 
 This comic will probably make the most sense to you if you are a mage, and/or if you have been a mage’s victim in this scenario. I have personally tallied my Blink kill count at probably four people. With Antigen it involved a rocket boots incident, with Itanya, we each headed the wrong way. With Thracks it was completely an accident, and with Ibra I swear I thought I saw Jasper Overload and was so excited I could break the chains.

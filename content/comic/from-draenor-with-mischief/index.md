@@ -7,9 +7,16 @@ comic: "2012-05-09-cymre.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- transmogalypse
+- fortune-and-glory-kid
+- everything-is-new-again
+- well-read
+- blizzcon-badges
 ---
 
 This is the special prize strip **Cymre** of [Bubbles of Mischief](http://www.bubblesofmischief.com/) won by taking 1st place in the Great Blog Noblegarden Egg Hunt! 

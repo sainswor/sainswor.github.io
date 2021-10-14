@@ -7,9 +7,18 @@ comic: "2012-04-25-warriors-02.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:  
+- Garrosh
+- Muradin
+- Varian
+- warriors
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- resurrection-sickness
+- surprisingly-often-actually
+- he-knows
+- there-will-be-blood
+- iwrynny
 ---
 
 HEY MURADIN [PUT A BIRD ON IT](http://www.youtube.com/watch?v=iHmLljk2t8M)

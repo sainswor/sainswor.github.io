@@ -7,7 +7,8 @@ comic: "2013-06-12-nomi.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Fabulor
 chapter_link: /chapters/comic/
 related_comics: RELATEDCOMICTEMPLATE
 ---

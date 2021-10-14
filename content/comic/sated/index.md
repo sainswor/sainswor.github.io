@@ -7,9 +7,17 @@ comic: "2013-01-02-newyear_small.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- non-wow
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- desserter-debuff
+- winter-fail-part-four
+- damn-you-murglesnout
+- pretty-much-a-constant-thing-with-us
+- magic-touch
 ---
 
 Whoa, whoa, where did 2013 come from? It totally snuck up and [Ambushed] us when we weren’t expecting it. We’ve both been a little busy the last few days with RL travel, festivities and the ever pleasant-but-emotionally-draining family visits, but we’ll be back on pace next week with new stuff! 

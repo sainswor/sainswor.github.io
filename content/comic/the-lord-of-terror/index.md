@@ -7,9 +7,17 @@ comic: "2012-05-16-diablo_small.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- non-wow
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- what
+- the-siege-of-orgrimmar
+- winter-fail-part-three
+- the-real-twelve
+- everything-is-new-again
 ---
 
 Like everyone else on the planet, we’ve sunk some time into Diablo III so far, and it’s a blast. So far I’m greatly enjoying the Wizard (LASER FREEZE RAY) and the Demon Hunter is also a lot of fun. I’ve played around with the Monk a bit, but I don’t think I enjoy the melee playstyle. I’ll stick with my blasters.

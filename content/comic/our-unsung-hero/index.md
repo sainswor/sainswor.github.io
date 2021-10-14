@@ -7,9 +7,16 @@ comic: "2012-03-21-lamp-hum.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- squeaky-green
+- tourists-guide-to-ihgaluk-crag
+- transmogalypse
+- winter-fail-part-three
+- glyph-of-ireworks
 ---
 
 From Draenor presents, [Real Azerothian Geniuses.](http://www.youtube.com/watch?v=WCxMBgPF7rc)

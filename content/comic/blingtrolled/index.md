@@ -7,9 +7,16 @@ comic: "2013-04-03-blingtron.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:  
+- engineering
+- Millya
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- winter-fail-part-four
+- winter-fail-part-one
+- pretty-much-a-constant-thing-with-us
+- tarecohshutup
+- rested-experience
 ---
 
 Yet another reason why Engineering is the best profession!

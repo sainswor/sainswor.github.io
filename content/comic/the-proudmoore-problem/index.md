@@ -7,9 +7,20 @@ comic: "2013-05-29-jainamen.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:
+- Arthas
+- Garrosh
+- Jaina
+- "Kael'thas"
+- Thrall
+- Varian
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics: 
+- not-a-chance-thrall
+- seriously-just-buy-one-already
+- the-siege-of-orgrimmar
+- there-will-be-blood
+- thrall-aspect-of-derp
 ---
 
 A lot of people think Jaina has this terrible reputation regarding the men in her life, that she has “terrible taste in men”, or that she breaks guys’ hearts and/or [makes them go crazy](http://azeroth-sms.tumblr.com/post/47465111713). This is utter nonsense. The problem isn’t with Jaina, the problem is that the men in her life are just plain jerks. 

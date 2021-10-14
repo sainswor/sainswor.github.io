@@ -7,9 +7,16 @@ comic: "2013-03-20-trove3.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
+tags:  
+- Rades
+- Vid
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
+related_comics:
+- winter-fail-part-four
+- dig-dug-bug
+- the-siege-of-orgrimmar
+- masks-of-pandaria
+- our-new-favorite-boss
 ---
 
 I think the solo loot scenario is my favorite thing in Mists so far. And I don’t even mean the loot! The loot’s okay, but really, Elder Charms are SO Patch 5.1. I just love running the place! And finding hidden chests and secret paths to said chests. There’s been a few chests in the first room, and one in the hallway leading to the second room, that I have no idea at all how to reach. And I LOVE IT.
