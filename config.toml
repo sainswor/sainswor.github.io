@@ -4,6 +4,10 @@ title = "From Draenor With Love"
 theme = "cloning-vat"
 relativeURLs = true
 
+[outputs]
+    home = ["HTML", "JSON"]
+    page = ["HTML"]
+
 [markup.goldmark.renderer]
     unsafe= true
 
