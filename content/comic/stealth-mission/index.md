@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 First of all, curse you Blizzard for [already using the funny joke](http://www.wowhead.com/mission=263/listen-all-yall)!

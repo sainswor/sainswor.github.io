@@ -8,8 +8,6 @@ chapter: 'Chapter 5: Fear'
 chapters:
 - chapter-5-fear
 chapter_link: /chapters/chapter-5-fear/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Sablemane’s been chilling in Blade’s Edge for a while, but he’s still got contacts, visitors passing through. You really think he wouldn’t keep up-to-date with what’s going on back home? 

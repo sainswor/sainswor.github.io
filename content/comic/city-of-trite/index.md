@@ -8,8 +8,6 @@ chapter: 'Chapter 2: Doubt'
 chapters:
 - chapter-2-doubt
 chapter_link: /chapters/chapter-2-doubt/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 I’d like to tell you that eventually mangling draenic phrases gets old, but I’d be lying. It’s one of my favorite things to do. 

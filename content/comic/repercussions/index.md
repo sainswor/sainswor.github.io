@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Starting to get underway! The impact of Garrosh’s actions in the Vale. Major events are about to be set in motion.

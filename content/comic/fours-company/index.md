@@ -8,8 +8,6 @@ chapter: 'Chapter 3: Violence'
 chapters:
 - chapter-3-violence
 chapter_link: /chapters/chapter-3-violence/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Way, way back when we were planning out the FDWL plot, we knew that one of Wrathion’s bodyguards would become part of the story. Originally, I had penciled in [Right](http://www.wowhead.com/npc=62941), who – along with her partner, Left – can always be seen wherever their boss goes. I thought it would be fun to explore this cool, badass-looking woman, who despite numerous appearances in-game, never actually speaks or does anything.

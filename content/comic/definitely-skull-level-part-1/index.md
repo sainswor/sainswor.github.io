@@ -8,8 +8,6 @@ chapter: 'Chapter 3: Violence'
 chapters:
 - chapter-3-violence
 chapter_link: /chapters/chapter-3-violence/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Is there anything more pitiful and/or annoying than running through a low level zone and accumulating a swarm of low-level grey mobs? It’s like, dudes, I’m just here to get some Goldthorn to level Alchemy, go away. 

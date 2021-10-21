@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 It’s an exciting day for From Draenor With Love! After nearly two years of making this comic, we felt we were ready to tackle some new challenges.

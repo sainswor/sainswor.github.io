@@ -7,9 +7,7 @@ comic: "fd_extra03.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Work and life stuff hit us both pretty hard this past week and unfortunately we weren’t able to get the comic finished. This doesn’t happen very often and we’d like to build some buffer, but for now we’d prefer not to rush the comic and have the quality suffer.

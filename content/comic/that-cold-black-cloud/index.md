@@ -8,6 +8,4 @@ chapter: 'Chapter 7: Pride'
 chapters:
 - chapter-7-pride
 chapter_link: /chapters/chapter-7-pride/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---

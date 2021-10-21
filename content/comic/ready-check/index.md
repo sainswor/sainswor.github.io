@@ -8,8 +8,6 @@ chapter: 'Chapter 3: Violence'
 chapters:
 - chapter-3-violence
 chapter_link: /chapters/chapter-3-violence/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 If you don’t recognize Four’s “pet”, [here’s a hint.](http://www.wowhead.com/npc=67262/bruce)

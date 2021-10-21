@@ -8,8 +8,6 @@ chapter: 'Chapter 2: Doubt'
 chapters:
 - chapter-2-doubt
 chapter_link: /chapters/chapter-2-doubt/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 You know what they say: Every ethereal has his price. 

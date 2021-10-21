@@ -8,8 +8,6 @@ chapter: 'Chapter 7: Pride'
 chapters:
 - chapter-7-pride
 chapter_link: /chapters/chapter-7-pride/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Hey, nice job Kynrind on predicting the return of Vid’s symbol in the comments last week!  😀

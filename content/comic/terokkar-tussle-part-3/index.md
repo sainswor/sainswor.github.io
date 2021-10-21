@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Welp, I sure hope Vid got insurance, because those Golems are *not* cheap!

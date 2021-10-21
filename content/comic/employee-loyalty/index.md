@@ -8,8 +8,6 @@ chapter: 'Chapter 3: Violence'
 chapters:
 - chapter-3-violence
 chapter_link: /chapters/chapter-3-violence/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Hey, it’s back to familiar territory! Personally, Zangarmarsh is my favorite zone in Outlands. The colours and environment is just so peaceful and soothing.

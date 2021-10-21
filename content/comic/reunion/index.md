@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 It’s been a long time since Rades and Vid have seen each other – ***42 pages***, actually! That’s half the comic!!

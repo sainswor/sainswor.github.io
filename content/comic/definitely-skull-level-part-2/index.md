@@ -8,8 +8,6 @@ chapter: 'Chapter 3: Violence'
 chapters:
 - chapter-3-violence
 chapter_link: /chapters/chapter-3-violence/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 [Would-be rogues know what Rades is talking about.](http://www.wowhead.com/item=7997/red-defias-mask)

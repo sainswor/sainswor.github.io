@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Poor Vid. It looks like she’ll be waiting awhile longer. Actually, you’ll have to wait along with her a bit too because we are taking a vacation for the month of July!

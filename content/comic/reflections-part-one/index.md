@@ -8,8 +8,6 @@ chapter: 'Chapter 8: Epilogue'
 chapters:
 - chapter-8-epilogue
 chapter_link: /chapters/chapter-8-epilogue/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Bet you didn’t expect to see Garrosh’s ugly mug again, huh? You didn’t think I’d wrap up our story without making Vid draw her favorite orc one last time, did you??

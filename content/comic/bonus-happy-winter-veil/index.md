@@ -7,9 +7,7 @@ comic: "fd_extra05.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Happy Winter Veil, everyone! Hope Robo-Greatfather Winter is nice to you this year!

@@ -8,8 +8,6 @@ chapter: 'Chapter 7: Pride'
 chapters:
 - chapter-7-pride
 chapter_link: /chapters/chapter-7-pride/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 I have fond memories of using Blinding Light in arenas with Arcane Torrent, Rebuke, and Fist of Justice to just shut down enemy healers for an absurd amount of time. No wonder it got nerfed.

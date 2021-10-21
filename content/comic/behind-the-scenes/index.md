@@ -7,9 +7,7 @@ comic: "fd_extra04.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Because this Monday was my birthday and I was going out of town on the weekend, I asked Rades if we could take a week off the “regular” comic! We agreed to do it and just have something for filler. I thought that especially since I now do most of the comic on paper that it might be interesting for you to see where I do it and what it looks like from my end.

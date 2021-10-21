@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Everyone knows the unspoken rules of pun battles! You should know better, Vid!

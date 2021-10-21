@@ -8,8 +8,6 @@ chapter: 'Chapter 4: Hatred'
 chapters:
 - chapter-4-hatred
 chapter_link: /chapters/chapter-4-hatred/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 That wraps up Chapter Four! What does Sablemane want with Wrathion? What’s going to happen to Rades? What happened to Four? At least Vid’s received some happy news…

@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Something you should know about engineers: we’re constantly keeping an eye out for cliffs, staircases and towers to hurl ourselves from that we might use our gadgets to float safely to the ground in style.

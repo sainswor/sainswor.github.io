@@ -7,9 +7,7 @@ comic: "2013-05-08-mogufuneral.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Kill 10 Mogu. Kill 8 more Mogu. Hey guess what? Kill a dozen more.

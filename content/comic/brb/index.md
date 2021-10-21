@@ -8,8 +8,6 @@ chapter: 'Chapter 7: Pride'
 chapters:
 - chapter-7-pride
 chapter_link: /chapters/chapter-7-pride/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 I think Wrathion is my favorite character to write, especially because it’s so easy to imagine his voice saying the lines, since we heard him so much during *Mists of Pandaria*. Of course, it helps that his voice actor Aaron Phillips does hilarious things like read out [fake Guy Fieri menus](https://www.youtube.com/watch?v=XJidgg0TfU8).

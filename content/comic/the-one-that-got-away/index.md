@@ -8,8 +8,6 @@ chapter: 'Chapter 4: Hatred'
 chapters:
 - chapter-4-hatred
 chapter_link: /chapters/chapter-4-hatred/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Funny story about panel 5 on this page – without meaning to, I had unconsciously modeled Four’s pose after Spider-Man comic I read ***twenty-four years ago***. And then, after realizing this fact, I was able to identify, track down and download said comic to examine the angle of the pose. God bless the internet.

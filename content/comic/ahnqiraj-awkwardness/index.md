@@ -10,7 +10,6 @@ chapters:
 tags:
 - "C'Thun"
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 {{< youtube V5mKeEvJ41w >}}

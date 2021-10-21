@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Y’know, I asked Vid to do something special artistically for the middle two panels, and HOLY CRAP did she nail it! Those panels might be my favorite artwork in all of FDWL so far. 

@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Hunters know what I’m talking about.

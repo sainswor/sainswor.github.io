@@ -8,8 +8,6 @@ chapter: 'Chapter 4: Hatred'
 chapters:
 - chapter-4-hatred
 chapter_link: /chapters/chapter-4-hatred/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 When Vid &amp; Rades were making their travel plans <a href="/comic/hit-m-for-map/">way back at the start of Chapter 2</a>, there were some comments wondering about Sablemane and Wrathion. These queries continued when Sablemane actually showed up <a href="/comic/old-friends/">on page 25.</a> Well, trust us, these two meeting and interacting has ALWAYS been one of the stories we’ve wanted to tell in FDWL. They’re such interesting personalities, with such great potential!

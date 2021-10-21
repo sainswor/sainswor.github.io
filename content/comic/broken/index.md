@@ -8,8 +8,6 @@ chapter: 'Chapter 5: Fear'
 chapters:
 - chapter-5-fear
 chapter_link: /chapters/chapter-5-fear/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 (In case you’re wondering what bridge she’s talking about, see <a href="/comic/where-the-heart-is/">#12: Where the Heart Is.</a>)

@@ -8,8 +8,6 @@ chapter: 'Chapter 4: Hatred'
 chapters:
 - chapter-4-hatred
 chapter_link: /chapters/chapter-4-hatred/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Poor Four. Brawler’s Guild just couldn’t really prepare her for what to do when hitchhiking on the back of an unwilling flying black dragon, I guess.

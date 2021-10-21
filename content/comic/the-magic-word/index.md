@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 It’s Blizzcon week! Hope everyone who’s attending the con or watching via Virtual Ticket has a great time! If you’re there, keep an eye out for Vid – she’ll be the one with a bunch of FDWL stickers and business cards!  😉

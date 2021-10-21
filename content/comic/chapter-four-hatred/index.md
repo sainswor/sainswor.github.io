@@ -8,8 +8,6 @@ chapter: 'Chapter 4: Hatred'
 chapters:
 - chapter-4-hatred
 chapter_link: /chapters/chapter-4-hatred/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 And we’re back! What’s Sabellian here for? How is Rades doing? Why did the Broken stop? These answers and more, coming to a From Draenor near you!

@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 I guess Rades shouldn’t have turned such a *blind eye* to his sister’s behavior <a href="/comic/bonus-character-profile-rades/">all those years ago</a>.

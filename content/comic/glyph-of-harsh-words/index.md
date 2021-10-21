@@ -8,8 +8,6 @@ chapter: 'Chapter 5: Fear'
 chapters:
 - chapter-5-fear
 chapter_link: /chapters/chapter-5-fear/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Erm, um, maybe that’s enough of Vid for now…let’s check in on someone else next week, shall we?

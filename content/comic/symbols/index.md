@@ -8,8 +8,6 @@ chapter: 'Chapter 2: Doubt'
 chapters:
 - chapter-2-doubt
 chapter_link: /chapters/chapter-2-doubt/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Aw yiss, inventing us some headcanon draenei lore! Observant readers may remember that we alluded to these personal symbols <a href="/comic/bonus-character-profile-vidyala/">back in Vid’s character profile</a>.

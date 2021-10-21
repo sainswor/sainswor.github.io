@@ -8,8 +8,6 @@ chapter: 'Chapter 7: Pride'
 chapters:
 - chapter-7-pride
 chapter_link: /chapters/chapter-7-pride/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Speaking of going back to Pandaria, I too have found myself back in Kun-Lai and Halfhill lately. Since Brawler’s Guild is going away in Legion, I’ve been trying to get all the special quests to unlock the Brawler’s Guild challenge bosses required for [Collect Your Deck](http://www.wowhead.com/achievement=8339/collect-your-deck) — partially for the achievement, but also for the shirts you get for beating those bosses. Gotta gear up for the wardrobe! 

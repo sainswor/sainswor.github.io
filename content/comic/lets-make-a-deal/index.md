@@ -8,8 +8,6 @@ chapter: 'Chapter 2: Doubt'
 chapters:
 - chapter-2-doubt
 chapter_link: /chapters/chapter-2-doubt/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Does anyone actually go back to Gezhe each month and get their monthly [Membership Benefits](http://www.wowhead.com/quest=9887)? I don’t, and yet I feel like I almost should – the Outlands phase of leveling Jewelcrafting is always such a pain, since those gems are so scarce, and Golden Draenite is actually fairly valuable. And more importantly, I DID do all that work for the Consortium back in the day – I EARNED those gems! They’re rightfully mine! 

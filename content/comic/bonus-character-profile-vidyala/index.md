@@ -7,9 +7,7 @@ comic: "fd_extra02.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 And now, Vid’s turn for the character development questionnaire!

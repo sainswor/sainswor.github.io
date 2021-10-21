@@ -8,8 +8,6 @@ chapter: 'Chapter 8: Epilogue'
 chapters:
 - chapter-8-epilogue
 chapter_link: /chapters/chapter-8-epilogue/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 And now, Four and Wrathion’s epilogues. We thought about it long and hard, and we really felt Four deserved a happy ending, living happily ever after in Ogri’la.

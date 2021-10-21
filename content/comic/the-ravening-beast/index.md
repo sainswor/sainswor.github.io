@@ -8,8 +8,6 @@ chapter: 'Chapter 7: Pride'
 chapters:
 - chapter-7-pride
 chapter_link: /chapters/chapter-7-pride/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 So how was everyone’s *Legion* launch experience? Me, I got myself trapped in the underbelly of an Alliance airship with no way out except for hurling myself out the open hatch to the sea below. Then I abandoned the breadcrumb quest into Stormheim to redo it and take more screenshots, but instead ended up stranded out there with no quests available. Then I hearthed back to Dalaran and broke my Tailoring profession quest by doing *exactly the same thing*. I’m real good at this game.

@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 One of the hazards in being an insatiably curious two-year-old dragon and knowing very little about history is not recognizing the kind of questions you simply do not ask in civilized company.

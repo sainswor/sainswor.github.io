@@ -8,8 +8,6 @@ chapter: 'Chapter 7: Pride'
 chapters:
 - chapter-7-pride
 chapter_link: /chapters/chapter-7-pride/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Almost exactly three years ago, we published the first page of our revamped From Draenor With Love. That was so long ago. That was before *Warlords of Draenor* was even *announced!* It’s kind of surreal to even think about.

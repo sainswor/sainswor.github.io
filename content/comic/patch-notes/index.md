@@ -7,9 +7,7 @@ comic: "fdwl_filler.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Hey all, no FDWL update this week as Vid has some RL family stuff going on. (This isn’t an April First gag.) 

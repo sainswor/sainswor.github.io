@@ -8,8 +8,6 @@ chapter: 'Chapter 5: Fear'
 chapters:
 - chapter-5-fear
 chapter_link: /chapters/chapter-5-fear/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 One of my favorite moments in Mists of Pandaria was after you’d completed Wrathion’s Legendary questline and defeated Garrosh, when you return to the Tavern in the Mists and get to watch Wrathion throw a temper tantrum. I liked it because of Tong – how he finally has had enough and steps in and reprimands Wrathion for his childish behavior. Or to be precise, I enjoyed it because this NEVER HAPPENS. 

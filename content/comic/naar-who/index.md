@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Look at us! Blizzcon week and not even missing a beat? YEAH! But seriously, Vid worked like a maniac to get a few strips done ahead of time, so she definitely earned the vacation time! It certainly wouldn’t have been the end of the world to have a filler strip or two, but we’re pretty pleased that we didn’t have to resort to that!

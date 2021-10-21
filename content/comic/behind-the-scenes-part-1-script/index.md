@@ -7,9 +7,7 @@ comic: "2013-08-14-doubledigits_test.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 *For a larger version of today’s strip, <a href="/images/post-images/script_med.jpg">click here</a>. For a text version, well, read on!*

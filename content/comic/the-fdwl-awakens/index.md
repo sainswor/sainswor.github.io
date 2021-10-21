@@ -7,9 +7,7 @@ comic: "The-FDWL-Awakens-950x1425.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Happy Star Wars Day, and May the Fourth be with you!

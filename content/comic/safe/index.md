@@ -8,8 +8,6 @@ chapter: 'Chapter 5: Fear'
 chapters:
 - chapter-5-fear
 chapter_link: /chapters/chapter-5-fear/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 That’s it for Chapter 5! Wrathion’s got some thinking to do.

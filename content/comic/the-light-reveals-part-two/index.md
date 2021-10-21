@@ -8,8 +8,6 @@ chapter: 'Chapter 4: Hatred'
 chapters:
 - chapter-4-hatred
 chapter_link: /chapters/chapter-4-hatred/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 The funny thing about creating a weekly comic strip is that sometimes events take a little while to unfold. Though we’ve had this particular moment [Patreon](http://www.patreon.com/fromdraenor;) supporters will forgive me for not showing the sketch for this page a day early as usual – I didn’t want to spoil the final version!

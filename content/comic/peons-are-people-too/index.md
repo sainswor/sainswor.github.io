@@ -7,9 +7,7 @@ comic: "2013-07-10-peon.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 I totally get the Darkspear Rebellion, the disruption of the Kor’kron war engine, the stealing of valuable resources for the upcoming siege on Orgrimmar. That all makes sense. And if we have to take out a few Kor’kron Commanders or Goblin Mercenaries while we’re at it? Sure. No argument here.

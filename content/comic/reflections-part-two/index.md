@@ -8,8 +8,6 @@ chapter: 'Chapter 8: Epilogue'
 chapters:
 - chapter-8-epilogue
 chapter_link: /chapters/chapter-8-epilogue/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Part 2 of our 4-part epilogue!

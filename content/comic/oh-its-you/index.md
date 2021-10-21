@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 If you think about it, Wrathion probably IS pretty bothered by what happened to the Vale. It’s just a stone’s throw away from the Tavern in the Mists! That has to be horrible for property values.

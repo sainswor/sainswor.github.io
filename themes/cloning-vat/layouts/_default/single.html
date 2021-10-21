@@ -120,7 +120,7 @@
     </div>
 </div>
 		<div id="content-column">
-						<div id="content" class="narrowcolumn">
+			<div id="content" class="narrowcolumn">
 				<div id="post-2606" class="post-2606 comic type-comic status-publish has-post-thumbnail hentry chapters-chapter-8-epilogue uentry postonpage-1 odd post-author-{{- lower .Params.author }}">
 	<div class="post-content">
 		{{- if and (not ( eq .Params.author "Sean" )) (.Params.author) }}
@@ -148,33 +148,31 @@
 			<div class="clear"></div>
 		</div>
 		<div class="post-extras">
-			{{- if not ( eq .Params.tags "TAGSLISTTEMPLATE")}}
-			<div class="post-tags">&#9492; Tags: 
-				{{ $tagList := .Params.tags }}
-				{{ range $index, $element := $tagList }}
-  					<a href="/tags/{{ $element | urlize }}" rel="tag">{{ $element }}</a>{{- if lt (add $index 1) (len $tagList) }},{{- end }}
-				{{ end }}<br />
-			</div>
+			<div class="post-tags">&#9492; Tags:
+			{{- if not ( eq .Params.tags nil)}}
+				{{- $tagList := .Params.tags }}
+				{{- range $index, $element := $tagList }}
+  					<a href="/tags/{{ $element | urlize }}" rel="tag">{{- $element }}</a>{{- if lt (add $index 1) (len $tagList) }},{{- end }}
+				{{- end }}
 			{{- end }}
-			{{- if not ( eq .Params.related_comics "RELATEDCOMICTEMPLATE" ) }}
+			</div>
+			{{- if not ( eq .Params.related_comics nil ) }}
 				<h4 class="related-title">Related Comics &not;</h4>
 				<ul class="related-ul">
 				{{- range $related_comic := .Params.related_comics }}
 				{{- with $.Site.GetPage "/comic" }}
 				{{- with .GetPage $related_comic }}
-				<li class="related-comic"><a title="{{ .Title }}" href="{{ .Permalink }}">{{ .Title }}</a></li>
+				<li class="related-comic"><a title="{{ .Title }}" href="{{ .Permalink }}">{{- .Title }}</a></li>
 				{{- end }}
 				{{- end }}
 				{{- end }}
-	
 				</ul>
 			{{- end }}	
-</div>
 			{{- if not .Params.disable_comments }}
 			<div class="comment-link">
 				<a href="#comments"><span class="comment-balloon"> {{- .Scratch.Get "hasComments" -}}</span> Comments</a>			</div>
 			{{- end }}
-						<div class="clear"></div>
+		<div class="clear"></div>
 		</div>
 			</div>
 </div>
@@ -189,7 +187,6 @@
 {{- partial "calendar.html" .}}
 <div id="ceo_comic_archive_dropdown_widget-2" class="widget ceo_comic_archive_dropdown_widget">
 {{- partial "chapters.html" . }}
-{{ partialCached "search" . }}
 <div class="clear"></div>
 </div>
     </div>

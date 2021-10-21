@@ -7,9 +7,7 @@ comic: "fd_extra06.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 We should be back with Chapter 3 next week! Until then, enjoy the script for a page we never ended up doing: Archimonde Crossing.

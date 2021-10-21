@@ -8,8 +8,6 @@ chapter: 'Chapter 3: Violence'
 chapters:
 - chapter-3-violence
 chapter_link: /chapters/chapter-3-violence/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Confession: We realize the Tushui Alliance lion isn’t *technically* the symbol of the Brawler’s Guild, but the Brawler’s guild doesn’t actually HAVE a symbol! We checked the arena, the shirts, the NPCs, nothing. 

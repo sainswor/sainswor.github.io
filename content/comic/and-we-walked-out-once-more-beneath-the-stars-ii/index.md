@@ -8,8 +8,6 @@ chapter: 'Postscript'
 chapters:
 - postscript
 chapter_link: /chapters/postscript/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 Five years ago today, FDWL ended its run. This feels fitting in a way, because the comic also ran for five years. If things had been different, maybe Mike and I wouldn’t even have remembered this milestone. Or we would’ve and said, “Hey, isn’t that neat.” Neither of us played World of Warcraft anymore, and this project had been largely lost because the original website was hacked and after a few years of not fixing it, I finally let the domain name lapse. 
 

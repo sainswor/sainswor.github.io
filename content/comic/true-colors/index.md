@@ -8,8 +8,6 @@ chapter: 'Chapter 5: Fear'
 chapters:
 - chapter-5-fear
 chapter_link: /chapters/chapter-5-fear/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 I just noticed this week that the Sargerei mobs in Shadowmoon Valley (and the [Sargerei Disguise](http://www.wowhead.com/item=119134/sargerei-disguise) toy) use a recolor of Sablemane’s outfit! The green and purple look’s not bad, but it doesn’t quite have the *zing* of Sablemane’s bright orange and red, in my opinion.

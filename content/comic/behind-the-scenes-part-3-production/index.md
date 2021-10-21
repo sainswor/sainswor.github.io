@@ -7,9 +7,7 @@ comic: "2013-08-28-production.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 *For a larger version of today’s strip, <a href="/images/post-images/production_med.jpg">click here</a>.*

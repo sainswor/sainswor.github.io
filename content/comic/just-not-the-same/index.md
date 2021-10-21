@@ -10,7 +10,6 @@ chapters:
 tags:
 - Durn
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Cataclysm’s general removal of group quests and elite mobs sure has made questing a lot easier, but man, Nagrand just does not feel the same anymore. 

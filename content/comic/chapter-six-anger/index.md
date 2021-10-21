@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Hmm, the title for this Chapter is sort of fitting, given the temperature of the WoW community right now regarding some things. Things that ultimately will not affect FDWL or its characters, however! After all, they’re on Outland. Everything’s cool there.

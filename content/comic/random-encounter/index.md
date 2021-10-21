@@ -8,8 +8,6 @@ chapter: 'Chapter 2: Doubt'
 chapters:
 - chapter-2-doubt
 chapter_link: /chapters/chapter-2-doubt/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 It’s the scene from the <a href="/comic/chapter-two-doubt/">Chapter Title page</a>, oooooh! Sharp-eyed readers may notice something telling on that page now, too. But what does it mean?? Time will tell.

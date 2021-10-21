@@ -7,9 +7,7 @@ comic: "2012-07-04-expanding.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Disappointment was high on the Mists beta this week, as the price of the [Grand Expedition Yak](http://mop.wowhead.com/spell=122708/grand-expedition-yak) skyrocketed to 120,000 gold. If you think about it though, the price hike makes total sense! The ethereals aren’t the sort of people to let this kind of potential profit slip through their bandage-fingers. And besides, with the yak’s portable reforger making their Orgrimmar/Stormwind services obsolete, they’d actually be *losing* money! 

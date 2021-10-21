@@ -7,9 +7,7 @@ comic: "2013-05-15-turnips.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Remember the good old days in the first month of Mists, when carrots, lettuce and leeks were flying off the Auction House faster than you could list them, and for outrageous prices? I don’t even remember exactly, but weren’t they going for like 100 gold each? 100 GOLD PER TURNIP. And raiders who adamantly insisted they needed the best buff foods possible were crafting those banquets requiring 50 turnips at a time. It’s like you were literally planting money in the ground and multiplying it overnight. 

@@ -8,8 +8,6 @@ chapter: 'Chapter 1: Despair'
 chapters:
 - chapter-1-despair
 chapter_link: /chapters/chapter-1-despair/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 I always find it funny when our plot details are actually accurate/based off the real characters. For example, Rades the WoW toon really IS an honorary member of the Consortium, having reached Exalted status with them way, way back (I think I wanted the tabard? or maybe one of their engineering schematics). On the other hand, Vid never did the rep grind for them, and we’ll see this reflected later on in the comic.

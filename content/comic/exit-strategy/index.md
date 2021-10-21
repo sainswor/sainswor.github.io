@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 A few people were asking what Rades was pouring out of that bag back on <a href="/comic/stealth/">Page #80</a> — I told you it’d be explained! Granted, maybe he originally intended to use it just as a distraction, but I think it still served its purpose. (We also love seeing your comments trying to predict things that haven’t been revealed or explained yet in the story — we always get a kick when you guess right!)

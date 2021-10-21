@@ -8,8 +8,6 @@ chapter: 'Chapter 7: Pride'
 chapters:
 - chapter-7-pride
 chapter_link: /chapters/chapter-7-pride/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 As we all learned in *Warlords*, operating without flight is a real drag. Too bad they don’t have [Avianna’s Feather!](http://www.wowhead.com/item=119093/avianas-feather)

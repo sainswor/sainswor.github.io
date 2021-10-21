@@ -8,8 +8,6 @@ chapter: 'Chapter 4: Hatred'
 chapters:
 - chapter-4-hatred
 chapter_link: /chapters/chapter-4-hatred/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Okay, this isn’t exactly how [Flare](http://www.wowhead.com/spell=1543/flare) works in-game, but Rades *IS* an engineer, after all.

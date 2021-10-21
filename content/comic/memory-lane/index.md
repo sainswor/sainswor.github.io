@@ -8,8 +8,6 @@ chapter: 'Chapter 2: Doubt'
 chapters:
 - chapter-2-doubt
 chapter_link: /chapters/chapter-2-doubt/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 After getting swamped last week and falling a bit behind schedule, Vid and I sat down this week and tossed some ideas around on how we could streamline the comic process a little. We realized that something that would help us out a great deal would be adopting a cleaner, more “inked” look. It’ll be a bit of a change from the pages so far, but I’ve always thought Vid’s art looked super sharp when in the inked-page step, so I’m actually really glad everyone is getting to see it now! And as a black &amp; white comic, there’s also a lot of opportunity to embrace this style and follow in the artistic footsteps of other black &amp; white / black &amp; white &amp; spot color comics like [POLAR](http://www.polarcomic.com/). 

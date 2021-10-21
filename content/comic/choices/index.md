@@ -8,8 +8,6 @@ chapter: 'Chapter 5: Fear'
 chapters:
 - chapter-5-fear
 chapter_link: /chapters/chapter-5-fear/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 After all that time in Highmaul, I can’t help but wonder about the ogres who, on OUR Draenor, ended up founding Ogri’la. They were such an interesting faction! I guess it wouldn’t really make sense to see them again in Warlords, since there is no area with such a prolific amount of Apexis crystals, the source of their increased intellect. At least…not yet, anyway.

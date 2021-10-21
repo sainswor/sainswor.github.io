@@ -7,9 +7,7 @@ comic: "fdextra07.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Hope everyone is enjoying the season and holidays! Vid and I are both traveling for Christmas, so no new strip next week, but in the meantime enjoy this bit of FDWL holiday art! And <a href="/images/post-images/fdextra07_fullsize.jpg">click here to enjoy it full-size!</a>

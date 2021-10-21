@@ -7,9 +7,7 @@ comic: "fd_extra01.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 There’s been a fun little [a good cook](http://www.wowhead.com/achievement=7328), too.)

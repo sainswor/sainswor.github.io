@@ -8,8 +8,6 @@ chapter: 'Chapter 5: Fear'
 chapters:
 - chapter-5-fear
 chapter_link: /chapters/chapter-5-fear/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 One of the most prevalent questions among fans when it comes to Wrathion and his crusade against the other black dragons is, “Does he know about Sablemane?” And officially, no one knows. Wrathion seems to *think* he’s eliminated the rest of the Black Dragonflight…but we know he’s missed at least one.

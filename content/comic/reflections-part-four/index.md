@@ -8,8 +8,6 @@ chapter: 'Chapter 8: Epilogue'
 chapters:
 - chapter-8-epilogue
 chapter_link: /chapters/chapter-8-epilogue/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Five years ago, I thought of a joke that made me laugh. I turned the joke into a <a href="/comic/rare-spawn-3/">single comic</a> featuring my character Vidyala and the character of my friend Rades (aka Mike). I sent it to him to see if he thought it was funny, and whether he might like to do more comics with me. After a lot of brainstorming (especially to come up with the name), From Draenor With Love was born. I’m really proud of what we’ve created and how we stuck with it for all this time. Half a decade! We published fairly reliably (with a few breaks and bumps along the way) a comic almost every week during that time frame. I’m not sure exactly how many we wound up with in the end, because partway through we changed directions a bit.

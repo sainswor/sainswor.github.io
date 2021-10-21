@@ -7,9 +7,7 @@ comic: "2013-08-21-art.jpg"
 chapter: Extras
 chapters:
 - extras
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/extras/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Last week, Rades explained the process of how he scripts and sometimes storyboards a FDWL script! This week I’m going to be telling you about how I do the sketching and art.

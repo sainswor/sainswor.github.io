@@ -8,8 +8,6 @@ chapter: 'Chapter 2: Doubt'
 chapters:
 - chapter-2-doubt
 chapter_link: /chapters/chapter-2-doubt/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 My favorite moment when crafting a story (such as in a D&amp;D campaign) comes when finally, after months of straightforward, introductory play, all the setup stuff is complete. The plot hooks have been put into play, the important characters have been established, and the overarching story is just starting to pick up speed. 

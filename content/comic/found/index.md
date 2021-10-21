@@ -8,8 +8,6 @@ chapter: 'Chapter 6: Anger'
 chapters:
 - chapter-6-anger
 chapter_link: /chapters/chapter-6-anger/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Annnnd we’re back! It’s been a great month off for us to get our batteries recharged, and we can’t wait to finish this story! It’s been a long undertaking, perhaps longer than either Vid or I initially realized, but we’re confident that in the end it’ll be one we can look back on proudly.

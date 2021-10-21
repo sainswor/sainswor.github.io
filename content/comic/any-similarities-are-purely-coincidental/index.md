@@ -8,8 +8,6 @@ chapter: 'Chapter 2: Doubt'
 chapters:
 - chapter-2-doubt
 chapter_link: /chapters/chapter-2-doubt/
-tags: TAGSLISTTEMPLATE
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 I just want everyone to know that I combed the Auction House for weeks looking for [Ethereum Prison Keys](http://www.wowhead.com/item=29460/ethereum-prison-key), for reference &amp; accuracy. ***And they didn’t help at all.*** 

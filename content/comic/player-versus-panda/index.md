@@ -7,9 +7,7 @@ comic: "2012-08-22-panda.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 Have you seen the Mists of Pandaria trailer yet? If not, WHY NOT?

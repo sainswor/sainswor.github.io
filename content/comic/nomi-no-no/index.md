@@ -10,7 +10,6 @@ chapters:
 tags:
 - Fabulor
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 As many Pandaria chefs know, [achievement](http://www.wowhead.com/achievement=7325).

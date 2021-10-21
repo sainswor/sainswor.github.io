@@ -7,9 +7,7 @@ comic: "2012-10-24-sha.jpg"
 chapter: Comic
 chapters:
 - comic
-tags:  TAGSLISTTEMPLATE
 chapter_link: /chapters/comic/
-related_comics: RELATEDCOMICTEMPLATE
 ---
 
 When we wrote this joke in our script page *three weeks ago*, little did we know that the “Sha of ____” joke would become so popular and so prolific before we had a chance to publish. Ah well, live and learn.
