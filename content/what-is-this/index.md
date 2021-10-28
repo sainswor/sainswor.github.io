@@ -1,12 +1,12 @@
 ---
-title: "Weekly Update VII - The birthdays keep on rolling"
-date: 2021-10-20T22:08:27-04:00
+title: "Weekly Update VIII - Not a lot to report"
+date: 2021-10-27T23:07:00-04:00
 draft: false
 author: Sean
 ---
 
 ## New in this update 
-Cleaned up errors made in the last week's update. Oops! Things should look better now. I also got some progress done on making a search bar, but we're not there yet (hashtag soon?)
+Very little. Unfortunately I wasn't able to get the search bar working this week. I'll keep plugging away at it, don't you worry.
 
 ## Next Up
 - **Search bar:** Vid had mentioned wanting a search bar for the comic and that sounds like a great idea. I think this involves retrofitting the comics that don't have tags, with tags. I'm OK with that.
