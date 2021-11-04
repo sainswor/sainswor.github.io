@@ -9,7 +9,7 @@
 <style type=text/css id=custom-background-css>body.custom-background{background-image:url(/images/bground052.jpg);background-repeat:no-repeat;background-position:50% 0;background-attachment:fixed}</style>
 </head>
 <body class="single single-comic custom-background layout-3c scheme-none">
-<div id=content>
+<script src=https://fromdraenor.ca/js/main.js async></script><div id=content>
 <div id=page-wrap>
 <div id=page>
 <div id=header>
@@ -458,9 +458,11 @@
 <tfoot>
 <tr>
 <td colspan=3 id=prev>
+<a href=https://fromdraenor.ca/comic/behind-the-scenes-part-3-production/>&#171; Aug</a>
 </td>
 <td class=pad>&nbsp;</td>
 <td colspan=3 id=next class=pad>
+<a href=https://fromdraenor.ca/comic/not-again/>Oct &#187;</a>
 </td>
 </tr>
 </tfoot>
@@ -483,8 +485,8 @@
 <tr><td>9
 </td><td>10
 </td><td>
-<a href=https://fromdraenor.ca/comic/chapter-one-despair/>11
-</a>
+<b><div style=color:#fff>11
+</b></div>
 </td><td>12
 </td><td>13
 </td><td>14
@@ -517,6 +519,7 @@
 </td>
 <td class=pad colspan=0>&nbsp;</td>
 </tr>
+Test
 </tbody>
 </table> </div>
 <div id=wp-calendar-foot></div>
@@ -528,6 +531,15 @@
 <form method=get class=comic-archive-dropdown-form><select onchange="document.location.href=this.options[this.selectedIndex].value"><option class=level-select value>Select Chapter</option><option class=level-0 value=/chapters/comic/>Comic</option><option class=level-0 value=/chapters/extras/>Extras</option><option class=level-0 value=/chapters/chapter-1-despair/>Chapter 1: Despair</option><option class=level-0 value=/chapters/chapter-2-doubt/>Chapter 2: Doubt</option><option class=level-0 value=/chapters/chapter-3-violence/>Chapter 3: Violence</option><option class=level-0 value=/chapters/chapter-4-hatred/>Chapter 4: Hatred</option><option class=level-0 value=/chapters/chapter-5-fear/>Chapter 5: Fear</option><option class=level-0 value=/chapters/chapter-6-anger/>Chapter 6: Anger</option><option class=level-0 value=/chapters/chapter-7-pride/>Chapter 7: Pride</option><option class=level-0 value=/chapters/chapter-8-epilogue/>Chapter 8: Epilogue</option><option class=level-0 value=/chapters/postscript/>Postscript</option></select>
 <noscript><div><input type=submit value=View></div></noscript></form></div>
 <div class=clear></div>
+<form id=search role=search aria-haspopup=listbox aria-expanded=false aria-labelledby=search-label>
+<table><tr><td>
+<label id=search-label><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M98.640025 86.456401 79.165945 66.985646c-.878971-.87882-2.070464-1.367054-3.320556-1.367054H72.661563C78.052582 58.724734 81.255941 50.053706 81.255941 40.621033 81.255941 18.181818 63.071019.0 40.627971.0 18.184924.0.0 18.181818.0 40.621033c0 22.439215 18.184924 40.621033 40.627971 40.621033 9.434284.0 18.106793-3.202812 25.001827-8.592911v3.183283c0 1.249878.488317 2.441168 1.367288 3.319989l19.474081 19.470754c1.836071 1.835759 4.805039 1.835759 6.621578.0l5.527748-5.526804c1.836077-1.835758 1.836077-4.804218.01953-6.639976zM40.627971 65.618592c-13.809604.0-25.001828-11.170784-25.001828-24.997559.0-13.807245 11.172691-24.997559 25.001828-24.997559 13.809604.0 25.001827 11.170784 25.001827 24.997559.0 13.807245-11.172691 24.997559-25.001827 24.997559z"/>
+</label>
+</td><td>
+<input id=search-input type=search list=search-results placeholder=Search... aria-label=Search autocomplete=off spellcheck=false>
+<ul id=search-modal role=listbox hidden></ul>
+</td></tr></table>
+</form>
 </div>
 </div>
 </div>

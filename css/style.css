@@ -249,24 +249,11 @@ a:hover {color: black;}
 #menubar-wrapper a {color: white;}
 #menubar-wrapper a:visited {color: white;}
 #menubar-wrapper a:hover {color: #78b93b;}
-/*
-     FILE ARCHIVED ON 03:18:59 Sep 29, 2017 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:11:43 Aug 30, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 95.605
-  PetaboxLoader3.resolve: 42.503
-  exclusion.robots.policy: 0.147
-  LoadShardBlock: 73.059 (3)
-  RedisCDXSource: 0.58
-  PetaboxLoader3.datanode: 217.911 (4)
-  esindex: 0.009
-  exclusion.robots: 0.159
-  CDXLines.iter: 19.218 (3)
-  load_resource: 201.13
-*/
+
+	#search label {
+	  display: flex;
+	  align-items: stretch;
+	  fill: #4e4e4e; }
+	  #search label svg {
+		width: 1rem; }
