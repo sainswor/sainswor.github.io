@@ -21,6 +21,7 @@
     </style>
     </head>
     <body class="single single-comic custom-background layout-3c scheme-none">
+		{{- partial "scripts.html" . -}}
         <div id="content">
 
 
@@ -182,6 +183,9 @@
 <div id="ceo_comic_archive_dropdown_widget-2" class="widget ceo_comic_archive_dropdown_widget">
 {{ partial "chapters.html" . }}
 	<div class="clear"></div>
+	<div>
+		{{ partial "search.html" . }}
+	</div>
 </div>
     </div>
 	

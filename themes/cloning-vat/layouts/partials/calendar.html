@@ -13,6 +13,13 @@
 {{- $firstWeekdayInLetters := dateFormat "Mon" (string (delimit (slice $year "-" $monthTwoLetters "-01") ""))  }}
 {{- $firstWeekdayInNumbers := index $daysPerWeekMap $firstWeekdayInLetters }}
 {{- $firstWeekdayMondayOffset := (sub (add $firstWeekdayInNumbers 6) 6) }}
+{{- $todayDate := $.Params.Date -}}
+{{- $nextMonth := $.Params.Date.AddDate 0 1 0 }}
+{{- $lastMonth := $.Params.Date.AddDate 0 -1 0 }}
+
+
+
+
 
 
 <div id="ceo_calendar_widget-2" class="widget ceo_calendar_widget">
@@ -36,13 +43,17 @@
         <tr>
             <td colspan="3" id="prev">
                 {{- if not (eq .PrevInSection nil) }}
-
+                {{- range first 1 (where (where (where site.Pages "Section" "comic") ".Date.Year" "==" $lastMonth.Year) ".Date.Month" "==" $lastMonth.Month) }}
+                <a href="{{ .Permalink }}">&laquo; {{ $lastMonth.Format "Jan" }}</a>
+                {{- end }}
                 {{- end }}
             </td>
             <td class="pad">&nbsp;</td>
             <td colspan="3" id="next" class="pad">
                 {{- if not (eq .NextInSection nil) }}
-                
+                {{- range last 1 (where (where (where site.Pages "Section" "comic") ".Date.Year" "==" $nextMonth.Year) ".Date.Month" "==" $nextMonth.Month) }}
+                <a href="{{ .Permalink }}">{{ $nextMonth.Format "Jan" }} &raquo;</a>
+                {{- end }}
                 {{- end }}
             </td>
         </tr>
@@ -59,7 +70,11 @@
                     {{- if eq (string .Date.Year) $year }}
                         {{- if eq .Date.Month $month }}
                         {{- if eq .Date.Day $dayofMonth }}
-                        <a href="{{ .Permalink }}">     
+                        {{- if eq .Date $todayDate }}
+                        <b><div style="color: #ffffff">
+                        {{- else }}
+                        <a href="{{ .Permalink }}">
+                        {{- end }}
                         {{- end }}
                         {{- end }}
                     {{- end}}        
@@ -70,7 +85,11 @@
                     {{- if eq (string .Date.Year) $year }}
                         {{- if eq .Date.Month $month }}
                         {{- if eq .Date.Day $dayofMonth }}
-                        </a>        
+                        {{- if eq .Date $todayDate }}
+                        </b></div>
+                        {{- else }}
+                        </a>
+                        {{- end }}        
                         {{- end }}
                         {{- end }}
                     {{- end}}        
@@ -83,6 +102,7 @@
             {{- end }}
             <td class="pad" colspan="{{ mod (sub (add $firstWeekdayMondayOffset (len $daysThisMonth)) 1) 7 }}">&nbsp;</td>
         </tr>
+        Test
         </tbody>
         </table>			</div>
                 <div id="wp-calendar-foot"></div>

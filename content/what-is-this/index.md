@@ -1,18 +1,17 @@
 ---
-title: "Weekly Update VIII - Not a lot to report"
-date: 2021-10-27T23:07:00-04:00
+title: "Weekly Update IX - Damn you, Murglesnout"
+date: 2021-11-03T21:15:00-04:00
 draft: false
 author: Sean
 ---
 
 ## New in this update 
-Very little. Unfortunately I wasn't able to get the search bar working this week. I'll keep plugging away at it, don't you worry.
+- **Search bar:** It's maybe not the prettiest thing in the world, but it exists. It searches for matches in the title or tags of comics. Now you, and everyone else, can find the hilarious comic about Murglesnout. Damn you, Murglesnout!
+- **The Calendar widget:** Now has previous/next month links; these will jump to the first comic in the next month, or the last comic in the previous month, where applicable!
 
 ## Next Up
-- **Search bar:** Vid had mentioned wanting a search bar for the comic and that sounds like a great idea. I think this involves retrofitting the comics that don't have tags, with tags. I'm OK with that.
-- **Tags for the plot comics:** Just like it says.
 - **Replace RSS feed for comment links:** I think there are probably only a few places this would be useful but hey, who am I to judge? They used to have this feature and it's entirely possible (if unlikely) to see use again. I should at least look into making it (maybe it's possible)
-- **The Calendar widget:** Need to add previous month/next month links. 
+- **Tags for the plot comics:** Just like it says; it'd be nice to have tags for the plot comics.
 - **Clean up on the technical side:** This is last on the list because it's invisible to the site's users, but I'd like to tidy up the mechanics of the site a little. There's some WET work where it really should be DRY.
 
 ## What is this?
@@ -56,4 +55,4 @@ Yeah, that's true! The thing is, this is an archival project and that text was j
 - The chapter galleries use the same gray content area as the rest of the pages.
 - **Darkness, My Old Friend, Part 4** now contains a link to the official music video of the song intended to be at the top of that post. Let's not get sued!
 - The copyright footer now reflects that the last page of the comic was uploaded in 2021.
-
+- There's a search box below the calendar.
